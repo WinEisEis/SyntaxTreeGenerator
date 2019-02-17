@@ -5,6 +5,7 @@ import {
 } from 'reactstrap';
 import firebase from '../Firebase';
 
+// ปันควยเล็ก
 class Label extends React.Component {
 
     constructor() {
@@ -15,7 +16,6 @@ class Label extends React.Component {
         };
     }
 
-
     addSentence = (event) => {
         event.preventDefault();
         const db = firebase.firestore();
@@ -23,7 +23,6 @@ class Label extends React.Component {
             sentence: this.state.sentence,
             label: this.state.label
         });
-        
     };
 
     updateInput = (event) => {
@@ -34,7 +33,6 @@ class Label extends React.Component {
 
     clearInput = (event) => {
         event.value = ''
-        
         this.setState({
             sentence: '',
             label: ''
@@ -42,14 +40,12 @@ class Label extends React.Component {
     }
 
     render() {
-
         return (
             <div>
-                {/* // Title */}
+                {/* Title */}
                 <Card body className="text-center">
                     <CardBody>
                         <CardTitle >Labelled Bracket </CardTitle>
-
                     </CardBody>
 
                     {/* Label Bracket textarea */}
@@ -61,14 +57,10 @@ class Label extends React.Component {
                             value={this.state.label}
                             onChange={this.updateInput}
                             required>
-
                         </textarea>
                         <br></br>
 
-
-
                         {/* Sentence Textarea */}
-
                         <textarea
                             rows="3" cols="40"
                             name="sentence"
@@ -78,29 +70,23 @@ class Label extends React.Component {
                             required
                         >
                         </textarea>
-
                         <br></br>
                         <br></br>
 
-                        {/* Buttons  */}
+                        {/* Draw & Clear Buttons  */}
                         <span>
                             <Button color="primary" size="sm">Draw</Button>{' '}
-                            <Button color="primary" size="sm" onClick = {this.clearInput}>Clear</Button>
+                            <Button color="primary" size="sm" onClick={this.clearInput}>Clear</Button>
                         </span>
-
-
                         <br></br>
                         <br></br>
+
                         {/* Add to database button */}
                         <Button type="submit" color="primary" size="lg" active >Add to database</Button>
                     </form>
-
                 </Card>
             </div>
-        )
-            ;
+        );
     }
-
 }
-
 export default Label;

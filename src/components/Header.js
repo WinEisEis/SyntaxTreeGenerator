@@ -4,7 +4,7 @@ import {
   Navbar,
   NavbarToggler,
   NavbarBrand,
-  } from 'reactstrap';
+} from 'reactstrap';
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -27,8 +27,6 @@ export default class Example extends React.Component {
           <NavbarBrand href="/">CF Planter</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            
-            
           </Collapse>
         </Navbar>
       </div>
