@@ -7,13 +7,13 @@ import firebase from '../Firebase';
 
 // ปันควยเล็ก
 class Label extends React.Component {
+    state = {
+        sentence: '',
+        label: ''
+    };
 
-    constructor() {
-        super();
-        this.state = {
-            sentence: '',
-            label: ''
-        };
+    handleDraw = () => {
+        this.props.handlerFromParant(this.state.label);
     }
 
     addSentence = (event) => {
@@ -31,8 +31,7 @@ class Label extends React.Component {
         });
     }
 
-    clearInput = (event) => {
-        event.value = ''
+    clearInput = () => {
         this.setState({
             sentence: '',
             label: ''
@@ -75,7 +74,7 @@ class Label extends React.Component {
 
                         {/* Draw & Clear Buttons  */}
                         <span>
-                            <Button color="primary" size="sm">Draw</Button>{' '}
+                            <Button onClick={this.handleDraw} color="primary" size="sm">Draw</Button>{' '}
                             <Button color="primary" size="sm" onClick={this.clearInput}>Clear</Button>
                         </span>
                         <br></br>

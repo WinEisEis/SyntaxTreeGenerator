@@ -29,14 +29,18 @@ class Stage extends Component {
     state = {}
 
     componentDidMount() {
+        console.log(`Stage: ${this.props.data}`)
         const dimensions = this.treeContainer.getBoundingClientRect();
-        console.log(dimensions)
         this.setState({
             translate: {
                 x: dimensions.width / 3,
                 y: dimensions.height / 3
             }
         });
+    }
+
+    drawTree = (data) => {
+        console.log(`Stage.js ${data}`)
     }
 
     render() {
