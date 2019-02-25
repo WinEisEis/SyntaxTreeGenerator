@@ -41,6 +41,8 @@ class Stage extends Component {
 
     drawTree = (data) => {
         console.log(`Stage.js ${data}`)
+
+        
     }
 
     render() {

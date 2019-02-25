@@ -3,9 +3,9 @@ import {
     Card, CardBody,
     CardTitle, Button
 } from 'reactstrap';
-import firebase from '../Firebase';
+import firebase from '../../Firebase';
 
-// ปันควยเล็ก
+
 class Label extends React.Component {
     state = {
         sentence: '',
@@ -13,17 +13,21 @@ class Label extends React.Component {
     };
 
     handleDraw = () => {
-        this.props.handlerFromParant(this.state.label);
+        this.props.handlerFromParent(this.state.label);
     }
 
     addSentence = (event) => {
         event.preventDefault();
         const db = firebase.firestore();
-        const dbRef = db.collection('Treebank').add({
+         db.collection('Treebank').add({
             sentence: this.state.sentence,
             label: this.state.label
         });
     };
+
+    SuccessAlert = () => {
+        alert("Successfully added to the database!");
+    }
 
     updateInput = (event) => {
         this.setState({
@@ -81,7 +85,7 @@ class Label extends React.Component {
                         <br></br>
 
                         {/* Add to database button */}
-                        <Button type="submit" color="primary" size="lg" active >Add to database</Button>
+                        <Button type="submit" color="primary" size="lg" active onClick = {this.SuccessAlert} >Add to database</Button>
                     </form>
                 </Card>
             </div>
