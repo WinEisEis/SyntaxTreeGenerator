@@ -6,6 +6,7 @@ import Stage from './containers/Stage'
 import Label from './components/CardofInput/CardofInput'
 import Buttons from './components/SelectionButton'
 
+
 class App extends Component {
   handleData = (data) => {
     this.stage.drawTree(data)

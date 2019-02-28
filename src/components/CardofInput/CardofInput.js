@@ -12,6 +12,7 @@ class Label extends React.Component {
         label: ''
     };
 
+    
     handleDraw = () => {
         this.props.handlerFromParent(this.state.label);
     }
@@ -19,14 +20,16 @@ class Label extends React.Component {
     addSentence = (event) => {
         event.preventDefault();
         const db = firebase.firestore();
-         db.collection('Treebank').add({
+        db.collection('Treebank').add({
             sentence: this.state.sentence,
             label: this.state.label
         });
     };
 
     SuccessAlert = () => {
-        alert("Successfully added to the database!");
+        if ((this.state.sentence != '') && (this.state.label != '')) {
+            alert("Successfully added to the database!");
+        }
     }
 
     updateInput = (event) => {
@@ -85,7 +88,8 @@ class Label extends React.Component {
                         <br></br>
 
                         {/* Add to database button */}
-                        <Button type="submit" color="primary" size="lg" active onClick = {this.SuccessAlert} >Add to database</Button>
+                        <Button type="submit" color="primary" size="lg" active
+                            onClick={this.SuccessAlert} >Add to database</Button>
                     </form>
                 </Card>
             </div>
