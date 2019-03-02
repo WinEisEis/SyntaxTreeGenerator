@@ -91,7 +91,7 @@ while (mainArray.length != 0) {
         // }
         var cnode = treeData[0];
         nodeArray.shift();
-        for(var i = 0; i<leafIndex - 1 - countArray[countArray.length-1]; i++){//retrieve the right most element of the countArray
+        for(var i = 1; i<leafIndex - countArray[countArray.length-1]; i++){//retrieve the right most element of the countArray
             cnode = cnode.children[cnode.children.length-1];// select the right most node
             nodeArray.shift();
         }
@@ -102,14 +102,14 @@ while (mainArray.length != 0) {
     // put into JSON
     for (var i = 0; i< nodeArray.length ; i++){
         // console.log(cnode.children)
-        if (cnode.children === undefined){
+        if (cnode.children === undefined){//when node has no child
             console.log('un')
             cnode.children=[];//create children array
             cnode.children[0]={};//creat object in children array
             cnode = cnode.children[0];//traverse down the tree
             cnode.name = nodeArray[i];//add name
         }
-        else{
+        else{// node already has a child
             var nodelength = cnode.children.length;
             cnode.children[nodelength]={};
             cnode = cnode.children[nodelength];
