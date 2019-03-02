@@ -77,11 +77,11 @@ while (mainArray.length != 0) {
  
     // find and travese the node that already have been constructed
     console.log('count:', countArray);
-    var nodeArray = drawArray.slice(0);
+    var nodeArray = drawArray.slice(0);//clone draw array
     if(countArray.length == 1 ){
         var cnode = treeData[0];
         cnode.name = nodeArray[0]
-        nodeArray.shift();//remove S
+        nodeArray.shift();//remove first element of the array
     }
     else{
 
@@ -97,17 +97,17 @@ while (mainArray.length != 0) {
         }
     }
     
-    console.log("cnode",cnode)
-    console.log("node",nodeArray)
+    console.log("current node",cnode)
+    console.log("to draw node",nodeArray)
     // put into JSON
     for (var i = 0; i< nodeArray.length ; i++){
         // console.log(cnode.children)
         if (cnode.children === undefined){
             console.log('un')
-            cnode.children=[];
-            cnode.children[0]={};
-            cnode = cnode.children[0];
-            cnode.name = nodeArray[i];
+            cnode.children=[];//create children array
+            cnode.children[0]={};//creat object in children array
+            cnode = cnode.children[0];//traverse down the tree
+            cnode.name = nodeArray[i];//add name
         }
         else{
             var nodelength = cnode.children.length;
