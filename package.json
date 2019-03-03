@@ -8,6 +8,7 @@
     "d3-collection": "^1.0.7",
     "displacy": "^1.0.4",
     "firebase": "^5.8.2",
+    "lodash": "^4.17.11",
     "react": "^16.8.1",
     "react-d3": "^0.4.0",
     "react-d3-tree": "^1.12.2",
