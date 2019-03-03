@@ -5,13 +5,16 @@
   "dependencies": {
     "bootstrap": "^4.2.1",
     "d3": "^5.9.1",
+    "d3-collection": "^1.0.7",
     "displacy": "^1.0.4",
     "firebase": "^5.8.2",
     "react": "^16.8.1",
+    "react-d3": "^0.4.0",
     "react-d3-tree": "^1.12.2",
     "react-dom": "^16.8.1",
     "react-scripts": "2.1.4",
-    "reactstrap": "^7.1.0"
+    "reactstrap": "^7.1.0",
+    "underscore.nested": "^0.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

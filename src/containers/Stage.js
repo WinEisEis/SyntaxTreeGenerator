@@ -1,33 +1,9 @@
 import React, { Component } from 'react';
 import Tree from 'react-d3-tree';
 
+const myTreeData = 
+    
 
-const myTreeData = [
-    {
-        name: 'Top Level',
-      
-        children: [
-            {
-                name: 'Level 2: A',
-              
-                children: [
-                    {
-                      name: 'Level 3: A',
-                      
-                    },
-                    {
-                      name: 'Level 3: B',
-                    },
-                  ],
-            },
-            {
-                name: 'Level 2: B',
-            },
-            
-        ],
-        
-    },
-];
 
 class Stage extends Component {
     state = {}
@@ -45,16 +21,19 @@ class Stage extends Component {
 
     drawTree = (data) => {
         console.log(`Stage.js ${data}`)
-
-        
     }
 
     render() {
         return (
-            <div id="treeWrapper" style={{ width: '100%', height: '30em', borderStyle: 'solid', borderWidth: '1px',borderColor: 'lightgrey'}} ref={tc => (this.treeContainer = tc)}>
+            <div id="treeWrapper" style={{ width: '100%', height: '30em', borderStyle: 'solid', borderWidth: '1px', borderColor: 'lightgrey' }} ref={tc => (this.treeContainer = tc)}>
                 <Tree data={myTreeData}
                     translate={this.state.translate}
                     orientation={'vertical'}
+                    // textLayout = {textAnchor: "end", transform: string}
+                    // collapsible={false}
+
+                    pathFunc={'straight'}
+
                 />
             </div>
         );
@@ -62,3 +41,8 @@ class Stage extends Component {
 }
 
 export default Stage
+
+
+
+
+
