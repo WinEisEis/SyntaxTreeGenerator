@@ -105,9 +105,6 @@ class Label extends React.Component {
 
             }
 
-            let jsonz = JSON.stringify(treedata);
-            console.log('Tree', jsonz);
-
             //5. Count "]" in the drawArray
             let Pop = drawArray[leafIndex];
             console.log(Pop);
@@ -129,7 +126,7 @@ class Label extends React.Component {
 
             console.log('result array:', mainArray);
 
-            this.props.handlerFromParent(this.state.label);
+            this.props.handlerFromParent(treeData);
 
         }
     }
