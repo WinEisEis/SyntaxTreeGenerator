@@ -26,7 +26,7 @@ class App extends Component {
         <div class = "pt-3">
         <Row>
           <Col md="8">
-            <Stage ref={(ref) => this.stage = ref} />
+            <Stage ref={ref => this.stage = ref} />
           </Col>
           <Col md="4">
             <Label handlerFromParent={this.handleData} />
