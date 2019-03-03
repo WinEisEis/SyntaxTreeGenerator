@@ -38,7 +38,7 @@ console.log(mainArray);
 
 // 3.1 Iterate over mainArray
 //3.2  ถ้าเจอ "]" ก็ หาindexของจุดที่เจอ แล้วจึงbreak
-countArray = [0]//keep numbers of square blacket
+countArray = [0]//keep numbers of square bracket
 leafIndexArray= []
 
 let treeData = [
@@ -77,7 +77,15 @@ while (mainArray.length != 0) {
  
     // find and travese the node that already have been constructed
     console.log('count:', countArray);
-    var nodeArray = drawArray.slice(0);//clone draw array
+    // var nodeArray = drawArray.slice(0);//clone draw array
+    // remove ]] from string
+
+    var nodeArray = [];
+    for (var i=0 ; i< drawArray.length  ; i++){
+        nodeArray[i] = drawArray[i].replace(/]/g,'');
+    }
+    console.log('nodeArray', nodeArray );
+
     if(countArray.length == 1 ){
         var cnode = treeData[0];
         cnode.name = nodeArray[0]
@@ -112,15 +120,6 @@ while (mainArray.length != 0) {
         }
      
     }
-    // treeData[0].name='test1'
-    // treeData[0].children = []
-    // treeData[0].children[0] = {}
-    // treeData[0].children[0].name = "test1.1";
-    // treeData[0].children[1] = {}
-    // treeData[0].children[1].name = "test1.2";
-    // treeData[0].children[0].children = []
-    // treeData[0].children[0].children = {}
-    // treeData[0].children[0].children.name = "test1.1.1";
     
     console.log('Tree',JSON.stringify(treeData));
 
