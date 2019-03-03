@@ -1,5 +1,4 @@
 
-var d3Collection = require("d3-collection")
 
 
 // [S(2)[NP[NCMN เมล็ดกาแฟ]][VP(1)[VACT กระตุ้น][NP[NCMN หัวใจ]]]]
@@ -40,6 +39,7 @@ console.log(mainArray);
 // 3.1 Iterate over mainArray
 //3.2  ถ้าเจอ "]" ก็ หาindexของจุดที่เจอ แล้วจึงbreak
 countArray = [0]//keep numbers of square blacket
+leafIndexArray= []
 
 let treeData = [
     {
@@ -84,14 +84,9 @@ while (mainArray.length != 0) {
         nodeArray.shift();//remove first element of the array
     }
     else{
-
-        console.log(leafIndex + 1 - countArray[countArray.length-1]);
-        // if (leafIndex + 1 - countArray[countArray.length-1]){
-        //     var cnode = treeData[0];
-        // }
         var cnode = treeData[0];
         nodeArray.shift();
-        for(var i = 1; i<leafIndex - countArray[countArray.length-1]; i++){//retrieve the right most element of the countArray
+        for(var i = 0; i< leafIndexArray[leafIndexArray.length-1 ] - countArray[countArray.length-1]; i++){//retrieve the right most element of the countArray
             cnode = cnode.children[cnode.children.length-1];// select the right most node
             nodeArray.shift();
         }
@@ -141,6 +136,8 @@ while (mainArray.length != 0) {
     console.log("Number of elements to be popped:", count);
     
     countArray.push(count);//appends count
+    leafIndexArray.push(leafIndex);//appends count
+
     mainArray.splice(leafIndex - count + 1, count);
     count = 0;
     leafIndex = -1;
