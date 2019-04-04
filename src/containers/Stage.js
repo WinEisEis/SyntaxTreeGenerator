@@ -3,33 +3,30 @@ import Tree from 'react-d3-tree';
 
 class Stage extends Component {
     state = {
-        treeData: [
-            {
-                name: 'Top Level',
-                attributes: {
-                    keyA: 'val A',
-                    keyB: 'val B',
-                    keyC: 'val C',
-                },
-                children: [
-                    {
-                        name: 'Level 2: A',
-                        attributes: {
-                            keyA: 'val A',
-                            keyB: 'val B',
-                            keyC: 'val C',
-                        },
-                    },
-                    {
-                        name: 'Level 2: B',
-                    },
-                ],
+        treeData: {
+            name: 'Top Level',
+            attributes: {
+                keyA: 'val A',
+                keyB: 'val B',
+                keyC: 'val C',
             },
-        ]
+            children: [
+                {
+                    name: 'Level 2: A',
+                    attributes: {
+                        keyA: 'val A',
+                        keyB: 'val B',
+                        keyC: 'val C',
+                    },
+                },
+                {
+                    name: 'Level 2: B',
+                },
+            ],
+        }
     }
 
     componentDidMount() {
-        console.log(`Stage: ${this.props.data}`)
         const dimensions = this.treeContainer.getBoundingClientRect();
         this.setState({
             translate: {
@@ -40,7 +37,8 @@ class Stage extends Component {
     }
 
     drawTree = (data) => {
-        this.setState({ treeData: data })
+        console.log(`Stage.js ${JSON.stringify(data)}`);
+        this.setState({ treeData: data });
     }
 
     render() {
@@ -49,11 +47,6 @@ class Stage extends Component {
                 <Tree data={this.state.treeData}
                     translate={this.state.translate}
                     orientation={'vertical'}
-                    // textLayout = {textAnchor: "end", transform: string}
-                    // collapsible={false}
-
-                    pathFunc={'straight'}
-
                 />
             </div>
         );
@@ -61,8 +54,3 @@ class Stage extends Component {
 }
 
 export default Stage
-
-
-
-
-
