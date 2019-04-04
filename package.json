@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "bootstrap": "^4.2.1",
     "d3": "^5.9.1",
     "d3-collection": "^1.0.7",
     "displacy": "^1.0.4",
-    "firebase": "^5.8.2",
+    "firebase": "^5.9.2",
     "lodash": "^4.17.11",
     "react": "^16.8.1",
     "react-d3": "^0.4.0",
