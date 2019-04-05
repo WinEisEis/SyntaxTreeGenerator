@@ -11,8 +11,8 @@ console.log("Initial leafindex", leafIndex);
 
 
 // const label = "[S(2)[NP[NCMN Ɛ]] [VP(1) [VACT ส่งเสริม] [NP[NCMN อาชีพ]] [PP(1) [RPRE ให้] [NP[NCMN ประชาชน]] [VP(1,2) [NEG ไม่][VACT ให้เกิด] [NP(2) [FIXN การ] [VSTA ว่างงาน]]]]]]";
-const label = "[S(2)[NP[NCMN เมล็ดกาแฟ]] [VP(1)[VACT กระตุ้น][NP[NCMN หัวใจ]]]]"
-
+// const label = "[S(2)[NP[NCMN เมล็ดกาแฟ]] [VP(1)[VACT กระตุ้น][NP[NCMN หัวใจ]]]]"
+const label = "[S(2)[NP(1)[NOUN กาแฟ]][VP(1)[VERB กระตุ้น][NOUN หัวใจ]]]"
 //1. split "["
 let array = label.split('[');
 console.log(array);
@@ -108,7 +108,7 @@ while (mainArray.length != 0) {
         if (cnode.children === undefined){//when node has no child
             console.log('un')
             cnode.children=[];//create children array
-            cnode.children[0]={};//creat object in children array
+            cnode.children[0]={};//create object in children array
             cnode = cnode.children[0];//traverse down the tree
             cnode.name = nodeArray[i];//add name
         }
