@@ -178,7 +178,23 @@ class Label extends React.Component {
             var treeData = jsonCopy(treeData1);
             this.props.handlerFromParent(treeData);
         }
+    
+
+    console.log("Number of elements to be popped:", count);
+    
+    countArray.push(count);//appends count
+    leafIndexArray.push(leafIndex);//appends count
+
+    mainArray.splice(leafIndex - count + 1, count);
+    count = 0;
+    leafIndex = -1;
+    drawArray = []
+
+    console.log('result array:', mainArray);
+    this.props.handlerFromParent(treeData);
     }
+    
+
 
     addSentence = (event) => {
         event.preventDefault();
