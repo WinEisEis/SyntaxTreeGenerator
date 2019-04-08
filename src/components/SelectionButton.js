@@ -3,7 +3,7 @@ import { Button } from 'reactstrap';
 
 export default class Buttons extends React.Component {
   state = {
-    toggle: true
+    toggle: false
   }
 
   handleClick = () => {
@@ -13,7 +13,7 @@ export default class Buttons extends React.Component {
   }
 
   render() {
-    const btnValue = this.state.toggle ? "Dependency Tree" : "Constituent Tree";
+    const btnValue = this.state.toggle ? "Constituent Tree" : "Dependency Tree";
 
     return (
       <div class="pt-5">
