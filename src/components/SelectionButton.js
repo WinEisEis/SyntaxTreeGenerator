@@ -11,7 +11,7 @@ export default class Buttons extends React.Component {
   }
 
   render() {
-    const btnValue = this.state.toggle ? "Constituent Tree" : "Dependency Tree"
+    const btnValue = this.state.toggle ? "Dependency Tree" : "Constituent Tree";
 
     return (
       <div class="pt-5">
