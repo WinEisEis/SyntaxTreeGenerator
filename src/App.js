@@ -4,7 +4,7 @@ import './App.css';
 import Header from './components/Header';
 import Stage from './containers/Stage'
 import Label from './components/CardofInput/CardofInput'
-import Buttons from './components/SelectionButton'
+import SelectionButton from './components/SelectionButton'
 
 class App extends Component {
   handleData = (data) => {
@@ -16,10 +16,10 @@ class App extends Component {
     return (
       <Container fluid >
         <Header />
-
+      
         <Row>
           <Col md="8">
-          <Buttons/>
+          <SelectionButton/>
           </Col>
         
         </Row>
