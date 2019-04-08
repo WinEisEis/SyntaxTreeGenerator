@@ -7,7 +7,7 @@ import firebase from '../../Firebase';
 
 class Label extends React.Component {
     state = {
-        sentence: '',
+        sentence: 'ฉันกินข้าว',
         label: ''
     };
 
@@ -18,7 +18,7 @@ class Label extends React.Component {
         try {
             if (this.state.sentence) {
                 const res = await axios.get(url.concat(this.state.sentence));
-                console.log('in',res.data.split('||')[0].trim());
+                console.log(res.data.split('||')[0].trim());
                 this.getLabel(res.data.split('||')[0].trim());
             } else {
                 this.getLabel(this.state.label);
@@ -40,18 +40,18 @@ class Label extends React.Component {
         //[S [NP [NCMN เมล็ด] [NP [NCMN กาแฟ]]] [VP [VACT กระตุ้น] [NP [NCMN หัวใจ]]]]
         // const label = "[S(2)[NP[NCMN Ɛ]] [VP(1) [VACT ส่งเสริม] [NP[NCMN อาชีพ]] [PP(1) [RPRE ให้] [NP[NCMN ประชาชน]] [VP(1,2) [NEG ไม่][VACT ให้เกิด] [NP(2) [FIXN การ] [VSTA ว่างงาน]]]]]]";
         const label1 = "[S [NP [PPRS ฉัน]] [VP [VACT กิน] [NP [NCMN ข้าว]]]]"
-       
+
         //1. split "["
         let array = label.split('[');
-        
-        console.log("อาเรคือที่ยังไม่ทริม",array);
+
+        console.log("อาเรคือที่ยังไม่ทริม", array);
 
         array = array.map(str => str.trim());
-        console.log("อาเรทริมแล้ว",array);
+        console.log("อาเรทริมแล้ว", array);
 
         //2. Push to mainArray
-        for (var i = 0; i < array.length; i++) {
-            if (array[i] != "," & array[i] != "") {
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] !== "," & array[i] !== "") {
                 mainArray.push(array[i]);
             }
         }
@@ -67,12 +67,12 @@ class Label extends React.Component {
 
         ];
 
-        while (mainArray.length != 0) {
-            // for (var i = 0; i>2; i++){
+        while (mainArray.length !== 0) {
+            // for (let i = 0; i>2; i++){
             dance:
-            for (var i = 0; i < mainArray.length; i++) {
-                for (var j = 0; j < mainArray[i].length; j++) {
-                    if (mainArray[i][j] == "]") {
+            for (let i = 0; i < mainArray.length; i++) {
+                for (let j = 0; j < mainArray[i].length; j++) {
+                    if (mainArray[i][j] === "]") {
                         leafIndex = i;
                         break dance;
                     }
@@ -84,7 +84,7 @@ class Label extends React.Component {
             //4. draw  0: "S(2)"  1: "NP" 2: "NCMN เมล็ดกาแฟ]]"
 
 
-            for (var i = 0; i <= leafIndex; i++) {
+            for (let i = 0; i <= leafIndex; i++) {
                 drawArray.push(mainArray[i]);
 
             }
@@ -96,24 +96,25 @@ class Label extends React.Component {
 
             // find and travese the node that already have been constructed
             console.log('count:', countArray);
-            // var nodeArray = drawArray.slice(0);//clone draw array
+            // let nodeArray = drawArray.slice(0);//clone draw array
             // remove ]] from string
 
-            var nodeArray = [];
-            for (var i = 0; i < drawArray.length; i++) {
+            let nodeArray = [];
+            for (let i = 0; i < drawArray.length; i++) {
                 nodeArray[i] = drawArray[i].replace(/]/g, '');
             }
             console.log('nodeArray', nodeArray);
 
-            if (countArray.length == 1) {
-                var cnode = treeData1[0];
+            let cnode;
+            if (countArray.length === 1) {
+                cnode = treeData1[0];
                 cnode.name = nodeArray[0]
                 nodeArray.shift();//remove first element of the array
             }
             else {
-                var cnode = treeData1[0];
+                cnode = treeData1[0];
                 nodeArray.shift();
-                for (var i = 0; i < leafIndexArray[leafIndexArray.length - 1] - countArray[countArray.length - 1]; i++) {//retrieve the right most element of the countArray
+                for (let i = 0; i < leafIndexArray[leafIndexArray.length - 1] - countArray[countArray.length - 1]; i++) {//retrieve the right most element of the countArray
                     cnode = cnode.children[cnode.children.length - 1];// select the right most node
                     nodeArray.shift();
                 }
@@ -122,7 +123,7 @@ class Label extends React.Component {
             console.log("current node", cnode)
             console.log("to draw node", nodeArray)
             // put into JSON
-            for (var i = 0; i < nodeArray.length; i++) {
+            for (let i = 0; i < nodeArray.length; i++) {
                 // console.log(cnode.children)
                 if (cnode.children === undefined) {//when node has no child
                     cnode.children = [];//create children array
@@ -136,7 +137,7 @@ class Label extends React.Component {
                     // }
                 }
                 else {// node already has a child
-                    var nodelength = cnode.children.length;
+                    let nodelength = cnode.children.length;
                     cnode.children[nodelength] = {};
                     cnode = cnode.children[nodelength];
                     cnode.name = nodeArray[i];
@@ -152,8 +153,8 @@ class Label extends React.Component {
             //5. Count "]" in the drawArray
             let Pop = drawArray[leafIndex];
             console.log(Pop);
-            for (var i = 0; i < Pop.length; i++) {
-                if (Pop[i] == "]") {
+            for (let i = 0; i < Pop.length; i++) {
+                if (Pop[i] === "]") {
                     count++;
                 }
             }
@@ -171,30 +172,28 @@ class Label extends React.Component {
             console.log('result array:', mainArray);
             function jsonCopy(src) {
                 return JSON.parse(JSON.stringify(src));
-              }
-              const source = {a:1, b:2, c:3};
-              const target = jsonCopy(source);
-              console.log(target); // {a:1, b:2, c:3}
-            var treeData = jsonCopy(treeData1);
+            }
+            const source = { a: 1, b: 2, c: 3 };
+            const target = jsonCopy(source);
+            console.log(target); // {a:1, b:2, c:3}
+            let treeData = jsonCopy(treeData1);
             this.props.handlerFromParent(treeData);
         }
-    
 
-    console.log("Number of elements to be popped:", count);
-    
-    countArray.push(count);//appends count
-    leafIndexArray.push(leafIndex);//appends count
 
-    mainArray.splice(leafIndex - count + 1, count);
-    count = 0;
-    leafIndex = -1;
-    drawArray = []
+        console.log("Number of elements to be popped:", count);
 
-    console.log('result array:', mainArray);
-    this.props.handlerFromParent(treeData);
+        countArray.push(count);//appends count
+        leafIndexArray.push(leafIndex);//appends count
+
+        mainArray.splice(leafIndex - count + 1, count);
+        count = 0;
+        leafIndex = -1;
+        drawArray = []
+
+        console.log('result array:', mainArray);
+        this.props.handlerFromParent(treeData1);
     }
-    
-
 
     addSentence = (event) => {
         event.preventDefault();
