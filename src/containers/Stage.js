@@ -24,7 +24,8 @@ class Stage extends Component {
                     name: 'Level 2: B',
                 },
             ],
-        }
+        },
+        toggle: false
     }
 
     componentDidMount() {
@@ -43,14 +44,17 @@ class Stage extends Component {
     }
 
     render() {
-        let stage = <img src={logo} alt="Not available." width='100%' height='100%' />
+        let stage;
 
-        if (!this.state.treeData) {
+        if (this.state.toggle)
+            stage = <img src={logo} alt="Not available." width='100%' height='100%' />
+        else
             stage = <Tree data={this.state.treeData}
                 translate={this.state.translate}
                 orientation={'vertical'}
             />
-        }
+
+
         return (
             <div id="treeWrapper" style={{ width: '100%', height: '30em', borderStyle: 'solid', borderWidth: '1px', borderColor: 'lightgrey' }} ref={tc => (this.treeContainer = tc)}>
                 {stage}

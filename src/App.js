@@ -7,6 +7,10 @@ import Label from './components/CardofInput/CardofInput'
 import SelectionButton from './components/SelectionButton'
 
 class App extends Component {
+  swapStage = (toggle) => {
+    this.stage.setState({ toggle });
+  }
+
   handleData = (data) => {
     this.stage.drawTree(data)
     console.log("handle data");
@@ -16,22 +20,22 @@ class App extends Component {
     return (
       <Container fluid >
         <Header />
-      
+
         <Row>
           <Col md="8">
-          <SelectionButton/>
+            <SelectionButton handlerFromParent={this.swapStage} />
           </Col>
-        
+
         </Row>
-        <div class = "pt-3">
-        <Row>
-          <Col md="8">
-            <Stage ref={(ref) => this.stage = ref} />
-          </Col>
-          <Col md="4">
-            <Label handlerFromParent={this.handleData} />
-          </Col>
-        </Row>
+        <div class="pt-3">
+          <Row>
+            <Col md="8">
+              <Stage ref={(ref) => this.stage = ref} />
+            </Col>
+            <Col md="4">
+              <Label handlerFromParent={this.handleData} />
+            </Col>
+          </Row>
         </div>
       </Container>
     );

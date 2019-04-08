@@ -7,7 +7,9 @@ export default class Buttons extends React.Component {
   }
 
   handleClick = () => {
-    this.setState({ toggle: !this.state.toggle });
+    const toggle = !this.state.toggle;
+    this.setState({ toggle });
+    this.props.handlerFromParent(toggle);
   }
 
   render() {
