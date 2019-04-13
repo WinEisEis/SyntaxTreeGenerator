@@ -6,10 +6,12 @@
     "bootstrap": "^4.2.1",
     "d3": "^5.9.1",
     "firebase": "^5.8.2",
+    "json-stringify-safe": "^5.0.1",
+    "observable-slim": "^0.1.5",
     "react": "^16.8.1",
     "react-d3-tree": "^1.12.2",
     "react-dom": "^16.8.1",
-    "react-scripts": "2.1.4",
+    "react-scripts": "^2.1.8",
     "reactstrap": "^7.1.0"
   },
   "scripts": {
