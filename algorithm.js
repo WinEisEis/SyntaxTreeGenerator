@@ -1,6 +1,3 @@
-
-
-
 // [S(2)[NP[NCMN เมล็ดกาแฟ]][VP(1)[VACT กระตุ้น][NP[NCMN หัวใจ]]]]
 
 let mainArray = [];
@@ -8,11 +5,13 @@ let leafIndex = 0;
 let drawArray = [];
 let count = 0;
 let index = 1;
+let id = -1;
 console.log("Initial leafindex", leafIndex);
+var stringify = require('json-stringify-safe');
 
 
-// const label = "[S(2)[NP[NCMN Ɛ]] [VP(1) [VACT ส่งเสริม] [NP[NCMN อาชีพ]] [PP(1) [RPRE ให้] [NP[NCMN ประชาชน]] [VP(1,2) [NEG ไม่][VACT ให้เกิด] [NP(2) [FIXN การ] [VSTA ว่างงาน]]]]]]";
-const label = "[S(2)[NP [NCMN เมล็ดกาแฟ]] [VP(1)[VACT กระตุ้น][NP[NCMN หัวใจ]]]]"
+const label = "[S(2)[NP[NCMN Ɛ]] [VP(1) [VACT ส่งเสริม] [NP[NCMN อาชีพ]] [PP(1) [RPRE ให้] [NP[NCMN ประชาชน]] [VP(1,2)[NEG ไม่][VACT ให้เกิด] [NP(2)[FIXN การ] [VSTA ว่างงาน]]]]]]";
+// const label = "[S(2)[NP [NCMN เมล็ดกาแฟ]] [VP(1)[VACT กระตุ้น][NP[NCMN หัวใจ]]]]"
 // const label = "[S [NP [NCMN เมล็ด] [NP [NCMN กาแฟ]]] [VP [VACT กระตุ้น] [NP [NCMN หัวใจ]]]]"
 //1. split "["
 let array = label.split('[');
@@ -89,7 +88,11 @@ while (mainArray.length != 0) {
 
     if (countArray.length == 1) {
         var cnode = treeData[0];
-        cnode.name = nodeArray[0]
+        cnode.name = nodeArray[0];
+        cnode.attribute = []
+        cnode.attribute = {}
+        id++;
+        cnode.attribute.id = id;
         nodeArray.shift();//remove first element of the array
     }
     else {
@@ -111,24 +114,56 @@ while (mainArray.length != 0) {
             cnode.children[0] = {};//create object in children array
             cnode = cnode.children[0];//traverse down the tree
             cnode.name = nodeArray[i];//add name
+            cnode.attribute = [];
+            cnode.attribute = {};
+            id++;
+            cnode.attribute.id = id;//add ID
             if (i == nodeArray.length - 1) {//add index to child node
-                cnode.index = index;
+                cnode.attribute.index = index;
                 index++;
+                setParent(treeData[0]);
+                pnode = cnode.attribute.parent;
+                
+
+                while (pnode !== undefined){
+                    console.log('Pnode', stringify(pnode));
+                    tagMarker();
+                    pnode=pnode.attribute.parent;
+                }
+
             }
+
         }
         else {// node already has a child
             var nodelength = cnode.children.length;
             cnode.children[nodelength] = {};
             cnode = cnode.children[nodelength];
             cnode.name = nodeArray[i];
+            cnode.attribute = [];
+            cnode.attribute = {};
+            id++;
+            cnode.attribute.id = id;//add ID
+            if (i == nodeArray.length - 1) {//add index to child node
+                cnode.attribute.index = index;
+                index++;
+                setParent(treeData[0]);
+                pnode = cnode.attribute.parent;
+                
 
+                while (pnode !== undefined){
+                    console.log('Pnode', stringify(pnode));
+                    tagMarker();
+                    pnode=pnode.attribute.parent;
+                }
+
+            }
         }
 
 
 
     }
 
-    console.log('Tree', JSON.stringify(treeData));
+    console.log('Tree', stringify(treeData));
 
     //5. Count "]" in the drawArray
     let Pop = drawArray[leafIndex];
@@ -151,54 +186,83 @@ while (mainArray.length != 0) {
 
     console.log('result array:', mainArray);
 }
-console.log("to Dependency")
-pnode = treeData[0]
-// var proxy = ObservableSlim.create(pnode, true, function() { return false });
-// var depth = 0;
-// console.log('Tree',JSON.stringify(pnode.children[0].children[0]));
-createMarker(pnode)
-
-function traverseUp(childObj) {
-    console.log(JSON.stringify(childObj.__getParent())); // returns test.hello: {"foo":{"bar":"world"}}
-    console.log(childObj.__getParent(1)); // attempts to traverse up two levels, returns undefined because test.hello does not have a parent object
-};
-var m =0;
-
-function createMarker(pnode) {//create marker
-    if (pnode.children[0].index !== undefined) {// if a parent of a leaf node
-        console.log(pnode.name[pnode.name.length-2])
-        if(isNaN(pnode.name[pnode.name.length-2])===false ){//retrive header to m
-            m = parseInt(pnode.name[pnode.name.length-2]);
-        }
-        else{// if there is no header assume leftmost child
-            m = 0;
-        }
-        pnode.marker = pnode.children[m].index;//marker = index of pointed child
-        console.log('Tree', JSON.stringify(pnode));
-        console.log(m)
-        
-      
-        return;
-    }
-    else {
-        console.log("length", Object.keys(pnode).length);
-        for (var i = 0; i < Object.keys(pnode).length; i++) {// 
-            pnode = pnode.children[i];
-            createMarker(pnode);
+function setParent(o) {//recursively create parent attribute
+    if (o.children !== undefined) {
+        for (n in o.children) {
+            o.children[n].attribute.parent = o;
+            setParent(o.children[n]);
         }
     }
 }
 
 
+// function nodeFinder() {// traverse down to down most node without marker
+//     for (var i = 0; i < Object.keys(pnode.children).length; i++) {
+//         if ((pnode.children[0].attribute.index !== undefined) && (pnode.attribute.marker === undefined )) {
+//             return;
+//         }
+//         console.log(i)
+//         pnode = pnode.children[i];
+//         }
+//         // else if (pnode.attribute.index !== undefined){
+//         //     flag = -1;
+//         //     return; 
+//         // }
+//         console.log('Pnode', stringify(pnode));
+//         nodeFinder();
+    
+// }
 
 
-// convert to conllu
-
-// output =
-// "  1  กาแฟ    NOUN    2
-//    2  กระตุ้น   verb     0
-//    3  หัวใจ    NOUN    2
-// "
 
 
 
+// createMarker(pnode);
+
+function tagMarker() {//create marker
+    if (pnode.children[0].attribute.index !== undefined){// if is a node above child node
+        if (isNaN(pnode.name[pnode.name.length - 2]) === false) {//retrive header to leaf node check wether header exist
+            m = parseInt(pnode.name[pnode.name.length - 2]);
+            m = m-1
+        }
+        else {// if there is no header assume leftmost child
+            m = 0;
+        }
+        console.log(m)
+        if (pnode.children[m] === undefined){
+            return;
+        }
+        else{
+            pnode.attribute.marker = pnode.children[m].attribute.index;//marker = index of pointed child
+        }
+        
+    }
+    else {
+        if (isNaN(pnode.name[pnode.name.length - 2]) === false) {//check wether header exist if yes
+            m = parseInt(pnode.name[pnode.name.length - 2]);// retrieve header
+            m = m-1;
+            if (pnode.children[m] === undefined){
+                return;
+            }
+            else if (pnode.children[m].attribute.marker !== undefined) {//pointed marker exists
+                console.log(m)
+                pnode.attribute.marker = pnode.children[m].attribute.marker;//marker = index of pointed child
+            }
+            else {
+                return
+            }
+        }
+        else {// if there is no header assume leftmost child
+            m = 0;
+            if (pnode.children[m].attribute.marker !== undefined) {//pointed marker exists
+                console.log(m)
+                pnode.attribute.marker = pnode.children[m].attribute.marker;//marker = index of pointed child
+            }
+            else {
+                return
+            }
+        }
+       
+    }
+
+}
