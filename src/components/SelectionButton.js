@@ -1,11 +1,14 @@
-    
+
 import React from 'react';
 import { Button } from 'reactstrap';
 
 export default class Buttons extends React.Component {
   state = {
-    toggle: false
+    toggle: false,
+    treeData: null
   }
+
+
 
   handleClick = () => {
     const toggle = !this.state.toggle;

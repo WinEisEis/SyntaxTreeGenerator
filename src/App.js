@@ -6,15 +6,16 @@ import Stage from './containers/Stage'
 import Label from './components/CardofInput/CardofInput'
 import SelectionButton from './components/SelectionButton'
 
+import getDependency from './assets/algorithms/dependencyTree'
+
 class App extends Component {
   swapStage = (toggle) => {
     this.stage.setState({ toggle });
   }
 
-  handleData = (data) => {
-    this.stage.drawTree(data)
-    console.log("handle data");
-  }
+  handleData = (data) => this.stage.drawTree(data);
+  handleDependData = (data) => this.stage.drawDependency(data);
+
 
   render() {
     return (
@@ -23,7 +24,9 @@ class App extends Component {
 
         <Row>
           <Col md="8">
-            <SelectionButton handlerFromParent={this.swapStage} />
+            <SelectionButton
+              handlerFromParent={this.swapStage}
+            />
           </Col>
 
         </Row>
@@ -33,7 +36,7 @@ class App extends Component {
               <Stage ref={(ref) => this.stage = ref} />
             </Col>
             <Col md="4">
-              <Label handlerFromParent={this.handleData} />
+              <Label handlerFromParent={this.handleData} parentDepend={this.handleDependData} />
             </Col>
           </Row>
         </div>

@@ -4,7 +4,8 @@ import image from '../static/Capture.png';
 
 class Stage extends Component {
     state = {
-        treeData: null,
+        constituentData: null,
+        dependencyData: null
     }
 
     componentDidMount() {
@@ -17,22 +18,25 @@ class Stage extends Component {
         });
     }
 
-    drawTree = (data) => {
+    drawTree = data => {
         console.log(`Stage.js ${JSON.stringify(data)}`);
-        this.setState({ treeData: data });
+        this.setState({ constituentData: data });
     }
 
+    drawDependency = dependencyData => {
+        this.setState({ dependencyData: dependencyData });
+    }
     render() {
         let stage;
 
-        if (this.state.treeData && !this.state.toggle)
-            stage = <Tree data={this.state.treeData}
+        if (this.state.constituentData && !this.state.toggle)
+            stage = <Tree data={this.state.constituentData}
                 translate={this.state.translate}
                 orientation={'vertical'}
             />
-        else if(this.state.toggle)
+        else if (this.state.toggle)
             stage = <img src={image} alt="Not available." width='100%' height='100%' />
-        
+
         return (
             <div id="treeWrapper" style={{ width: '100%', height: '30em', borderStyle: 'solid', borderWidth: '1px', borderColor: 'lightgrey' }} ref={tc => (this.treeContainer = tc)}>
                 {stage}
