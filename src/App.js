@@ -4,12 +4,18 @@ import './App.css';
 import Header from './components/Header';
 import Stage from './containers/Stage'
 import Label from './components/CardofInput/CardofInput'
-import Buttons from './components/SelectionButton'
+import SelectionButton from './components/SelectionButton'
+
+import getDependency from './assets/algorithms/dependencyTree'
 
 class App extends Component {
-  handleData = (data) => {
-    this.stage.drawTree(data)
+  swapStage = (toggle) => {
+    this.stage.setState({ toggle });
   }
+
+  handleData = (data) => this.stage.drawTree(data);
+  handleDependData = (data) => this.stage.drawDependency(data);
+
 
   render() {
     return (
@@ -18,19 +24,21 @@ class App extends Component {
 
         <Row>
           <Col md="8">
-          <Buttons/>
+            <SelectionButton
+              handlerFromParent={this.swapStage}
+            />
           </Col>
-        
+
         </Row>
-        <div class = "pt-3">
-        <Row>
-          <Col md="8">
-            <Stage ref={(ref) => this.stage = ref} />
-          </Col>
-          <Col md="4">
-            <Label handlerFromParent={this.handleData} />
-          </Col>
-        </Row>
+        <div class="pt-3">
+          <Row>
+            <Col md="8">
+              <Stage ref={(ref) => this.stage = ref} />
+            </Col>
+            <Col md="4">
+              <Label handlerFromParent={this.handleData} parentDepend={this.handleDependData} />
+            </Col>
+          </Row>
         </div>
       </Container>
     );

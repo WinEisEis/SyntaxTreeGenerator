@@ -1,35 +1,14 @@
 import React, { Component } from 'react';
 import Tree from 'react-d3-tree';
-
-const myTreeData = [
-    {
-        name: 'Top Level',
-        attributes: {
-            keyA: 'val A',
-            keyB: 'val B',
-            keyC: 'val C',
-        },
-        children: [
-            {
-                name: 'Level 2: A',
-                attributes: {
-                    keyA: 'val A',
-                    keyB: 'val B',
-                    keyC: 'val C',
-                },
-            },
-            {
-                name: 'Level 2: B',
-            },
-        ],
-    },
-];
+import image from '../static/Capture.png';
 
 class Stage extends Component {
-    state = {}
+    state = {
+        constituentData: null,
+        dependencyData: null
+    }
 
     componentDidMount() {
-        console.log(`Stage: ${this.props.data}`)
         const dimensions = this.treeContainer.getBoundingClientRect();
         this.setState({
             translate: {
@@ -39,19 +18,28 @@ class Stage extends Component {
         });
     }
 
-    drawTree = (data) => {
-        console.log(`Stage.js ${data}`)
-
-        
+    drawTree = data => {
+        console.log(`Stage.js ${JSON.stringify(data)}`);
+        this.setState({ constituentData: data });
     }
 
+    drawDependency = dependencyData => {
+        this.setState({ dependencyData: dependencyData });
+    }
     render() {
+        let stage;
+
+        if (this.state.constituentData && !this.state.toggle)
+            stage = <Tree data={this.state.constituentData}
+                translate={this.state.translate}
+                orientation={'vertical'}
+            />
+        else if (this.state.toggle)
+            stage = <img src={image} alt="Not available." width='100%' height='100%' />
+
         return (
-            <div id="treeWrapper" style={{ width: '100%', height: '30em', borderStyle: 'solid', borderWidth: '1px',borderColor: 'lightgrey'}} ref={tc => (this.treeContainer = tc)}>
-                <Tree data={myTreeData}
-                    translate={this.state.translate}
-                    orientation={'vertical'}
-                />
+            <div id="treeWrapper" style={{ width: '100%', height: '30em', borderStyle: 'solid', borderWidth: '1px', borderColor: 'lightgrey' }} ref={tc => (this.treeContainer = tc)}>
+                {stage}
             </div>
         );
     }

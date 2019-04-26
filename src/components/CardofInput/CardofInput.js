@@ -5,6 +5,9 @@ import {
 } from 'reactstrap';
 import firebase from '../../Firebase';
 
+// Algorithms
+import getLabel from '../../assets/algorithms/constituentTree';
+import getDependency from '../../assets/algorithms/dependencyTree';
 
 class Label extends React.Component {
     state = {
@@ -12,14 +15,32 @@ class Label extends React.Component {
         label: ''
     };
 
-    handleDraw = () => {
-        this.props.handlerFromParent(this.state.label);
+    drawHandler = async () => {
+        const axios = require('axios');
+        const url = encodeURI('http://api-thai-parser.iapp.co.th/parse/');
+
+        try {
+            if (this.state.sentence) {
+                const res = await axios.get(url.concat(this.state.sentence));
+                // console.log(res.data.split('||')[0].trim());
+
+                this.props.handlerFromParent(getLabel(res.data.split('||')[0].trim()));
+            } else {
+                const constituentData = await getLabel(this.state.label);
+                this.props.handlerFromParent(constituentData);
+                this.props.parentDepend(getDependency(constituentData));
+            }
+        } catch (err) {
+            console.log(err);
+        }
     }
+
+
 
     addSentence = (event) => {
         event.preventDefault();
         const db = firebase.firestore();
-         db.collection('Treebank').add({
+        db.collection('Treebank').add({
             sentence: this.state.sentence,
             label: this.state.label
         });
@@ -48,7 +69,7 @@ class Label extends React.Component {
                 {/* Title */}
                 <Card body className="text-center">
                     <CardBody>
-                        <CardTitle >Labelled Bracket </CardTitle>
+                        <CardTitle >Labelled Bracket & Sentence</CardTitle>
                     </CardBody>
 
                     {/* Label Bracket textarea */}
@@ -56,7 +77,7 @@ class Label extends React.Component {
                         <textarea
                             rows="5" cols="40"
                             name="label"
-                            placeholder="[S(2)[NP[NCMN เมล็ดกาแฟ]] [VP(1)[VACT กระตุ้น][NP[NCMN หัวใจ]]]]"
+                            placeholder="Input Labelled bracket here,e.g.,[S(2)[NP[NCMN เมล็ดกาแฟ]] [VP(1)[VACT กระตุ้น][NP[NCMN หัวใจ]]]]"
                             value={this.state.label}
                             onChange={this.updateInput}
                             required>
@@ -67,7 +88,7 @@ class Label extends React.Component {
                         <textarea
                             rows="3" cols="40"
                             name="sentence"
-                            placeholder="เมล็ดกาแฟกระตุ้นหัวใจ"
+                            placeholder="Input raw sentence here,e.g., มะขามใช้เป็นยาระบาย"
                             value={this.state.sentence}
                             onChange={this.updateInput}
                             required
@@ -78,14 +99,14 @@ class Label extends React.Component {
 
                         {/* Draw & Clear Buttons  */}
                         <span>
-                            <Button onClick={this.handleDraw} color="primary" size="sm">Draw</Button>{' '}
+                            <Button onClick={this.drawHandler} color="primary" size="sm">Draw</Button>{' '}
                             <Button color="primary" size="sm" onClick={this.clearInput}>Clear</Button>
                         </span>
                         <br></br>
                         <br></br>
 
                         {/* Add to database button */}
-                        <Button type="submit" color="primary" size="lg" active onClick = {this.SuccessAlert} >Add to database</Button>
+                        <Button type="submit" color="primary" size="lg" active onClick={this.SuccessAlert} >Add to database</Button>
                     </form>
                 </Card>
             </div>
