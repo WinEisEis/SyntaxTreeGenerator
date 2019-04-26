@@ -10,26 +10,26 @@ import getDependency from './assets/algorithms/dependencyTree'
 
 class App extends Component {
   swapStage = (toggle) => {
-  this.stage.setState({ toggle });
+    this.stage.setState({ toggle });
   }
-  
-    handleData = (data) => this.stage.drawTree(data);
-      handleDependData = (data) => this.stage.drawDependency(data);
-    
-  
+
+  handleData = (data) => this.stage.drawTree(data);
+  handleDependData = (data) => this.stage.drawDependency(data);
+
+
   render() {
-  return (
-  <Container fluid >
-    <Header />
+    return (
+      <Container fluid >
+        <Header />
 
         <Row>
-      <Col md="8">
+          <Col md="8">
             <SelectionButton
-        handlerFromParent={this.swapStage}
-      />
-              </Col>
-    
-            </Row>
+              handlerFromParent={this.swapStage}
+            />
+          </Col>
+
+        </Row>
         <div class="pt-3">
           <Row>
             <Col md="8">

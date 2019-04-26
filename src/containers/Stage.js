@@ -2,10 +2,15 @@ import React, { Component } from 'react';
 import Tree from 'react-d3-tree';
 import image from '../static/Capture.png';
 
+import Iframe from 'react-iframe'
+
+import axios from 'axios';
+
+import getDependency from '../assets/algorithms/dependencyTree';
+
 class Stage extends Component {
     state = {
-        constituentData: null,
-        dependencyData: null
+        constituentData: null
     }
 
     componentDidMount() {
@@ -21,11 +26,10 @@ class Stage extends Component {
     drawTree = data => {
         console.log(`Stage.js ${JSON.stringify(data)}`);
         this.setState({ constituentData: data });
+
+        axios.post('http://localhost:3001/postjson', { data: getDependency(data) })
     }
 
-    drawDependency = dependencyData => {
-        this.setState({ dependencyData: dependencyData });
-    }
     render() {
         let stage;
 
@@ -35,7 +39,13 @@ class Stage extends Component {
                 orientation={'vertical'}
             />
         else if (this.state.toggle)
-            stage = <img src={image} alt="Not available." width='100%' height='100%' />
+            stage = <Iframe url="http://localhost:3001"
+                width="100%"
+                height="100%"
+                id="myId"
+                className="myClassname"
+                display="initial"
+                position="relative" />
 
         return (
             <div id="treeWrapper" style={{ width: '100%', height: '30em', borderStyle: 'solid', borderWidth: '1px', borderColor: 'lightgrey' }} ref={tc => (this.treeContainer = tc)}>
