@@ -11,7 +11,7 @@ import getDependency from '../../assets/algorithms/dependencyTree';
 
 class Label extends React.Component {
     state = {
-        sentence: '',
+        sentence: 'ฉันกินข้าว',
         label: ''
     };
 
