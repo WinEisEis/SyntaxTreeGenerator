@@ -4,11 +4,8 @@ import { Button } from 'reactstrap';
 
 export default class Buttons extends React.Component {
   state = {
-    toggle: false,
-    treeData: null
+    toggle: false
   }
-
-
 
   handleClick = () => {
     const toggle = !this.state.toggle;
