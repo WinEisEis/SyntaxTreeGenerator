@@ -27,7 +27,8 @@ class Stage extends Component {
         console.log(`Stage.js ${JSON.stringify(data)}`);
         this.setState({ constituentData: data });
 
-        axios.post('http://localhost:3001/postjson', { data: getDependency(data) })
+        const corsURL = 'https://cors-anywhere.herokuapp.com/';
+        axios.post(corsURL + 'https://draw-dependency-tree.herokuapp.com/postjson', { data: getDependency(data) })
     }
 
     render() {
@@ -39,7 +40,7 @@ class Stage extends Component {
                 orientation={'vertical'}
             />
         else if (this.state.toggle)
-            stage = <Iframe url="http://localhost:3001"
+            stage = <Iframe url="https://draw-dependency-tree.herokuapp.com/"
                 width="100%"
                 height="100%"
                 id="myId"
