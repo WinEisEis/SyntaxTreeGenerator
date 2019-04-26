@@ -35,8 +35,6 @@ class Label extends React.Component {
         }
     }
 
-
-
     addSentence = (event) => {
         event.preventDefault();
         const db = firebase.firestore();
