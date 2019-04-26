@@ -1,6 +1,3 @@
-
-
-
 // [S(2)[NP[NCMN เมล็ดกาแฟ]][VP(1)[VACT กระตุ้น][NP[NCMN หัวใจ]]]]
 
 let mainArray = [];
@@ -269,14 +266,3 @@ function tagMarker() {//create marker
     }
 
 }
-
-// convert to conllu
-
-// output =
-// "  1  กาแฟ    NOUN    2
-//    2  กระตุ้น   verb     0
-//    3  หัวใจ    NOUN    2
-// "
-
-
-
