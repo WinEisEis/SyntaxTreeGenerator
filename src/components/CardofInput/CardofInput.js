@@ -11,7 +11,7 @@ import getDependency from '../../assets/algorithms/dependencyTree';
 
 class Label extends React.Component {
     state = {
-        sentence: 'ฉันกินข้าว',
+        sentence: '',
         label: ''
     };
 
@@ -40,15 +40,31 @@ class Label extends React.Component {
     addSentence = (event) => {
         event.preventDefault();
         const db = firebase.firestore();
-        db.collection('Treebank').add({
-            sentence: this.state.sentence,
-            label: this.state.label
-        });
+        if ((this.state.sentence) && (this.state.label == '')) {
+            db.collection('Treebank').add({
+                sentence: this.state.sentence,
+            });
+            alert("Successfully added to the database!");
+        }
+        else if ((this.state.sentence == '') && (this.state.label)) {
+            db.collection('Treebank').add({
+                label: this.state.label,
+            })
+            alert("Successfully added to the database!");
+        }
+        else if ((this.state.sentence) && (this.state.label)) {
+            alert("You cannot input both Labelled Bracket and raw sentence");
+        }
+        else {
+            alert("You input nothing ...");
+        }
     };
 
-    SuccessAlert = () => {
-        alert("Successfully added to the database!");
-    }
+    // SuccessAlert = () => {
+    //     if (((this.state.sentence) && (this.state.label = '')) || ((this.state.label) && (this.state.sentence = '')))
+
+
+    // }
 
     updateInput = (event) => {
         this.setState({
@@ -73,14 +89,15 @@ class Label extends React.Component {
                     </CardBody>
 
                     {/* Label Bracket textarea */}
-                    <form onSubmit={this.addSentence}>
+                    <form>
                         <textarea
                             rows="5" cols="40"
                             name="label"
                             placeholder="Input Labelled bracket here,e.g.,[S(2)[NP[NCMN เมล็ดกาแฟ]] [VP(1)[VACT กระตุ้น][NP[NCMN หัวใจ]]]]"
                             value={this.state.label}
                             onChange={this.updateInput}
-                            required>
+
+                        >
                         </textarea>
                         <br></br>
 
@@ -91,7 +108,7 @@ class Label extends React.Component {
                             placeholder="Input raw sentence here,e.g., มะขามใช้เป็นยาระบาย"
                             value={this.state.sentence}
                             onChange={this.updateInput}
-                            required
+
                         >
                         </textarea>
                         <br></br>
@@ -106,7 +123,7 @@ class Label extends React.Component {
                         <br></br>
 
                         {/* Add to database button */}
-                        <Button type="submit" color="primary" size="lg" active onClick={this.SuccessAlert} >Add to database</Button>
+                        <Button type="submit" color="primary" size="lg" active onClick={this.addSentence} >Add to database</Button>
                     </form>
                 </Card>
             </div>
