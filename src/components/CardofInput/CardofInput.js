@@ -16,7 +16,8 @@ class Label extends React.Component {
 
     drawHandler = async () => {
         const axios = require('axios');
-        const url = encodeURI('http://api-thai-parser.iapp.co.th/parse/');
+        const corsURL = 'https://cors-anywhere.herokuapp.com/';
+        const url = encodeURI(corsURL + 'http://api-thai-parser.iapp.co.th/parse/');
 
         try {
             if (this.state.sentence) {
