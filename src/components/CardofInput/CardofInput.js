@@ -7,12 +7,11 @@ import firebase from '../../Firebase';
 
 // Algorithms
 import getLabel from '../../assets/algorithms/constituentTree';
-import getDependency from '../../assets/algorithms/dependencyTree';
 
 class Label extends React.Component {
     state = {
         sentence: '',
-        label: ''
+        label: '[S(2)[NP[NCMN เมล็ดกาแฟ]] [VP(1)[VACT กระตุ้น][NP[NCMN หัวใจ]]]]'
     };
 
     drawHandler = async () => {
@@ -28,14 +27,11 @@ class Label extends React.Component {
             } else {
                 const constituentData = await getLabel(this.state.label);
                 this.props.handlerFromParent(constituentData);
-                this.props.parentDepend(getDependency(constituentData));
             }
         } catch (err) {
             console.log(err);
         }
     }
-
-
 
     addSentence = (event) => {
         event.preventDefault();
