@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Tree from 'react-d3-tree';
-import image from '../static/Capture.png';
+
 
 import Iframe from 'react-iframe'
 
@@ -46,7 +46,7 @@ class Stage extends Component {
                 id="myId"
                 className="myClassname"
                 display="initial"
-                position="relative" />
+                position="absolute" />
 
         return (
             <div id="treeWrapper" style={{ width: '100%', height: '30em', borderStyle: 'solid', borderWidth: '1px', borderColor: 'lightgrey' }} ref={tc => (this.treeContainer = tc)}>

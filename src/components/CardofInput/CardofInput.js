@@ -7,17 +7,20 @@ import firebase from '../../Firebase';
 
 // Algorithms
 import getLabel from '../../assets/algorithms/constituentTree';
+import getDependency from '../../assets/algorithms/dependencyTree';
+
 
 class Label extends React.Component {
     state = {
         sentence: '',
-        label: '[S(2)[NP[NCMN เมล็ดกาแฟ]] [VP(1)[VACT กระตุ้น][NP[NCMN หัวใจ]]]]'
+        label: '[S(2)[NP[NCMN เมล็ดกาแฟ]] [VP(1)[VACT กระตุ้น][NP[NCMN หัวใจ]]]]',
+        dependency: ''
     };
 
     drawHandler = async () => {
         const axios = require('axios');
         const corsURL = 'https://cors-anywhere.herokuapp.com/';
-        const url = encodeURI(corsURL + 'http://api-thai-parser.iapp.co.th/parse/');
+        const url = encodeURI(corsURL + 'http://api-thai-parser.iapp.co.th/parse/'); //EncodeURI for Thai Encoding
 
         try {
             if (this.state.sentence) {
@@ -27,6 +30,7 @@ class Label extends React.Component {
                 this.props.handlerFromParent(getLabel(res.data.split('||')[0].trim()));
             } else {
                 const constituentData = await getLabel(this.state.label);
+                this.setState({ dependency: getDependency(constituentData) }) //Set dependency tree state for future use.
                 this.props.handlerFromParent(constituentData);
             }
         } catch (err) {
@@ -37,19 +41,20 @@ class Label extends React.Component {
     addSentence = (event) => {
         event.preventDefault();
         const db = firebase.firestore();
-        if ((this.state.sentence) && (this.state.label == '')) {
+        if (this.state.sentence && this.state.label == '') {
             db.collection('Treebank').add({
                 sentence: this.state.sentence,
             });
             alert("Successfully added to the database!");
         }
-        else if ((this.state.sentence == '') && (this.state.label)) {
+        else if (this.state.sentence == '' && this.state.label) {
             db.collection('Treebank').add({
                 label: this.state.label,
+                dependency: this.state.dependency,
             })
             alert("Successfully added to the database!");
         }
-        else if ((this.state.sentence) && (this.state.label)) {
+        else if (this.state.sentence && this.state.label) {
             alert("You cannot input both Labelled Bracket and raw sentence");
         }
         else {
