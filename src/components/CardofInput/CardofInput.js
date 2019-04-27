@@ -60,11 +60,7 @@ class Label extends React.Component {
         }
     };
 
-    // SuccessAlert = () => {
-    //     if (((this.state.sentence) && (this.state.label = '')) || ((this.state.label) && (this.state.sentence = '')))
 
-
-    // }
 
     updateInput = (event) => {
         this.setState({

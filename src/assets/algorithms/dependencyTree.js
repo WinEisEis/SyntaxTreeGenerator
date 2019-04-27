@@ -224,3 +224,45 @@ export default function getDependency(treeData) {
     return dependencyData;
 }
 
+let arr = [];// index of ep
+var sta = [];// start index of ep
+var sto = [];//stop index of ep
+var arrIndex = []; //index of array that need fixing
+function epsilon(dependencyData) {
+    for (let i in dependencyData.words) {//find epsilon
+        var str = dependencyData.words[i].text
+        if (str[str.length - 1] === "Ɛ") {
+            arr.push(i);//keep index of ep
+        }
+    }
+    for (let i in arr) {
+        sta.push(dependencyData.arcs[arr[i]].start);//fill sta
+        sto.push(dependencyData.arcs[arr[i]].end);//fill sto
+        for (let j in dependencyData.arcs) {
+            if (dependencyData.arcs[j].end == arr[i]) {// find index of array that need fixing
+                arrIndex.push(j);
+            }
+        }
+
+    }
+    for (let k in arrIndex) {
+        for (let l in sta) {
+            if (dependencyData.arcs[arrIndex[k]].end === sta[l]) {
+                dependencyData.arcs[arrIndex[k]].end = sto[l];// replace index that need fixing with item in sto
+            }
+        }
+    }
+    for (let i in arr) {
+        delete dependencyData.words[arr[i]];// delete epsilon words using word index
+        for (let j in dependencyData.arcs) {
+            if (dependencyData.arcs[j].start == arr[i]) {
+                delete dependencyData.arcs[j]; // delete epsilon arcs () we can not use i because of root
+            }
+        }
+
+    }
+}
+// return dependencyData;
+epsilon(dependencyData);
+console.log(JSON.stringify(dependencyData))
+return dependencyData;
