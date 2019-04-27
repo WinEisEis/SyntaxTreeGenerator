@@ -220,6 +220,7 @@ export default function getDependency(treeData) {
 
 
     }
+    epsilon(dependencyData);
 
     return dependencyData;
 }
@@ -261,8 +262,8 @@ function epsilon(dependencyData) {
         }
 
     }
+    console.log(JSON.stringify(dependencyData))
+    return dependencyData;
+
 }
-// return dependencyData;
-epsilon(dependencyData);
-console.log(JSON.stringify(dependencyData))
-return dependencyData;
+
