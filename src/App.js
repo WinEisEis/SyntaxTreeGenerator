@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
+
 import './App.css';
 import Header from './components/Header';
 import Stage from './containers/Stage'
 import Label from './components/CardofInput/CardofInput'
 import SelectionButton from './components/SelectionButton'
-
+import excelRender from './components/excelRender'
 
 class App extends Component {
   swapStage = (toggle) => {
@@ -34,6 +35,12 @@ class App extends Component {
             </Col>
             <Col md="4">
               <Label handlerFromParent={this.handleData} />
+            </Col>
+          </Row>
+
+          <Row>
+            <Col md="8">
+              <excelRender />
             </Col>
           </Row>
         </div>
