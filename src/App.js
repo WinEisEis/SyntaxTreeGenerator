@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Stage from './containers/Stage'
 import Label from './components/CardofInput/CardofInput'
 import SelectionButton from './components/SelectionButton'
-import ExcelRender from './components/excelRender'
+import ExcelRender from './components/ExcelRender'
 
 class App extends Component {
   swapStage = (toggle) => {

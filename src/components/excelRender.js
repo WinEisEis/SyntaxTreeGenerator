@@ -1,62 +1,59 @@
 import React from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-import { OutTable, ExcelRenderer } from 'react-excel-renderer';
+
+import ReactDataGrid from 'react-data-grid';
+
+//Sample column data
+// const columns = [
+//     { key: 'OrderDate', name: 'Date' },
+//     { key: 'Region', name: 'Region' },
+//     { key: 'Rep', name: 'Rep' },
+//     { key: 'Item', name: 'Item' },
+//     { key: 'Units', name: 'Units' }];
+
+const columns = [
+    { key: 'raw', name: 'Raw' },
+    { key: 'lb', name: 'LB' },
+    { key: 'type', name: 'Type' },
+    { key: 'source', name: 'Source' },
+    { key: 'dependency', name: 'Dependency' },
+]
+
+const rows = require('../assets/treeBank.json');
 
 export default class ExcelRender extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            modal: false,
-            rows: null,
-            cols: null,
-        };
+    state = {
+        modal: false,
+        rows: null,
+        cols: null,
+    };
 
-        this.toggle = this.toggle.bind(this);
-    }
-
-    toggle() {
-        this.setState(prevState => ({
-            modal: !prevState.modal
-        }));
-    }
-
-    fileHandler = () => {
-        let fileObj = './treebank workshop.xlsx';
-
-        //just pass the fileObj as parameter
-        ExcelRenderer(fileObj, (err, resp) => {
-            if (err) {
-                console.log(err);
-            }
-            else {
-                this.setState({
-                    cols: resp.cols,
-                    rows: resp.rows
-                });
-            }
-        });
-
+    toggle = () => {
+        this.setState({ modal: !this.state.modal });
     }
 
     render() {
-
-        const externalCloseBtn = <button className="close" style={{ position: 'absolute', top: '15px', right: '15px' }} onClick={this.toggle}>&times;</button>;
         return (
             <div>
-                <Button color="danger" onClick={this.toggle} onChange={this.fileHandler}>{this.props.buttonLabel} Treebank repository</Button>
-                <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className} external={externalCloseBtn}>
-                    <ModalHeader>Treebank repository</ModalHeader>
-                    {/* Keep the excel data */}
+                <Button color="danger" onClick={this.toggle}>Treebank repo</Button>
+                <Modal size="lg" isOpen={this.state.modal} toggle={this.toggle} style={{ minWidth: '992px' }}>
+                    <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
                     <ModalBody>
-                        <OutTable data={this.state.rows} columns={this.state.cols} tableClassName="ExcelTable2007" tableHeaderRowClass="heading" />
+                        <div>
+                            <ReactDataGrid
+                                columns={columns}
+                                rowGetter={i => rows[i]}
+                                rowsCount={rows.length}
+                                minHeight={300} />
+                        </div>
 
                     </ModalBody>
                     <ModalFooter>
-
+                        <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}
                         <Button color="secondary" onClick={this.toggle}>Cancel</Button>
                     </ModalFooter>
                 </Modal>
-            </div>
+            </div >
         );
     }
 }
