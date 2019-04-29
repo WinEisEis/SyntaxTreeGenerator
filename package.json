@@ -11,7 +11,7 @@
     "react": "^16.8.1",
     "react-d3": "^0.4.0",
     "react-d3-tree": "^1.12.2",
-    "react-data-grid": "^6.1.0",
+    "react-data-grid": "^5.0.4",
     "react-dom": "^16.8.1",
     "react-excel-renderer": "^1.1.0",
     "react-iframe": "^1.8.0",
