@@ -2,11 +2,13 @@ import React from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import { OutTable, ExcelRenderer } from 'react-excel-renderer';
 
-export default class excelRender extends React.Component {
+export default class ExcelRender extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            modal: false
+            modal: false,
+            rows: null,
+            cols: null,
         };
 
         this.toggle = this.toggle.bind(this);
@@ -19,7 +21,7 @@ export default class excelRender extends React.Component {
     }
 
     fileHandler = () => {
-        let fileObj = 'treebank workshop.xlsx';
+        let fileObj = './treebank workshop.xlsx';
 
         //just pass the fileObj as parameter
         ExcelRenderer(fileObj, (err, resp) => {
@@ -41,7 +43,7 @@ export default class excelRender extends React.Component {
         const externalCloseBtn = <button className="close" style={{ position: 'absolute', top: '15px', right: '15px' }} onClick={this.toggle}>&times;</button>;
         return (
             <div>
-                <Button color="danger" onClick={this.toggle}>{this.props.buttonLabel}</Button>
+                <Button color="danger" onClick={this.toggle} onChange={this.fileHandler}>{this.props.buttonLabel} Treebank repository</Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className} external={externalCloseBtn}>
                     <ModalHeader>Treebank repository</ModalHeader>
                     {/* Keep the excel data */}

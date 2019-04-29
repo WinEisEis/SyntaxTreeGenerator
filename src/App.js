@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Stage from './containers/Stage'
 import Label from './components/CardofInput/CardofInput'
 import SelectionButton from './components/SelectionButton'
-import excelRender from './components/excelRender'
+import ExcelRender from './components/excelRender'
 
 class App extends Component {
   swapStage = (toggle) => {
@@ -40,7 +40,7 @@ class App extends Component {
 
           <Row>
             <Col md="8">
-              <excelRender />
+              <ExcelRender />
             </Col>
           </Row>
         </div>
