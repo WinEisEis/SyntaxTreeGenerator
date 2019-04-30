@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@firebase/app-types": "^0.3.9",
     "axios": "^0.18.0",
     "bootstrap": "^4.2.1",
     "d3": "^5.9.1",
