@@ -37,7 +37,9 @@ class App extends Component {
               <Label handlerFromParent={this.handleData} />
             </Col>
           </Row>
+        </div>
 
+        <div class="pt-3">
           <Row>
             <Col md="8">
               <ExcelRender />

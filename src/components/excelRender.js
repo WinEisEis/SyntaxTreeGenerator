@@ -30,9 +30,9 @@ export default function ExcelRender() {
 
     return (
         <div>
-            <Button color="danger" onClick={toggle}>Treebank repo</Button>
+            <Button color="secondary" onClick={toggle}>Treebank repository</Button>
             <Modal size="lg" isOpen={modal} toggle={toggle} style={{ minWidth: '992px' }}>
-                <ModalHeader toggle={toggle}>Modal title</ModalHeader>
+                <ModalHeader toggle={toggle}>Treebank repository</ModalHeader>
                 <ModalBody>
                     <div>
                         <ReactDataGrid
@@ -45,8 +45,8 @@ export default function ExcelRender() {
 
                 </ModalBody>
                 <ModalFooter>
-                    <Button color="primary" onClick={toggle}>Do Something</Button>{' '}
-                    <Button color="secondary" onClick={toggle}>Cancel</Button>
+
+                    <Button color="secondary" onClick={toggle}>Close</Button>
                 </ModalFooter>
             </Modal>
         </div >
