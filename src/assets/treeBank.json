@@ -1,1392 +1,1244 @@
 [
     {
-        "raw": "การร้องเรียนการทุจริตในระดับท้องถิ่นดำเนินการลำบากมาก",
-        "lb": "[S(2) [NP(1) [NP(2) [FIXN การ] [VP(1) [VACT ร้องเรียน] [NP(2) [FIXN การ] [VSTA ทุจริต]]]] [PP(2) [RPRE ใน] [NP(2)[NCMN ระดับ] [NCMN ท้องถิ่น]]]] [VP(1) [VSTA ดำเนินการ] [AVBP[ADVN ลำบากมาก]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": "1"
+       "raw": "การร้องเรียนการทุจริตในระดับท้องถิ่นดำเนินการลำบากมาก",
+       "lb": "[S(2) [NP(1) [NP(2) [FIXN การ] [VP(1) [VACT ร้องเรียน] [NP(2) [FIXN การ] [VSTA ทุจริต]]]] [PP(2) [RPRE ใน] [NP(2)[NCMN ระดับ] [NCMN ท้องถิ่น]]]] [VP(1) [VSTA ดำเนินการ] [AVBP[ADVN ลำบากมาก]]]]",
+       "type": "opinion",
+       "source": "thaireform",
+       "dependency": 1
     },
     {
-        "raw": "ขอเสนอให้ลดเอกสิทธิ์หรือความคุ้มกันของสมาชิกสภาผู้แทนราษฎร",
-        "lb": "[S(2)[NP [NCMN Ɛ]][VP(1)[VACT ขอเสนอให้ลด][NP(1)[NP(1",
-        "type": "3)[NCMN เอกสิทธิ์][JCRG หรือ][NP(2)[FIXN ความ][VACT คุ้มกัน]]][PP(1)[RPRE ของ][NP(1)[NCMN สมาชิก][NP[NPRP สภาผู้แทนราษฎร]]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "ขอเสนอให้ลดเอกสิทธิ์หรือความคุ้มกันของสมาชิกสภาผู้แทนราษฎร",
+       "lb": "[S(2)[NP [NCMN ?]][VP(1)[VACT ขอเสนอให้ลด][NP(1)[NP(1,3)[NCMN เอกสิทธิ์][JCRG หรือ][NP(2)[FIXN ความ][VACT คุ้มกัน]]][PP(1)[RPRE ของ][NP(1)[NCMN สมาชิก][NP[NPRP สภาผู้แทนราษฎร]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ขอให้แก้ไขปัญหาคอรัปชั่นอย่างจริงจัง",
-        "lb": "[S(2) [NP [NCMN Ɛ]] [VP(2) [XVBB ขอให้] [VP(1) [VACT แก้ไข] [NP(1) [NCMN ปัญหา] [NP [NCMN คอรัปชั่น]]][AVBP[ADVN อย่างจริงจัง]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": "2"
+       "raw": "ขอให้แก้ไขปัญหาคอรัปชั่นอย่างจริงจัง",
+       "lb": "[S(2) [NP [NCMN ?]] [VP(2) [XVBB ขอให้] [VP(1) [VACT แก้ไข] [NP(1) [NCMN ปัญหา] [NP [NCMN คอรัปชั่น]]][AVBP[ADVN อย่างจริงจัง]]]]]",
+       "type": "opinion",
+       "source": "thaireform",
+       "dependency": 2
     },
     {
-        "raw": "เมล็ดกาแฟกระตุ้นหัวใจ",
-        "lb": "[S(2)[NP[NCMN เมล็ดกาแฟ]] [VP(1)[VACT กระตุ้น][NP[NCMN หัวใจ]]]]",
-        "type": "medical",
-        "source": "md",
-        "dependency": "3"
+       "raw": "เมล็ดกาแฟกระตุ้นหัวใจ",
+       "lb": "[S(2)[NP[NCMN เมล็ดกาแฟ]] [VP(1)[VACT กระตุ้น][NP[NCMN หัวใจ]]]]",
+       "type": "medical",
+       "source": "md",
+       "dependency": 3
     },
     {
-        "raw": "มีการวิจัยโครงการใหญ่หลายโครงการ",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VSTA มี][NP(2)[FIXN การ][VP(1)[VACT วิจัย][NP(1)[NCMN โครงการ][ADJP[VATT ใหญ่]][CLSP(1",
-        "type": "2)[DIBQ หลาย][CNIT โครงการ]]]]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "มีการวิจัยโครงการใหญ่หลายโครงการ",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VSTA มี][NP(2)[FIXN การ][VP(1)[VACT วิจัย][NP(1)[NCMN โครงการ][ADJP[VATT ใหญ่]][CLSP(1,2)[DIBQ หลาย][CNIT โครงการ]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "อาการของเล็บขบจะเป็นมากเมื่อใส่รองเท้าที่คับและสั้นเกินไป",
-        "lb": "[S(1) [S(2) [NP(1)[NCMN อาการ] [PP(1)[RPRE ของ] [NP[NCMN เล็บขบ]]]] [VP(2) [XVMM จะ] [VP(1) [VSTA เป็น] [ADJP [VATT มาก]]]]] [JSBR เมื่อ] [S(2) [NP [NCMN Ɛ] ] [VP(1) [VACT ใส่] [NP(1) [NCMN รองเท้า] [ADJC(1) [PREL ที่] [ADJP(1",
-        "type": "3) [VATT คับ] [JCRG และ] [VATT สั้น] ] [AVBP [ADVN เกินไป]]]]]]]",
-        "source": "medical",
-        "dependency": "md"
+       "raw": "อาการของเล็บขบจะเป็นมากเมื่อใส่รองเท้าที่คับและสั้นเกินไป",
+       "lb": "[S(1) [S(2) [NP(1)[NCMN อาการ] [PP(1)[RPRE ของ] [NP[NCMN เล็บขบ]]]] [VP(2) [XVMM จะ] [VP(1) [VSTA เป็น] [ADJP [VATT มาก]]]]] [JSBR เมื่อ] [S(2) [NP [NCMN ?] ] [VP(1) [VACT ใส่] [NP(1) [NCMN รองเท้า] [ADJC(1) [PREL ที่] [ADJP(1,3) [VATT คับ] [JCRG และ] [VATT สั้น] ] [AVBP [ADVN เกินไป]]]]]]]",
+       "type": "medical",
+       "source": "md",
+       "dependency": "?"
     },
     {
-        "raw": "ถั่วลิสงเป็นพรรณไม้ที่ให้น้ำมันมาก",
-        "lb": "[S(2) [NP [NCMN ถั่วลิสง]] [VP(1)[VSTA เป็น] [NP(1)[NCMN พรรณไม้][ADJC(1) [PREL ที่][VP(1)[VACT ให้] [NP(1)[NCMN น้ำมัน]][AVBP [ADVN มาก]]]]]]]",
-        "type": "medical",
-        "source": "md",
-        "dependency": "4"
+       "raw": "ถั่วลิสงเป็นพรรณไม้ที่ให้น้ำมันมาก",
+       "lb": "[S(2) [NP [NCMN ถั่วลิสง]] [VP(1)[VSTA เป็น] [NP(1)[NCMN พรรณไม้][ADJC(1) [PREL ที่][VP(1)[VACT ให้] [NP(1)[NCMN น้ำมัน]][AVBP [ADVN มาก]]]]]]]",
+       "type": "medical",
+       "source": "md",
+       "dependency": 4
     },
     {
-        "raw": "ยอดอ่อนและใบใช้เป็นยาระบาย",
-        "lb": "[S(2) [NP(1",
-        "type": "3) [NCMN ยอดอ่อน] [JCRG และ] [NCMN ใบ]] [VP(1)[VACT ใช้เป็น] [NP [NCMN ยาระบาย]]]]",
-        "source": "medical",
-        "dependency": "md"
+       "raw": "ยอดอ่อนและใบใช้เป็นยาระบาย",
+       "lb": "[S(2) [NP(1,3) [NCMN ยอดอ่อน] [JCRG และ] [NCMN ใบ]] [VP(1)[VACT ใช้เป็น] [NP [NCMN ยาระบาย]]]]",
+       "type": "medical",
+       "source": "md"
     },
     {
-        "raw": "กล้วยมีฤทธิ์ยับยั้งของเชื้อแบคทีเรียที่เป็นสาเหตุาการท้องเสีย",
-        "lb": "[S(2) [NP [NCMN กล้วย]] [VP(1) [VSTA มี] [NP(1) [NCMN ฤทธิ์ยับยั้ง] [PP(1)[RPRE ของ] [NP(1)[NCMN เชื้อแบคทีเรีย] [ADJC(1) [PREL ที่] [VP(1) [VSTA เป็น] [NP [NCMN สาเหตุอาการท้องเสีย]]]]]]]]]",
-        "type": "medical",
-        "source": "md",
-        "dependency": "5"
+       "raw": "กล้วยมีฤทธิ์ยับยั้งของเชื้อแบคทีเรียที่เป็นสาเหตุาการท้องเสีย",
+       "lb": "[S(2) [NP [NCMN กล้วย]] [VP(1) [VSTA มี] [NP(1) [NCMN ฤทธิ์ยับยั้ง] [PP(1)[RPRE ของ] [NP(1)[NCMN เชื้อแบคทีเรีย] [ADJC(1) [PREL ที่] [VP(1) [VSTA เป็น] [NP [NCMN สาเหตุอาการท้องเสีย]]]]]]]]]",
+       "type": "medical",
+       "source": "md",
+       "dependency": 5
     },
     {
-        "raw": "ราคาพืชผลทางการเกษตรตกต่ำเช่นยางพารา ข้าว มันสำปะหลัง และปาล์ม",
-        "lb": "[S(2) [NP(1)[NCMN ราคาพืชผล] [NP(2) [FIXN ทางการ] [NCMN เกษตร]]][VP [VACT ตกต่ำ] [JSBR เช่น][NP(1",
-        "type": "3",
-        "source": "5",
-        "dependency": "9) [NCMN ยางพารา][PUNC ] [NCMN ข้าว] [PUNC ] [NCMN มันสำปะหลัง] [PUNC ][JCRG และ] [PUNC ] [NCMN ปาล์ม]]]]"
+       "raw": "ราคาพืชผลทางการเกษตรตกต่ำเช่นยางพารา ข้าว มันสำปะหลัง และปาล์ม",
+       "lb": "[S(2) [NP(1)[NCMN ราคาพืชผล] [NP(2) [FIXN ทางการ] [NCMN เกษตร]]][VP [VACT ตกต่ำ] [JSBR เช่น][NP(1,3,5,9) [NCMN ยางพารา][PUNC <space>] [NCMN ข้าว] [PUNC <space>] [NCMN มันสำปะหลัง] [PUNC <space>][JCRG และ] [PUNC <space>] [NCMN ปาล์ม]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ส่งเสริมอาชีพให้ประชาชนไม่ให้เกิดการว่างงาน",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1) [VACT ส่งเสริม] [NP[NCMN อาชีพ]] [PP(1) [RPRE ให้] [NP[NCMN ประชาชน]] [VP(1",
-        "type": "2) [NEG ไม่][VACT ให้เกิด] [NP(2) [FIXN การ] [VSTA ว่างงาน]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "ส่งเสริมอาชีพให้ประชาชนไม่ให้เกิดการว่างงาน",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1) [VACT ส่งเสริม] [NP[NCMN อาชีพ]] [PP(1) [RPRE ให้] [NP[NCMN ประชาชน]] [VP(1,2) [NEG ไม่][VACT ให้เกิด] [NP(2) [FIXN การ] [VSTA ว่างงาน]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "คนในสังคมขาดความสามัคคี เกิดการแตกแยก",
-        "lb": "[S(2) [NP(1)[NCMN คน] [PP(1) [RPRE ใน] [NP[NCMN สังคม]]]][VP(1",
-        "type": "3) [VP(1) [VSTA ขาด] [NP(2) [FIXN ความ] [VSTA สามัคคี]]] [JCRG Ɛ] [VP(1) [VACT เกิด] [NP(2) [FIXN การ] [VSTA แตกแยก]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "คนในสังคมขาดความสามัคคี เกิดการแตกแยก",
+       "lb": "[S(2) [NP(1)[NCMN คน] [PP(1) [RPRE ใน] [NP[NCMN สังคม]]]][VP(1,3) [VP(1) [VSTA ขาด] [NP(2) [FIXN ความ] [VSTA สามัคคี]]] [JCRG ?] [VP(1) [VACT เกิด] [NP(2) [FIXN การ] [VSTA แตกแยก]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ควรเน้นการส่งเสริมค่านิยม ศิลปะ วัฒนธรรม จริยธรรมและศาสนา ให้แก่ชุมชนมากขึ้น",
-        "lb": "[S(2)[NP[PPRS Ɛ]][VP(1",
-        "type": "2)[XVMM ควร][VP(1)[VACT เน้น][NP(2)[FIXN การ][VP(1)[VACT ส่งเสริม][NP(1",
-        "source": "3",
-        "dependency": "5"
+       "raw": "ควรเน้นการส่งเสริมค่านิยม ศิลปะ วัฒนธรรม จริยธรรมและศาสนา ให้แก่ชุมชนมากขึ้น",
+       "lb": "[S(2)[NP[PPRS ?]][VP(1,2)[XVMM ควร][VP(1)[VACT เน้น][NP(2)[FIXN การ][VP(1)[VACT ส่งเสริม][NP(1,3,5,7,9)[NCMN ค่านิยม][PUNC <space>][NCMN ศิลปะ][PUNC <space>][NCMN วัฒนธรรม][PUNC <space>][NCMN จริยธรรม][JCRG และ][NP[NCMN ศาสนา]]][PP(1)[RPRE ให้แก่][NP[NCMN ชุมชน]]][AVBP[ADVN มากชึ้น]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "อยากให้ท้องถิ่นไม่มีการซื้อเสียง เพราะการซื้อเสียงเป็นการทุจริต",
-        "lb": "[S(1)[S(2)[NP [NCMN Ɛ]][VP(1)[VACT อยากให้][NP[NCMN ท้องถิ่น]][VP(1",
-        "type": "2)[NEG ไม่][VSTA มี][NP(2)[FIXN การ][VP(1)[VACT ซื้อ][NP[NCMN เสียง]]]]]]] [JSBR เพราะ] [S(2)[NP(2)[FIXN การ][VP(1)[VACT ซื้อ][NP[NCMN เสียง]]]][VP(1)[VSTA เป็น][NP(2)[FIXN การ][VACT ทุจริต]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "อยากให้ท้องถิ่นไม่มีการซื้อเสียง เพราะการซื้อเสียงเป็นการทุจริต",
+       "lb": "[S(1)[S(2)[NP [NCMN ?]][VP(1)[VACT อยากให้][NP[NCMN ท้องถิ่น]][VP(1,2)[NEG ไม่][VSTA มี][NP(2)[FIXN การ][VP(1)[VACT ซื้อ][NP[NCMN เสียง]]]]]]] [JSBR เพราะ] [S(2)[NP(2)[FIXN การ][VP(1)[VACT ซื้อ][NP[NCMN เสียง]]]][VP(1)[VSTA เป็น][NP(2)[FIXN การ][VACT ทุจริต]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ผมอยากให้นักการเมืองคิดถึงประเทศชาติ",
-        "lb": "[S(2)[NP[PPRS ผม]] [VP(1)[VACT อยากให้][NP(1)[NCMN นักการเมือง] [VP(1)[VACT คิดถึง][NP[NCMN ประเทศชาติ]]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": "6"
+       "raw": "ผมอยากให้นักการเมืองคิดถึงประเทศชาติ",
+       "lb": "[S(2)[NP[PPRS ผม]] [VP(1)[VACT อยากให้][NP(1)[NCMN นักการเมือง] [VP(1)[VACT คิดถึง][NP[NCMN ประเทศชาติ]]]]]]",
+       "type": "opinion",
+       "source": "thaireform",
+       "dependency": 6
     },
     {
-        "raw": "ส่งเสริมการผลิตด้านการเกษตรกรรมอย่างครบวงจร",
-        "lb": "[S(2)[NP [NCMN Ɛ]][VP(1) [VACT ส่งเสริม] [NP(2) [NP [FIXN การ]] [VP(1) [VACT ผลิต] [PP(1) [RPRE ด้าน] [NP(2)[FIXN การ] [NCMN เกษตรกรรม]]] [AVBP [ADVN อย่างครบวงจร]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ส่งเสริมการผลิตด้านการเกษตรกรรมอย่างครบวงจร",
+       "lb": "[S(2)[NP [NCMN ?]][VP(1) [VACT ส่งเสริม] [NP(2) [NP [FIXN การ]] [VP(1) [VACT ผลิต] [PP(1) [RPRE ด้าน] [NP(2)[FIXN การ] [NCMN เกษตรกรรม]]] [AVBP [ADVN อย่างครบวงจร]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ปลูกจิตสำนึกประชาชนมีคุณธรรม จริยธรรม",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VP(1)[VACT ปลูก] [NP [NCMN จิตสำนึกประชาชน]]][PP(1)[PRPE Ɛ][VP(1)[VSTA มี] [NP(1",
-        "type": "3)[NCMN คุณธรรม][JCRG Ɛ] [NCMN จริยธรรม]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "ปลูกจิตสำนึกประชาชนมีคุณธรรม จริยธรรม",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VP(1)[VACT ปลูก] [NP [NCMN จิตสำนึกประชาชน]]][PP(1)[PRPE ?][VP(1)[VSTA มี] [NP(1,3)[NCMN คุณธรรม][JCRG ?] [NCMN จริยธรรม]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "เสนอให้มีการเรียนฟรีถึงปริญญาตรี",
-        "lb": "[S(2)[NP [NCMN Ɛ]] [VP(1) [VACT เสนอให้มี] [NP(2)[FIXN การ] [VP(1)[VACT เรียนฟรี] [PP(1)[RPRE ถึง] [NP[NCMN ปริญญาตรี]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "เสนอให้มีการเรียนฟรีถึงปริญญาตรี",
+       "lb": "[S(2)[NP [NCMN ?]] [VP(1) [VACT เสนอให้มี] [NP(2)[FIXN การ] [VP(1)[VACT เรียนฟรี] [PP(1)[RPRE ถึง] [NP[NCMN ปริญญาตรี]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "นายกปฏิรูปนักการเมืองที่ทุจริต",
-        "lb": "[S(2)[NP[NCMN นายก]] [VP(1)[VACT ปฏิรูป][NP(1)[NCMN นักการเมือง] [ADJC(1) [PREL ที่][VP[VACT ทุจริต]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "นายกปฏิรูปนักการเมืองที่ทุจริต",
+       "lb": "[S(2)[NP[NCMN นายก]] [VP(1)[VACT ปฏิรูป][NP(1)[NCMN นักการเมือง] [ADJC(1) [PREL ที่][VP[VACT ทุจริต]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "อยากให้สปช.ปฏิรูประบบราชการเป็นอันดับแรก",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT อยากให้] [NP[NPRP สปช.]] [VP(1)[VACT ปฏิรูป] [NP[NCMN ระบบราชการ]] [AVBP[ADVN เป็นอันดับแรก]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "อยากให้สปช.ปฏิรูประบบราชการเป็นอันดับแรก",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT อยากให้] [NP[NPRP สปช.]] [VP(1)[VACT ปฏิรูป] [NP[NCMN ระบบราชการ]] [AVBP[ADVN เป็นอันดับแรก]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "อยากให้แก้ไขกกต.จังหวัดที่ส่วนใหญ่ไม่เป็นกลาง",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT อยากให้][NP[NCMN Ɛ]] [VP(1) [VACT แก้ไข] [NP(1)[NCMN กกต.จังหวัด] [ADJC(1) [PREL ที่] [AVBP(1) [ADVS ส่วนใหญ่][ADJP(1",
-        "type": "2)[NEG ไม่] [VATT เป็นกลาง]]]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "อยากให้แก้ไขกกต.จังหวัดที่ส่วนใหญ่ไม่เป็นกลาง",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT อยากให้][NP[NCMN ?]] [VP(1) [VACT แก้ไข] [NP(1)[NCMN กกต.จังหวัด] [ADJC(1) [PREL ที่] [AVBP(1) [ADVS ส่วนใหญ่][ADJP(1,2)[NEG ไม่] [VATT เป็นกลาง]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "สร้างความรู้ ความเข้าใจในการทำเกษตรอินทรีย์ให้กับประชาชน",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1) [VP(1)[VACT สร้าง] [NP(1)[NP(1)[NCMN ความรู้] [NCMN ความเข้าใจ]] [PP(1)[RPRE ใน] [NP(1)[FIXN การ] [VP(1)[VACT ทำ] [NP[NPRP เกษตรอินทรีย์]]]]]]] [PP(1)[RPRE ให้กับ] [NP[NCMN ประชาชน]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "สร้างความรู้ ความเข้าใจในการทำเกษตรอินทรีย์ให้กับประชาชน",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1) [VP(1)[VACT สร้าง] [NP(1)[NP(1)[NCMN ความรู้] [NCMN ความเข้าใจ]] [PP(1)[RPRE ใน] [NP(1)[FIXN การ] [VP(1)[VACT ทำ] [NP[NPRP เกษตรอินทรีย์]]]]]]] [PP(1)[RPRE ให้กับ] [NP[NCMN ประชาชน]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ออกกฎหมายลงโทษที่หนักในเรื่องการทุจริตประพฤติมิชอบโดยไม่มีระบบพรรคพวก",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VACT ออก] [NP(1)[NCMN กฎหมายลงโทษ] [ADJC(1)[PREL ที่] [ADJP[VATT หนัก]] [PP(1)[RPRE ใน] [NP(2)[NCMN เรื่อง] [NP(2)[FIXN การ] [VP(1)[VACT ทุจริต] [VP(1",
-        "type": "2)[VACT ประพฤติ] [XVMM มิชอบ]]]]]]]] [PP(1)[RPRE โดย] [VP(1",
-        "source": "2)[NEG ไม่] [VSTA มี] [NP(1",
-        "dependency": "2)[NCMN ระบบ] [NCMN พรรคพวก]]]]]]"
+       "raw": "ออกกฎหมายลงโทษที่หนักในเรื่องการทุจริตประพฤติมิชอบโดยไม่มีระบบพรรคพวก",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VACT ออก] [NP(1)[NCMN กฎหมายลงโทษ] [ADJC(1)[PREL ที่] [ADJP[VATT หนัก]] [PP(1)[RPRE ใน] [NP(2)[NCMN เรื่อง] [NP(2)[FIXN การ] [VP(1)[VACT ทุจริต] [VP(1,2)[VACT ประพฤติ] [XVMM มิชอบ]]]]]]]] [PP(1)[RPRE โดย] [VP(1,2)[NEG ไม่] [VSTA มี] [NP(1,2)[NCMN ระบบ] [NCMN พรรคพวก]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ทรัพย์สินทางปัญญาควรขึ้นทะเบียนด้านพืช ด้านอาหารของไทย",
-        "lb": "[S(2)[NP[NCMN ทรัพย์สินทางปัญญา]][VP(2)[XVMM ควรจะ] [VP(1)[VACT ขึ้น] [NP(1)[NP(1)[NCMN ทะเบียน] [PP(1",
-        "type": "3)[PP(1)[RPRE ด้าน] [NP[NCMN พืช]]] [JCRG Ɛ][PP(1)[RPRE ด้าน] [NP[NCMN อาหาร]]]]] [PP(1)[RPRE ของ] [NP[NPRP ไทย]]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "ทรัพย์สินทางปัญญาควรขึ้นทะเบียนด้านพืช ด้านอาหารของไทย",
+       "lb": "[S(2)[NP[NCMN ทรัพย์สินทางปัญญา]][VP(2)[XVMM ควรจะ] [VP(1)[VACT ขึ้น] [NP(1)[NP(1)[NCMN ทะเบียน] [PP(1,3)[PP(1)[RPRE ด้าน] [NP[NCMN พืช]]] [JCRG ?][PP(1)[RPRE ด้าน] [NP[NCMN อาหาร]]]]] [PP(1)[RPRE ของ] [NP[NPRP ไทย]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "คนขาดความรู้ ความเข้าใจ เรื่องการเมืองที่ถูกต้อง",
-        "lb": "[S(2)[NP[NCMN คน]] [VP(1)[VSTA ขาด] [NP(1)[FIXN ความรู้ความเข้าใจ] [NCMN เรื่องการเมือง] [ADJC(1)[PREL ที่] [ADJP[VATT ถูกต้อง]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "คนขาดความรู้ ความเข้าใจ เรื่องการเมืองที่ถูกต้อง",
+       "lb": "[S(2)[NP[NCMN คน]] [VP(1)[VSTA ขาด] [NP(1)[FIXN ความรู้ความเข้าใจ] [NCMN เรื่องการเมือง] [ADJC(1)[PREL ที่] [ADJP[VATT ถูกต้อง]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "พรรคการเมืองควรคัดเลือกผู้สมัครที่มีคุณสมบัติเหมาะสม",
-        "lb": "[S(2)[NP[NCMN พรรคการเมือง]] [VP(1)[VP(2)[XVMM ควร][VACT คัดเลือก]] [NP(1)[NCMN ผู้สมัคร] [ADJC(1)[PREL ที่] [VP(1)[VSTA มี] [NP(1) [NCMN คุณสมบัติ] [ADJP [VATT เหมาะสม]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "พรรคการเมืองควรคัดเลือกผู้สมัครที่มีคุณสมบัติเหมาะสม",
+       "lb": "[S(2)[NP[NCMN พรรคการเมือง]] [VP(1)[VP(2)[XVMM ควร][VACT คัดเลือก]] [NP(1)[NCMN ผู้สมัคร] [ADJC(1)[PREL ที่] [VP(1)[VSTA มี] [NP(1) [NCMN คุณสมบัติ] [ADJP [VATT เหมาะสม]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "มีการสอบเข้าเป็นผู้สมัครรับเลือกตั้งโดยผ่านหลักเกณฑ์ที่มีคุณภาพ",
-        "lb": "[S(2)[NP [NCMN Ɛ]] [VP(1)[VSTA มี] [NP(1) [FIXN การ] [VP(2) [VACT สอบเข้า] [VP(1) [VSTA เป็น] [NP[NCMN ผู้สมัครรับเลือกตั้ง]] ][PP(1)[RPRE โดย] [VP(1)[VSTA ผ่าน] [NP(1)[NCMN หลักเกณฑ์] [ADJC(1)[PREL ที่] [VP(1)[VSTA มี][NP[NCMN คุณภาพ]]]]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "มีการสอบเข้าเป็นผู้สมัครรับเลือกตั้งโดยผ่านหลักเกณฑ์ที่มีคุณภาพ",
+       "lb": "[S(2)[NP [NCMN ?]] [VP(1)[VSTA มี] [NP(1) [FIXN การ] [VP(2) [VACT สอบเข้า] [VP(1) [VSTA เป็น] [NP[NCMN ผู้สมัครรับเลือกตั้ง]] ][PP(1)[RPRE โดย] [VP(1)[VSTA ผ่าน] [NP(1)[NCMN หลักเกณฑ์] [ADJC(1)[PREL ที่] [VP(1)[VSTA มี][NP[NCMN คุณภาพ]]]]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ปลูกจิตสำนึกให้คนเป็นคนดี",
-        "lb": "[S(2)[NP [NCMN Ɛ]][VP(1)[VACT ปลูก][NP[NCMN จิตสำนึก]] [PP(1)[RPRE ให้] [NP(1)[NCMN คน]]][VP(1)[VSTA เป็น][ADJP [VATT คนดี]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ปลูกจิตสำนึกให้คนเป็นคนดี",
+       "lb": "[S(2)[NP [NCMN ?]][VP(1)[VACT ปลูก][NP[NCMN จิตสำนึก]] [PP(1)[RPRE ให้] [NP(1)[NCMN คน]]][VP(1)[VSTA เป็น][ADJP [VATT คนดี]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ขอเสนอให้มีการสอนวิชารัฐศาสตร์ในโรงเรียน",
-        "lb": "[S(2) [NP[NCMN Ɛ]] [VP(1)[VP(1)[VACT ขอเสนอให้มี] [NP(1)[NP(2)[FIXN การ] [VACT สอน]] [NP[NCMN วิชารัฐศาสตร์]]]] [PP(1)[RPRE ใน] [NP[NCMN โรงเรียน]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ขอเสนอให้มีการสอนวิชารัฐศาสตร์ในโรงเรียน",
+       "lb": "[S(2) [NP[NCMN ?]] [VP(1)[VP(1)[VACT ขอเสนอให้มี] [NP(1)[NP(2)[FIXN การ] [VACT สอน]] [NP[NCMN วิชารัฐศาสตร์]]]] [PP(1)[RPRE ใน] [NP[NCMN โรงเรียน]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ขอให้นากยกรัฐมนตรีมาจากการเลือกตั้งโดยตรงของประชาชน",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VP(1)[VACT ขอให้] [NP[NCMN นายกรัฐมนตรี]]] [PP(1)[RPRE มาจาก] [NP(1)[NP(2)[FIXN การ][VP(1)[VACT เลือกตั้ง][AVBP[ADVN โดยตรง]]]] [PP(1)[RPRE ของ][NP[NCMN ประชาชน]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ขอให้นากยกรัฐมนตรีมาจากการเลือกตั้งโดยตรงของประชาชน",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VP(1)[VACT ขอให้] [NP[NCMN นายกรัฐมนตรี]]] [PP(1)[RPRE มาจาก] [NP(1)[NP(2)[FIXN การ][VP(1)[VACT เลือกตั้ง][AVBP[ADVN โดยตรง]]]] [PP(1)[RPRE ของ][NP[NCMN ประชาชน]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ขอให้การจ่ายเบี้ยยังชีพผู้สูงอายุเป็นไปด้วยความรวดเร็ว",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VP(1)[VACT ขอให้] [NP(1)[NCMN การจ่าย] [NCMN เบี้ยยังชีพผู้สูงอายุ]]] [AVBP(2) [ADVN เป็นไปด้วย] [ADVN ความรวดเร็ว]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ขอให้การจ่ายเบี้ยยังชีพผู้สูงอายุเป็นไปด้วยความรวดเร็ว",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VP(1)[VACT ขอให้] [NP(1)[NCMN การจ่าย] [NCMN เบี้ยยังชีพผู้สูงอายุ]]] [AVBP(2) [ADVN เป็นไปด้วย] [ADVN ความรวดเร็ว]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ขอเสนอให้มีการปราบปรามหวยเถื่อนอย่างจริงจัง",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VP(1)[VACT ขอเสนอให้มี] [NP(1)[FIXN การ] [VP(2)[VACT ปราบปราม] [NP[NCMN หวยเถื่อน]]]]] [AVBP [ADVN อย่างจริงจัง]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ขอเสนอให้มีการปราบปรามหวยเถื่อนอย่างจริงจัง",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VP(1)[VACT ขอเสนอให้มี] [NP(1)[FIXN การ] [VP(2)[VACT ปราบปราม] [NP[NCMN หวยเถื่อน]]]]] [AVBP [ADVN อย่างจริงจัง]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ยกเลิกกฎหมายเอกสารสิทธิ์ที่ดินทำการเกษตร ในเขตทุ่งเลี้ยงสัตว์ พ.ศ. ๒๔๗๑ เขตหวงห้าม พ.ศ. ๒๔๘๖ และเขตหวงห้ามป่าดงข่า พ.ศ. ๒๔๙๑",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VACT ยกเลิก] [NP(1)[NP(1)[NCMN กฎหมาย][NP(1)[NCMN เอกสารสิทธิ์] [NP(1)[NCMN ที่ดิน] [VP(1)[VACT ทำ] [NP(2)[FIXN การ][NCMN เกษตร]]]]]] [PP(1)[PRPE ใน] [NP(1",
-        "type": "3",
-        "source": "5)[NP(1)[NCMN เขตทุ่งเลี้ยงสัตว์] [NCMN พ.ศ.๒๔๗๑]][PUNC ] [NP(1)[NCMN เขตหวงห้าม] [NCMN พ.ศ.๒๔๘๖]] [JCRG และ] [NP(1)[NPRP เขตหวงห้ามป่าดงข่า] [NCMN พ.ศ.๒๔๙๑]]]]]]]",
-        "dependency": "opinion"
+       "raw": "ยกเลิกกฎหมายเอกสารสิทธิ์ที่ดินทำการเกษตร ในเขตทุ่งเลี้ยงสัตว์ พ.ศ. ๒๔๗๑ เขตหวงห้าม พ.ศ. ๒๔๘๖ และเขตหวงห้ามป่าดงข่า พ.ศ. ๒๔๙๑",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VACT ยกเลิก] [NP(1)[NP(1)[NCMN กฎหมาย][NP(1)[NCMN เอกสารสิทธิ์] [NP(1)[NCMN ที่ดิน] [VP(1)[VACT ทำ] [NP(2)[FIXN การ][NCMN เกษตร]]]]]] [PP(1)[PRPE ใน] [NP(1,3,5)[NP(1)[NCMN เขตทุ่งเลี้ยงสัตว์] [NCMN พ.ศ.๒๔๗๑]][PUNC <space>] [NP(1)[NCMN เขตหวงห้าม] [NCMN พ.ศ.๒๔๘๖]] [JCRG และ] [NP(1)[NPRP เขตหวงห้ามป่าดงข่า] [NCMN พ.ศ.๒๔๙๑]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ปราบปรามการพนัน และการลักลอบตัดไม้ทำลายป่าในชุมชน",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VACT ปราบปราม][NP(1)[NCMN การพนัน] [JCRG และ][NP(1)[NCMN การลักลอบ][VP(1)[VACT ตัดไม้ทำลายป่า][PP(1)[RPRE ใน] [NP[NCMN ชุมชน]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ปราบปรามการพนัน และการลักลอบตัดไม้ทำลายป่าในชุมชน",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VACT ปราบปราม][NP(1)[NCMN การพนัน] [JCRG และ][NP(1)[NCMN การลักลอบ][VP(1)[VACT ตัดไม้ทำลายป่า][PP(1)[RPRE ใน] [NP[NCMN ชุมชน]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "เป็นโรคหรือกลุ่มอาการทางระบบสืบพันธ์และทางเดินหายใจในสุกร",
-        "lb": "[S(2)[NP[PPRS Ɛ]][VP(1",
-        "type": "2)[XVBB อย่า][VP(1)[VACT ให้][NP(1)[NCMN อาชีพ][NP[NCMN เกษตรกร]]][VP(1)[VSTA หายไป][PP(1)[RPRE จาก][NP[NPRP ประเทศไทย]]]]]]]",
-        "source": "medical",
-        "dependency": "md"
+       "raw": "เป็นโรคหรือกลุ่มอาการทางระบบสืบพันธ์และทางเดินหายใจในสุกร",
+       "lb": "[S(2)[NP[PPRS ?]][VP(1,2)[XVBB อย่า][VP(1)[VACT ให้][NP(1)[NCMN อาชีพ][NP[NCMN เกษตรกร]]][VP(1)[VSTA หายไป][PP(1)[RPRE จาก][NP[NPRP ประเทศไทย]]]]]]]",
+       "type": "medical",
+       "source": "md"
     },
     {
-        "raw": "ความรุนแรงของโรคขึ้นอยู่กับชนิดของเชื้อไวรัส",
-        "lb": "[S(2) [NP(1) [NCMN ความรุนแรง] [PP(1)[RPRE ของ][NP[NCMN โรค]]]][VP(1)[VACT ขึ้นอยู่กับ][NP(1)[NCNM ชนิด][PP(1)[RPRE ของ][NP[NCMN เชื้อไวรัส]]]]]]",
-        "type": "medical",
-        "source": "md"
+       "raw": "ความรุนแรงของโรคขึ้นอยู่กับชนิดของเชื้อไวรัส",
+       "lb": "[S(2) [NP(1) [NCMN ความรุนแรง] [PP(1)[RPRE ของ][NP[NCMN โรค]]]][VP(1)[VACT ขึ้นอยู่กับ][NP(1)[NCNM ชนิด][PP(1)[RPRE ของ][NP[NCMN เชื้อไวรัส]]]]]]",
+       "type": "medical",
+       "source": "md"
     },
     {
-        "raw": "อยากให้ผู้ใหญ่บ้านมีวาระการดำรงตำแหน่ง 5 ปี",
-        "lb": "[S(2) [NP[NCMN Ɛ]][VP(1)[VACT อยากให้] [NP[NCMN ผู้ใหญ่บ้าน]] [VP(1)[VSTA มี] [NP(1)[NP(2)[NCMN วาระ] [NP[NCMN การดำรงตำแหน่ง]]] [CLSP [DCNM 5][PUNC ][CNIT ปี]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "อยากให้ผู้ใหญ่บ้านมีวาระการดำรงตำแหน่ง 5 ปี",
+       "lb": "[S(2) [NP[NCMN ?]][VP(1)[VACT อยากให้] [NP[NCMN ผู้ใหญ่บ้าน]] [VP(1)[VSTA มี] [NP(1)[NP(2)[NCMN วาระ] [NP[NCMN การดำรงตำแหน่ง]]] [CLSP [DCNM 5][PUNC <space>][CNIT ปี]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ขอเสนอให้มีการให้ความรู้ในห้องเรียนกับนักเรียนอย่างเต็มที่",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VP(1)[VACT ขอเสนอให้มี] [NP(1)[NP(2)[FIXN การ] [VP(1)[VACT ให้] [NP[NCMN ความรู้]]]] [PP(1)[RPRE ใน] [NP(1)[NCMN ห้องเรียน]] [NP(1)[RPRE กับ] [NP[NCMN นักเรียน]]]]]] [AVBP [ADVN อย่างเต็มที่]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ขอเสนอให้มีการให้ความรู้ในห้องเรียนกับนักเรียนอย่างเต็มที่",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VP(1)[VACT ขอเสนอให้มี] [NP(1)[NP(2)[FIXN การ] [VP(1)[VACT ให้] [NP[NCMN ความรู้]]]] [PP(1)[RPRE ใน] [NP(1)[NCMN ห้องเรียน]] [NP(1)[RPRE กับ] [NP[NCMN นักเรียน]]]]]] [AVBP [ADVN อย่างเต็มที่]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ปลูกจิตสำนึกในเรื่องการรักษาสิ่งแวดล้อม",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT ปลูก] [NP(1)[NCMN จิตสำนึก] [PP(1)[RPRE ใน] [NP(2)[NCMN เรื่อง] [NP(2)[FIXN การ] [VP(1)[VACT รักษา] [NP[NCMN สิ่งแวดล้อม]]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ปลูกจิตสำนึกในเรื่องการรักษาสิ่งแวดล้อม",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT ปลูก] [NP(1)[NCMN จิตสำนึก] [PP(1)[RPRE ใน] [NP(2)[NCMN เรื่อง] [NP(2)[FIXN การ] [VP(1)[VACT รักษา] [NP[NCMN สิ่งแวดล้อม]]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "แก้ไขปัญหาความเหลื่อมล้ำทางสังคม ในการเอารัดเอาเปรียบ",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT แก้ไข] [NP(1)[NP(1)[NCMN ปัญหา] [NP(1)[NP(2)[FIXN ความ][VSTA เหลื่อมล้ำ]] [ADJP[VATT ทางสังคม]]]] [PP(1)[RPRE ใน] [NP(2)[FIXN การ] [VATT เอารัดเอาเปรียบ]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "แก้ไขปัญหาความเหลื่อมล้ำทางสังคม ในการเอารัดเอาเปรียบ",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT แก้ไข] [NP(1)[NP(1)[NCMN ปัญหา] [NP(1)[NP(2)[FIXN ความ][VSTA เหลื่อมล้ำ]] [ADJP[VATT ทางสังคม]]]] [PP(1)[RPRE ใน] [NP(2)[FIXN การ] [VATT เอารัดเอาเปรียบ]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "แก้ปัญหาการซื้อสิทธิขายเสียง",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT แก้] [NP(1)[NCMN ปัญหา] [NP(2)[FIXN การ] [VACT ซื้อสิทธิขายเสียง]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "แก้ปัญหาการซื้อสิทธิขายเสียง",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT แก้] [NP(1)[NCMN ปัญหา] [NP(2)[FIXN การ] [VACT ซื้อสิทธิขายเสียง]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ขอเสนอให้มีการปฏิรูปการทำงานด้านพลังงานของภาครัฐกรณีการสร้างเขื่อน",
-        "lb": "[S(2) [NP[NCMN Ɛ]] [VP(1)[VACT ขอเสนอให้มี] [NP(2)[FIXN การ][VP(1)[VACT ปฏิรูป] [NP(1)[NP(1)[NP(1) [NCMN การทำงาน] [PP(1)[RPRE ด้าน] [NP[NCMN พลังงาน]]]] [PP(1)[RPRE ของ] [NP[NCMN ภาครัฐ]]]] [ADJC(1)[PREL กรณี] [NP(2)[FIXN การ] [VP(1)[VACT สร้าง][NP[NCMN เขื่อน]]]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ขอเสนอให้มีการปฏิรูปการทำงานด้านพลังงานของภาครัฐกรณีการสร้างเขื่อน",
+       "lb": "[S(2) [NP[NCMN ?]] [VP(1)[VACT ขอเสนอให้มี] [NP(2)[FIXN การ][VP(1)[VACT ปฏิรูป] [NP(1)[NP(1)[NP(1) [NCMN การทำงาน] [PP(1)[RPRE ด้าน] [NP[NCMN พลังงาน]]]] [PP(1)[RPRE ของ] [NP[NCMN ภาครัฐ]]]] [ADJC(1)[PREL กรณี] [NP(2)[FIXN การ] [VP(1)[VACT สร้าง][NP[NCMN เขื่อน]]]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ขอเสนอให้เพิ่มเบี้ยยังชีพให้ผู้สูงอายุที่มีฐานะยากจนจริงๆ",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT ขอเสนอให้][NP[NCMN Ɛ]][VP(1)[VACT เพิ่ม] [NP[NCMN เบี้ยยังชีพ]] [PP(1)[RPRE ให้] [NP(1)[NCMN ผู้สูงอายุ] [ADJC(1)[PREL ที่] [VP(1)[VP(1)[VSTA มี][ADJP(1)[NCMN ฐานะยากจน]]] [AVBP [ADVN จริงๆ]]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ขอเสนอให้เพิ่มเบี้ยยังชีพให้ผู้สูงอายุที่มีฐานะยากจนจริงๆ",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT ขอเสนอให้][NP[NCMN ?]][VP(1)[VACT เพิ่ม] [NP[NCMN เบี้ยยังชีพ]] [PP(1)[RPRE ให้] [NP(1)[NCMN ผู้สูงอายุ] [ADJC(1)[PREL ที่] [VP(1)[VP(1)[VSTA มี][ADJP(1)[NCMN ฐานะยากจน]]] [AVBP [ADVN จริงๆ]]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "อย่าให้อาชีพเกษตรกรหายไปจากประเทศไทย",
-        "lb": "[S(2)[NP[PPRS Ɛ]][VP(1",
-        "type": "2)[XVBB อย่า][VP(1)[VACT ให้][NP(1)[NCMN อาชีพ][NP[NCMN เกษตรกร]]][VP(1)[VSTA หายไป][PP(1)[RPRE จาก][NP[NPRP ประเทศไทย]]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "อย่าให้อาชีพเกษตรกรหายไปจากประเทศไทย",
+       "lb": "[S(2)[NP[PPRS ?]][VP(1,2)[XVBB อย่า][VP(1)[VACT ให้][NP(1)[NCMN อาชีพ][NP[NCMN เกษตรกร]]][VP(1)[VSTA หายไป][PP(1)[RPRE จาก][NP[NPRP ประเทศไทย]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ให้ทบทวนการนำเข้าน้ำมันปาล์มดิบจากต่างประเทศ",
-        "lb": "[S(2) [NP [NCMN Ɛ]] [VP(1) [VACT ให้ทบทวน] [NP(2) [FIXN การ] [VP(1) [VACT นำเข้า] [NP [NCMN น้ำมันปาล์มดิบ]] [RPRE จาก] [NP [NCMN ต่างประเทศ]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ให้ทบทวนการนำเข้าน้ำมันปาล์มดิบจากต่างประเทศ",
+       "lb": "[S(2) [NP [NCMN ?]] [VP(1) [VACT ให้ทบทวน] [NP(2) [FIXN การ] [VP(1) [VACT นำเข้า] [NP [NCMN น้ำมันปาล์มดิบ]] [RPRE จาก] [NP [NCMN ต่างประเทศ]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ผู้ใหญ่ควรเป็นแบบอย่างที่ดีและปลูกฝังเยาวชนเห็นแก่ประโยชน์ส่วนร่วม",
-        "lb": "[S(2)[NP[NCMN ผู้ใหญ่]] [VP(1)[XVBM ควร] [VP[VP(1)[VSTA เป็น][ADJP[VATT แบบอย่างที่ดี]]] [JCRG และ] [VP(1)[VACT ปลูกฝัง] [NP(1)[NCMN เยาวชน] [VP(1)[VACT เห็นแก่] [NP[NCMN ประโยชน์ส่วนรวม]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ผู้ใหญ่ควรเป็นแบบอย่างที่ดีและปลูกฝังเยาวชนเห็นแก่ประโยชน์ส่วนร่วม",
+       "lb": "[S(2)[NP[NCMN ผู้ใหญ่]] [VP(1)[XVBM ควร] [VP[VP(1)[VSTA เป็น][ADJP[VATT แบบอย่างที่ดี]]] [JCRG และ] [VP(1)[VACT ปลูกฝัง] [NP(1)[NCMN เยาวชน] [VP(1)[VACT เห็นแก่] [NP[NCMN ประโยชน์ส่วนรวม]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "สมาชิกสภาท้องถิ่นควรกำหนดวุฒิการศึกษา เพิ่มงบประมาณ",
-        "lb": "[S(2)[NP[NCMN สมาชิกสภาท้องถิ่น]][VP(1)[VP(1)[XVBM ควร][VACT กำหนด]][NP(1)[NCMN วุฒิการศึกษา][VP(1)[VACT เพิ่ม][NP[NCMN งบประมาณ]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "สมาชิกสภาท้องถิ่นควรกำหนดวุฒิการศึกษา เพิ่มงบประมาณ",
+       "lb": "[S(2)[NP[NCMN สมาชิกสภาท้องถิ่น]][VP(1)[VP(1)[XVBM ควร][VACT กำหนด]][NP(1)[NCMN วุฒิการศึกษา][VP(1)[VACT เพิ่ม][NP[NCMN งบประมาณ]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ควรเอาผิดกับสื่อที่ขาดจรรยาบรรณอย่างจริงจัง",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VP(1)[VP(2)[XVMM ควร][VACT เอาผิดกับ]] [NP(1)[NCMN สื่อ][PREL ที่] [VP(1)[VSTA ขาด][NP[NCMN จรรยาบรรณ]]]]][AVBP [ADVN อย่างจริงจัง]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "ควรเอาผิดกับสื่อที่ขาดจรรยาบรรณอย่างจริงจัง",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VP(1)[VP(2)[XVMM ควร][VACT เอาผิดกับ]] [NP(1)[NCMN สื่อ][PREL ที่] [VP(1)[VSTA ขาด][NP[NCMN จรรยาบรรณ]]]]][AVBP [ADVN อย่างจริงจัง]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ให้ความรู้ความเข้าใจแก่ประชาชนเกี่ยวกับผลกระทบหรือความเสียหายที่เกิดจากการทุจริต",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VP(1)[VP(1)[VACT ให้][ADJP[VATT ความรู้ความเข้าใจ]]][PP(1)[RPRE แก่][NP[NCMN ประชาชน]]]][PP(1)[RPRE เกี่ยวกับ][NP(1)[NP(1)[NCMN ผลกระทบ][JCRG หรือ][NCMN ความเสียหาย]][PREL ที่][VP(1)[VACT เกิด][PP(1)[RPRE จาก][NP(2)[FIXN การ][VACT ทุจริต]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "ให้ความรู้ความเข้าใจแก่ประชาชนเกี่ยวกับผลกระทบหรือความเสียหายที่เกิดจากการทุจริต",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VP(1)[VP(1)[VACT ให้][ADJP[VATT ความรู้ความเข้าใจ]]][PP(1)[RPRE แก่][NP[NCMN ประชาชน]]]][PP(1)[RPRE เกี่ยวกับ][NP(1)[NP(1)[NCMN ผลกระทบ][JCRG หรือ][NCMN ความเสียหาย]][PREL ที่][VP(1)[VACT เกิด][PP(1)[RPRE จาก][NP(2)[FIXN การ][VACT ทุจริต]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ปลูกฝังให้ประชาชนมีความซื่อสัตย์สุจริต",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VACT ปลูกฝังให้] [NP[NCMN ประชาชน]][VP(1)[VSTA มี] [NP(2)[FIXN ความ][VACT ซื่อสัตย์สุจริต]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "ปลูกฝังให้ประชาชนมีความซื่อสัตย์สุจริต",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VACT ปลูกฝังให้] [NP[NCMN ประชาชน]][VP(1)[VSTA มี] [NP(2)[FIXN ความ][VACT ซื่อสัตย์สุจริต]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ขอเสนอให้ปฏิรูปเรื่องระบบน้ำประปาอย่างเป็นระบบ",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT ขอเสนอให้] [NP[NCMN Ɛ]][VP(1)[VACT ปฏิรูป] [NP(2)[NCMN เรื่อง] [NCMN ระบบน้ำประปา]] [AVBP [ADVN อย่างเป็นระบบ]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "ขอเสนอให้ปฏิรูปเรื่องระบบน้ำประปาอย่างเป็นระบบ",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT ขอเสนอให้] [NP[NCMN ?]][VP(1)[VACT ปฏิรูป] [NP(2)[NCMN เรื่อง] [NCMN ระบบน้ำประปา]] [AVBP [ADVN อย่างเป็นระบบ]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "อยากให้มีการปล่อยพันธ์สัตว์น้ำเพิ่มมากขึ้น",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT อยากให้มี] [NP(2)[FIXN การ] [VP(1)[VACT ปล่อย] [NP[NCMN พันธ์สัตว์น้ำ]] [AVBP [ADVN เพิ่มมากขึ้น]]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "อยากให้มีการปล่อยพันธ์สัตว์น้ำเพิ่มมากขึ้น",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT อยากให้มี] [NP(2)[FIXN การ] [VP(1)[VACT ปล่อย] [NP[NCMN พันธ์สัตว์น้ำ]] [AVBP [ADVN เพิ่มมากขึ้น]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "มีองค์กรอิสระมากเกินไป ทำให้การบริหารงานของรัฐบาลต้องสะดุดไม่ต่อเนื่อง",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VSTA มี] [NP[NCMN องค์กรอิสระ]] [AVBP[ADVN มากเกินไป]] [VP(1)[VACT ทำให้] [NP(1)[NCMN การบริหารงาน] [PP(1)[RPRE ของ] [NP[NCMN รัฐบาล]]]] [VP(1)[VACT ต้องสะดุด] [AVBP(1",
-        "type": "2)[NEG ไม่][ADVN ต่อเนื่อง]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "มีองค์กรอิสระมากเกินไป ทำให้การบริหารงานของรัฐบาลต้องสะดุดไม่ต่อเนื่อง",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VSTA มี] [NP[NCMN องค์กรอิสระ]] [AVBP[ADVN มากเกินไป]] [VP(1)[VACT ทำให้] [NP(1)[NCMN การบริหารงาน] [PP(1)[RPRE ของ] [NP[NCMN รัฐบาล]]]] [VP(1)[VACT ต้องสะดุด] [AVBP(1,2)[NEG ไม่][ADVN ต่อเนื่อง]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ให้ชุมชนส่งตัวแทนสมัคร ส.ส. ไม่สังกัดพรรค",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT ให้] [NP[NCMN ชุมชน]] [VP(1)[VACT ส่ง] [NP[NCMN ตัวแทน]] [VP(1)[VACT สมัคร] [NP(1)[NCMN ส.ส.] [ADJP(1",
-        "type": "2)[NEG ไม่][VATT สังกัดพรรค]]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "ให้ชุมชนส่งตัวแทนสมัคร ส.ส. ไม่สังกัดพรรค",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT ให้] [NP[NCMN ชุมชน]] [VP(1)[VACT ส่ง] [NP[NCMN ตัวแทน]] [VP(1)[VACT สมัคร] [NP(1)[NCMN ส.ส.] [ADJP(1,2)[NEG ไม่][VATT สังกัดพรรค]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ปฏิรูปกรมตำรวจ การแต่งตั้ง โยกย้าย และการทำหน้าที่ของตำรวจ",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT ปฏิรูป] [NP(1)[NCMN กรมตำรวจ] [NP(1)[NP(1",
-        "type": "3",
-        "source": "5)[NP[NCMN การแต่งตั้ง]] [PUNC ] [NP(2)[FIXN Ɛ][VACT โยกย้าย]] [JCRG และ] [NP[NCMN การทำหน้าที่]]] [PP(1)[RPRE ของ] [NP[NCMN ตำรวจ]]]]]]]",
-        "dependency": "opinion"
+       "raw": "ปฏิรูปกรมตำรวจ การแต่งตั้ง โยกย้าย และการทำหน้าที่ของตำรวจ",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT ปฏิรูป] [NP(1)[NCMN กรมตำรวจ] [NP(1)[NP(1,3,5)[NP[NCMN การแต่งตั้ง]] [PUNC <space>] [NP(2)[FIXN ?][VACT โยกย้าย]] [JCRG และ] [NP[NCMN การทำหน้าที่]]] [PP(1)[RPRE ของ] [NP[NCMN ตำรวจ]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "แก้ไขปัญหาเศรษฐกิจให้ได้",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT แก้ไข] [NP(1)[NCMN ปัญหา] [NP[NCMN เศรษฐกิจ]]] [AVBP[ADVN ให้ได้]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "แก้ไขปัญหาเศรษฐกิจให้ได้",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT แก้ไข] [NP(1)[NCMN ปัญหา] [NP[NCMN เศรษฐกิจ]]] [AVBP[ADVN ให้ได้]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ปฏิรูปกฎหมาย และกระบวนการยุติธรรม",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT ปฏิรูป] [NP(1",
-        "type": "3)[NCMN กฎหมาย] [JCRG และ] [NCMN กระบวนการยุติธรรม]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "ปฏิรูปกฎหมาย และกระบวนการยุติธรรม",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT ปฏิรูป] [NP(1,3)[NCMN กฎหมาย] [JCRG และ] [NCMN กระบวนการยุติธรรม]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ผู้ที่จะลงสมัครรับเลือกตั้งต้องผ่านทดสอบความรู้ความสามารถ",
-        "lb": "[S(2) [NP(1)[NCMN ผู้][ADJC(2)[PREL ที่][VP(1)[XVMM จะ][NP[VACT ลงสมัคร][VACT รับเลือกตั้ง]][NP[NCMN Ɛ]]]]][VP(1)[VACT ต้องผ่าน][NP(1)[NCMN การทดสอบ][NP[NP[FIXN ความ][VSTA รู้]][JCRG Ɛ][NP[FIXN ความ][XVAM สามารถ]]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "ผู้ที่จะลงสมัครรับเลือกตั้งต้องผ่านทดสอบความรู้ความสามารถ",
+       "lb": "[S(2) [NP(1)[NCMN ผู้][ADJC(2)[PREL ที่][VP(1)[XVMM จะ][NP[VACT ลงสมัคร][VACT รับเลือกตั้ง]][NP[NCMN ?]]]]][VP(1)[VACT ต้องผ่าน][NP(1)[NCMN การทดสอบ][NP[NP[FIXN ความ][VSTA รู้]][JCRG ?][NP[FIXN ความ][XVAM สามารถ]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ให้ประชาชนมีส่วนร่วมในการการตรวจสอบทุกโครงการ",
-        "lb": "[S(2) [NP[NCMN Ɛ]][VP(1)[VACT ให้][NP[NCMN ประชาชน]][VP(1)[VSTA มี][NP(1)[NCMN ส่วนร่วม][PP(1)[RPRE ใน][NP(1)[NCMN การตรวจสอบ][ADJP [VATT ทุกโครงการ]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "ให้ประชาชนมีส่วนร่วมในการการตรวจสอบทุกโครงการ",
+       "lb": "[S(2) [NP[NCMN ?]][VP(1)[VACT ให้][NP[NCMN ประชาชน]][VP(1)[VSTA มี][NP(1)[NCMN ส่วนร่วม][PP(1)[RPRE ใน][NP(1)[NCMN การตรวจสอบ][ADJP [VATT ทุกโครงการ]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "หน่วยงานของรัฐควรเข้ามาปราบปรามยาเสพติดอย่างจริงจัง",
-        "lb": "[S(2) [NP(1)[NCMN หน่วยงาน][PP(1)[RPRE ของ][NP[NCMN รัฐ]]]][VP(2)[XVMM ควร][VP(1)[VACT เข้ามาปราบปราม][NP[NCMN ยาเสพติด]][AVBP [ADVN อย่างจริงจัง]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "หน่วยงานของรัฐควรเข้ามาปราบปรามยาเสพติดอย่างจริงจัง",
+       "lb": "[S(2) [NP(1)[NCMN หน่วยงาน][PP(1)[RPRE ของ][NP[NCMN รัฐ]]]][VP(2)[XVMM ควร][VP(1)[VACT เข้ามาปราบปราม][NP[NCMN ยาเสพติด]][AVBP [ADVN อย่างจริงจัง]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ส่งเสริมด้านการศึกษาในเด็กและเยาวชน",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT ส่งเสริม][PP(1)[RPRE ด้าน][NP(1)[NCMN การศึกษา][PP(1)[RPRE ใน][NP(1",
-        "type": "3)[NCMN เด็ก][JCRG และ][NCMN เยาวชน]]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "ส่งเสริมด้านการศึกษาในเด็กและเยาวชน",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT ส่งเสริม][PP(1)[RPRE ด้าน][NP(1)[NCMN การศึกษา][PP(1)[RPRE ใน][NP(1,3)[NCMN เด็ก][JCRG และ][NCMN เยาวชน]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ครอบครัว ควรส่งเสริมในเรื่องการศึกษา",
-        "lb": "[S(2)[NP[NCMN ครอบครัว]][VP(1)[VP(2)[XVMM ควร][VACT ส่งเสริม]][PP(1)[RPRE ใน][NP(2)[NCMN เรื่อง][NP(2)[FIXN การ][VACT ศึกษา]]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "ครอบครัว ควรส่งเสริมในเรื่องการศึกษา",
+       "lb": "[S(2)[NP[NCMN ครอบครัว]][VP(1)[VP(2)[XVMM ควร][VACT ส่งเสริม]][PP(1)[RPRE ใน][NP(2)[NCMN เรื่อง][NP(2)[FIXN การ][VACT ศึกษา]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ให้ประชาชนในท้องถิ่นมีส่วนร่วมในการตรวจสอบการเลือกตั้ง",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VACT ให้][NP(1)[NCMN ประชาชน][PP(1)[RPRE ใน][NP[NCMN ท้องถิ่น]]]][VP(1)[VSTA มี][NP(1)[NCMN ส่วนร่วม][PP(1)[RPRE ใน][NP(2)[FIXN การ][VP(1)[VACT ตรวจสอบ][NP(2)[FIXN การ][VACT เลือกตั้ง]]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "ให้ประชาชนในท้องถิ่นมีส่วนร่วมในการตรวจสอบการเลือกตั้ง",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VACT ให้][NP(1)[NCMN ประชาชน][PP(1)[RPRE ใน][NP[NCMN ท้องถิ่น]]]][VP(1)[VSTA มี][NP(1)[NCMN ส่วนร่วม][PP(1)[RPRE ใน][NP(2)[FIXN การ][VP(1)[VACT ตรวจสอบ][NP(2)[FIXN การ][VACT เลือกตั้ง]]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "รัฐควรควบคุมราคาปุ๋ยเคมีให้เหมาะสมกับราคาผลผลิต",
-        "lb": "[S(2)[NP[NCMN รัฐ]] [VP(2)[XVMM ควร] [VP(1)[VACT ควบคุม] [NP(1)[NCMN ราคา] [NP[NCMN ปุ๋ยเคมี]]][ADJP(1)[VATT ให้เหมาะสม][PP(1)[RPRE กับ] [NP(2)[NCMN ราคา] [NCMN ผลผลิต]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "รัฐควรควบคุมราคาปุ๋ยเคมีให้เหมาะสมกับราคาผลผลิต",
+       "lb": "[S(2)[NP[NCMN รัฐ]] [VP(2)[XVMM ควร] [VP(1)[VACT ควบคุม] [NP(1)[NCMN ราคา] [NP[NCMN ปุ๋ยเคมี]]][ADJP(1)[VATT ให้เหมาะสม][PP(1)[RPRE กับ] [NP(2)[NCMN ราคา] [NCMN ผลผลิต]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "รัฐควรให้ความสำคัญในด้านการเกษตร อุตสาหกรรม พาณิชย์ การท่องเที่ยวและการบริการ",
-        "lb": "[S(2)[NP[NCMN รัฐ]] [VP(2)[XVMM ควร] [VP(1)[VACT ให้] [NP(1)[NP(2)[FIXN ความ][VATT สำคัญ]] [PP(1)[RPRE ในด้าน] [NP(1",
-        "type": "3",
-        "source": "5",
-        "dependency": "7"
+       "raw": "รัฐควรให้ความสำคัญในด้านการเกษตร อุตสาหกรรม พาณิชย์ การท่องเที่ยวและการบริการ",
+       "lb": "[S(2)[NP[NCMN รัฐ]] [VP(2)[XVMM ควร] [VP(1)[VACT ให้] [NP(1)[NP(2)[FIXN ความ][VATT สำคัญ]] [PP(1)[RPRE ในด้าน] [NP(1,3,5,7,9)[NCMN การเกษตร][PUNC <space>] [NCMN อุตสาหกรรม][PUNC <space>] [NCMN พาณิชย์] [PUNC <space>][NCMN การท่องเที่ยว] [JCRG และ] [NCMN การบริการ]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "หน่วยงานของรัฐควรเข้ามาปราบปรามยาเสพติดอย่างจริงจัง",
-        "lb": "[S(2) [NP(1)[NCMN หน่วยงาน][PP(2)[RPRE ของ][NP[NCMN รัฐ]]]][VP(1)[VP(1)[XVMM ควร][VP[VACT เข้ามา][VACT ปราบปราม][NP[NCMN ยาเสพติด]]]][AVBP [ADVN อย่างจริงจัง]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "หน่วยงานของรัฐควรเข้ามาปราบปรามยาเสพติดอย่างจริงจัง",
+       "lb": "[S(2) [NP(1)[NCMN หน่วยงาน][PP(2)[RPRE ของ][NP[NCMN รัฐ]]]][VP(1)[VP(1)[XVMM ควร][VP[VACT เข้ามา][VACT ปราบปราม][NP[NCMN ยาเสพติด]]]][AVBP [ADVN อย่างจริงจัง]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ควรปฏิรูปด้านการถือครองที่ดินของชาวบ้านยากไร้",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(2)[XVMM ควร] [VP(1)[VACT ปฏิรูป][NP[NCMN Ɛ]][PP(1)[RPRE ด้าน] [NP(1)[NCMN การถือครองที่ดิน] [PP(1)[RPRE ของ] [NP(1)[NCMN ชาวบ้าน] [ADJP[VATT ยากไร้]]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "ควรปฏิรูปด้านการถือครองที่ดินของชาวบ้านยากไร้",
+       "lb": "[S(2)[NP[NCMN ?]][VP(2)[XVMM ควร] [VP(1)[VACT ปฏิรูป][NP[NCMN ?]][PP(1)[RPRE ด้าน] [NP(1)[NCMN การถือครองที่ดิน] [PP(1)[RPRE ของ] [NP(1)[NCMN ชาวบ้าน] [ADJP[VATT ยากไร้]]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "คุณภาพของครูผู้สอนมีไม่เพียงพอ",
-        "lb": "[S(2)[NP(1)[NCMN คุณภาพ] [PP(1)[RPRE ของ] [NP[NCMN ครูผู้สอน]]]] [VP(1)[VSTA มี] [NP[NEG ไม่][NCMN เพียงพอ]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "คุณภาพของครูผู้สอนมีไม่เพียงพอ",
+       "lb": "[S(2)[NP(1)[NCMN คุณภาพ] [PP(1)[RPRE ของ] [NP[NCMN ครูผู้สอน]]]] [VP(1)[VSTA มี] [NP[NEG ไม่][NCMN เพียงพอ]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "สร้างโอกาสให้กับผู้ด้อยโอกาสทางสังคม",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT สร้าง] [NP[NCMN โอกาส]] [PP(2)[RPRE ให้กับ] [NP(1)[NCMN ผู้ด้อยโอกาส] [ADJP[VATT ทางสังคม]]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "สร้างโอกาสให้กับผู้ด้อยโอกาสทางสังคม",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT สร้าง] [NP[NCMN โอกาส]] [PP(2)[RPRE ให้กับ] [NP(1)[NCMN ผู้ด้อยโอกาส] [ADJP[VATT ทางสังคม]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "อยากให้ประเทศไม่มีอิทธิพล อยากให้มีแต่คนดี",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1",
-        "type": "3)[VP(1)[VACT อยากให้] [NP(1)[NCMN ประเทศ] [VP(1",
-        "source": "2)[NEG ไม่] [VSTA มี] [NP[NCMN อิทธิพล]]]]] [JCRG Ɛ] [VP(1)[VP(1)[VACT อยากให้มี] [AVBP[ADVN แต่]]][NP(1)[NCMN คน][ADJP[VATT ดี]]]]]]",
-        "dependency": "opinion"
+       "raw": "อยากให้ประเทศไม่มีอิทธิพล อยากให้มีแต่คนดี",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1,3)[VP(1)[VACT อยากให้] [NP(1)[NCMN ประเทศ] [VP(1,2)[NEG ไม่] [VSTA มี] [NP[NCMN อิทธิพล]]]]] [JCRG ?] [VP(1)[VP(1)[VACT อยากให้มี] [AVBP[ADVN แต่]]][NP(1)[NCMN คน][ADJP[VATT ดี]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "พรรคการเมืองควรคัดเลือกผู้สมัครที่มีคุณสมบัติเหมาะสม",
-        "lb": "[S(2)[NP[NCMN พรรคการเมือง]] [VP(1)[VP(2)[XVMM ควร][VACT คัดเลือก]] [NP(1)[NCMN ผู้สมัคร] [ADJC(2)[PREL ที่] [VP(1)[VSTA มี] [NP(1) [NCMN คุณสมบัติ] [ADJP [VATT เหมาะสม]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "พรรคการเมืองควรคัดเลือกผู้สมัครที่มีคุณสมบัติเหมาะสม",
+       "lb": "[S(2)[NP[NCMN พรรคการเมือง]] [VP(1)[VP(2)[XVMM ควร][VACT คัดเลือก]] [NP(1)[NCMN ผู้สมัคร] [ADJC(2)[PREL ที่] [VP(1)[VSTA มี] [NP(1) [NCMN คุณสมบัติ] [ADJP [VATT เหมาะสม]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "กระจายอำนาจให้ท้องถิ่นพัฒนาพื้นที่ในเขตของตนเองอย่างแท้จริง",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VACT กระจาย][NP(1)[NCMN อำนาจ][PP(1)[RPRE ให้][NP(1)[NCMN ท้องถิ่น][VP(1)[VACT พัฒนา][NP(1)[NCMN พื้นที่][PP(1)[RPRE ใน][NP(1)[NCMN เขต][PP(1)[RPRE ของ][NP[NCMN ตนเอง]]]]]][AVBP[ADVN อย่างแท้จริง]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "กระจายอำนาจให้ท้องถิ่นพัฒนาพื้นที่ในเขตของตนเองอย่างแท้จริง",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VACT กระจาย][NP(1)[NCMN อำนาจ][PP(1)[RPRE ให้][NP(1)[NCMN ท้องถิ่น][VP(1)[VACT พัฒนา][NP(1)[NCMN พื้นที่][PP(1)[RPRE ใน][NP(1)[NCMN เขต][PP(1)[RPRE ของ][NP[NCMN ตนเอง]]]]]][AVBP[ADVN อย่างแท้จริง]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ปลูกฝังคุณธรรมให้เยาวชนโตไปไม่โกง",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VACT ปลูกฝัง][NP[NCMN คุณธรรม]][PP(1)[RPRE ให้][NP(1)[NCMN เยาวชน][VP[VSTA โตไปไม่โกง]]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "ปลูกฝังคุณธรรมให้เยาวชนโตไปไม่โกง",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VACT ปลูกฝัง][NP[NCMN คุณธรรม]][PP(1)[RPRE ให้][NP(1)[NCMN เยาวชน][VP[VSTA โตไปไม่โกง]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "หน่วยงานภาครัฐ ต้องปฏิบัติต่อประชาชนอย่างเสมอภาคและมีความเท่าเทียมกัน",
-        "lb": "[S(2)[NP[NCMN หน่วยงาน][NP[NCMN ภาครัฐ]]][VP(1)[VP(1)[XVBM ต้อง][VP(1)[VACT ปฏิบัติ][PP(1)[RPRE ต่อ][NP[NCMN ประชาชน]]]]][AVBP(1)[ADVN อย่างเสมอภาค][JCRG และ][VP(1)[VSTA มี][NP(2)[FIXN ความ][VSTA เท่าเทียมกัน]]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "หน่วยงานภาครัฐ ต้องปฏิบัติต่อประชาชนอย่างเสมอภาคและมีความเท่าเทียมกัน",
+       "lb": "[S(2)[NP[NCMN หน่วยงาน][NP[NCMN ภาครัฐ]]][VP(1)[VP(1)[XVBM ต้อง][VP(1)[VACT ปฏิบัติ][PP(1)[RPRE ต่อ][NP[NCMN ประชาชน]]]]][AVBP(1)[ADVN อย่างเสมอภาค][JCRG และ][VP(1)[VSTA มี][NP(2)[FIXN ความ][VSTA เท่าเทียมกัน]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "รับฟังความคิดเห็นของผู้อื่น และเคารพสิทธิของผู้อื่น",
-        "lb": "[S(2)[NP [NCMN Ɛ]][VP(1",
-        "type": "3)[VP(1)[VACT รับฟัง][NP(1)[NCMN ความคิดเห็น][PP(1)[RPRE ของ][NP[NCMN ผู้อื่น]]]]][JCRG และ][VP(1)[VACT เคารพ][NP(1)[NCMN สิทธิ][PP(1)[RPRE ของ][NP[NCMN ผู้อื่น]]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "รับฟังความคิดเห็นของผู้อื่น และเคารพสิทธิของผู้อื่น",
+       "lb": "[S(2)[NP [NCMN ?]][VP(1,3)[VP(1)[VACT รับฟัง][NP(1)[NCMN ความคิดเห็น][PP(1)[RPRE ของ][NP[NCMN ผู้อื่น]]]]][JCRG และ][VP(1)[VACT เคารพ][NP(1)[NCMN สิทธิ][PP(1)[RPRE ของ][NP[NCMN ผู้อื่น]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "หาแพทย์ให้เพียงพอกับประชาชน",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT หา] [NP[NCMN แพทย์]] [VP(1)[VACT ให้เพียงพอ] [PP(1)[RPRE กับ] [NP[NCMN ประชาชน]]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "หาแพทย์ให้เพียงพอกับประชาชน",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT หา] [NP[NCMN แพทย์]] [VP(1)[VACT ให้เพียงพอ] [PP(1)[RPRE กับ] [NP[NCMN ประชาชน]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ต้องการให้มีการปฏิรูปอย่างเป็นจริงเป็นจัง",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[XVMM ต้องการ][VP(1)[VACT ให้มี] [NP(2)[FIXN การ] [VACT ปฏิรูป]] [AVBP[ADVN อย่างเป็นจริงเป็นจัง]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "ต้องการให้มีการปฏิรูปอย่างเป็นจริงเป็นจัง",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[XVMM ต้องการ][VP(1)[VACT ให้มี] [NP(2)[FIXN การ] [VACT ปฏิรูป]] [AVBP[ADVN อย่างเป็นจริงเป็นจัง]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ปลูกฝังให้ประชาชนเข้าใจถึงประชาธิปไตยที่แท้จริง",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VACT ปลูกฝัง][NP[NCMN Ɛ]][PP(1)[RPRE ให้][NP(2)[NCMN ประชาชน][VP(1)[VSTA เข้าใจ][PP(1)[RPRE ถึง][NP[NCMN ประชาธิปไตย]][ADJC(2)[PREL ที่][ADVN แท้จริง]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform",
-        "dependency": ""
+       "raw": "ปลูกฝังให้ประชาชนเข้าใจถึงประชาธิปไตยที่แท้จริง",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VACT ปลูกฝัง][NP[NCMN ?]][PP(1)[RPRE ให้][NP(2)[NCMN ประชาชน][VP(1)[VSTA เข้าใจ][PP(1)[RPRE ถึง][NP[NCMN ประชาธิปไตย]][ADJC(2)[PREL ที่][ADVN แท้จริง]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ปฏิรูปชายหาดสาธารณะในอำเภอเกาะสมุย",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT ปฏิรูป] [NP(1)[NP(1",
-        "type": "2)[NCMN ชายหาด][NCMN สาธารณะ]] [PP(1)[RPRE ใน] [NP[NPRP อำเภอเกาะสมุย]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "ปฏิรูปชายหาดสาธารณะในอำเภอเกาะสมุย",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT ปฏิรูป] [NP(1)[NP(1,2)[NCMN ชายหาด][NCMN สาธารณะ]] [PP(1)[RPRE ใน] [NP[NPRP อำเภอเกาะสมุย]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "มีแรงงานต่างด้าวมากเกินไป",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VP(1)[VSTA มี] [NP(1",
-        "type": "2)[NCMN แรงงาน] [NCMN ต่างด้าว]]] [AVBP[ADVN มากเกินไป]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "มีแรงงานต่างด้าวมากเกินไป",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VP(1)[VSTA มี] [NP(1,2)[NCMN แรงงาน] [NCMN ต่างด้าว]]] [AVBP[ADVN มากเกินไป]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "แก้ปัญหายางพาราตกต่ำ",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT แก้] [NP(1)[NP(1",
-        "type": "2)[NCMN ปัญหา] [NCMN ยางพารา]] [ADJP[VATT ตกต่ำ]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "แก้ปัญหายางพาราตกต่ำ",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT แก้] [NP(1)[NP(1,2)[NCMN ปัญหา] [NCMN ยางพารา]] [ADJP[VATT ตกต่ำ]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "พัฒนาระบบชลประทานให้มีความเพียงพอต่อการเกษตร",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT พัฒนา][NP(1)[NCMN ระบบ][NP(1)[NCMN ชลประทาน]]] [VP(1)[VACT ให้มี][NP(1)[NP(2)[FIXN ความ][VSTA เพียงพอ]][PP(1)[RPRE ต่อ][NP(2)[FIXN การ][NCMN เกษตร]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "พัฒนาระบบชลประทานให้มีความเพียงพอต่อการเกษตร",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT พัฒนา][NP(1)[NCMN ระบบ][NP(1)[NCMN ชลประทาน]]] [VP(1)[VACT ให้มี][NP(1)[NP(2)[FIXN ความ][VSTA เพียงพอ]][PP(1)[RPRE ต่อ][NP(2)[FIXN การ][NCMN เกษตร]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ผู้ที่จะลงสมัครรับเลือกตั้งต้องผ่านทดสอบความรู้ความสามารถ",
-        "lb": "[S(2) [NP(1)[NCMN ผู้][ADJC(1)[PREL ที่จะ][VP(1)[VACT ลงสมัคร][VACT รับเลือกตั้ง]]]][VP(1)[VACT ต้องผ่าน][NP(1)[NCMN การทดสอบ][ADJP(1",
-        "type": "2)[NP[FIXN ความ][VSTA รู้]][NP[FIXN ความ][VSTA สามารถ]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "ผู้ที่จะลงสมัครรับเลือกตั้งต้องผ่านทดสอบความรู้ความสามารถ",
+       "lb": "[S(2) [NP(1)[NCMN ผู้][ADJC(1)[PREL ที่จะ][VP(1)[VACT ลงสมัคร][VACT รับเลือกตั้ง]]]][VP(1)[VACT ต้องผ่าน][NP(1)[NCMN การทดสอบ][ADJP(1,2)[NP[FIXN ความ][VSTA รู้]][NP[FIXN ความ][VSTA สามารถ]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ต้องเป็นผู้มีความรู้ ความสามารถ ขยัน อดทน ตั้งใจทำงาน",
-        "lb": "[S(2)[NP [NCMN Ɛ]][VP(1)[VP(1)[XVBM ต้อง][VSTA เป็น]][NP(1)[NCMN ผู้][VP(1",
-        "type": "3)[VP(1)[VSTA มี][NP(1",
-        "source": "2)[NP(2)[FIXN ความ][VSTA รู้]][NP(2)[FIXN ความ][VP(1",
-        "dependency": "2"
+       "raw": "ต้องเป็นผู้มีความรู้ ความสามารถ ขยัน อดทน ตั้งใจทำงาน",
+       "lb": "[S(2)[NP [NCMN ?]][VP(1)[VP(1)[XVBM ต้อง][VSTA เป็น]][NP(1)[NCMN ผู้][VP(1,3)[VP(1)[VSTA มี][NP(1,2)[NP(2)[FIXN ความ][VSTA รู้]][NP(2)[FIXN ความ][VP(1,2,3)[XVAM สามารถ][VSTA ขยัน][VATT อดทน]]]]][JCRG ?][VP[VACT ตั้งใจทำงาน]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "แสดงรายละเอียดงบประมาณในการเลือกตั้ง",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VACT แสดง][NP(1)[NCMN รายละเอียด][NP[NCMN งบประมาณ]][PP(1)[RPRE ใน][NP(2)[FIXN การ][VACT เลือกตั้ง]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "แสดงรายละเอียดงบประมาณในการเลือกตั้ง",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VACT แสดง][NP(1)[NCMN รายละเอียด][NP[NCMN งบประมาณ]][PP(1)[RPRE ใน][NP(2)[FIXN การ][VACT เลือกตั้ง]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ควรเน้นในเรื่องการตรวจสอบการหาเสียง",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(2)[XVMM ควร][VP(1)[VACT เน้น][NP(1)[NCMN Ɛ][PP(1)[RPRE ใน][NP(2)[NCMN เรื่อง][NP(2)[FIXN การ][VP(1)[VACT ตรวจสอบ][NP(2)[FIXN การ][VSTA หาเสียง]]]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ควรเน้นในเรื่องการตรวจสอบการหาเสียง",
+       "lb": "[S(2)[NP[NCMN ?]][VP(2)[XVMM ควร][VP(1)[VACT เน้น][NP(1)[NCMN ?][PP(1)[RPRE ใน][NP(2)[NCMN เรื่อง][NP(2)[FIXN การ][VP(1)[VACT ตรวจสอบ][NP(2)[FIXN การ][VSTA หาเสียง]]]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "เลือกคนที่มีความพร้อมสามารถทำงานให้สำเร็จ",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VACT เลือก][NP(1)[NCMN คน][ADJC(2",
-        "type": "3)[PREL ที่][VP(1)[VSTA มี][NP(2)[FIXN ความ][VP[VACT พร้อม]]]][JCRG Ɛ][VP(1)[XVAM สามารถ][VP(1)[VACT ทำงาน][AVBP(1)[RPRE ให้][VSTA สำเร็จ]]]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "เลือกคนที่มีความพร้อมสามารถทำงานให้สำเร็จ",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VACT เลือก][NP(1)[NCMN คน][ADJC(2,3)[PREL ที่][VP(1)[VSTA มี][NP(2)[FIXN ความ][VP[VACT พร้อม]]]][JCRG ?][VP(1)[XVAM สามารถ][VP(1)[VACT ทำงาน][AVBP(1)[RPRE ให้][VSTA สำเร็จ]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ตรวจสอบประวัติผู้สมัครอย่างเคร่งครัด",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VACT ตรวจสอบ][NP(1)[NCMN ประวัติ][NP[NCMN ผู้สมัคร]]][AVBP[ADVN อย่างเคร่งครัด]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ตรวจสอบประวัติผู้สมัครอย่างเคร่งครัด",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VACT ตรวจสอบ][NP(1)[NCMN ประวัติ][NP[NCMN ผู้สมัคร]]][AVBP[ADVN อย่างเคร่งครัด]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ผู้สมัครควรมีอายุมากและประสบการณ์ด้านการบริหาร",
-        "lb": "[S(2)[NP[NCMN ผู้สมัคร]][VP(2)[XVMM ควร][VP(1)[VSTA มี][NP(1",
-        "type": "3)[NP(1)[NCMN อายุ][ADJP[VATT มาก]]][JCRG และ][NP(1)[NCMN ประสบการณ์][PP(1)[RPRE ด้าน][NP(2)[FIXN การ][VACT บริหาร]]]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "ผู้สมัครควรมีอายุมากและประสบการณ์ด้านการบริหาร",
+       "lb": "[S(2)[NP[NCMN ผู้สมัคร]][VP(2)[XVMM ควร][VP(1)[VSTA มี][NP(1,3)[NP(1)[NCMN อายุ][ADJP[VATT มาก]]][JCRG และ][NP(1)[NCMN ประสบการณ์][PP(1)[RPRE ด้าน][NP(2)[FIXN การ][VACT บริหาร]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "การเลือกตั้งกำนัน ผู้ใหญ่บ้าน ควรเป็นบุคคลในท้องถิ่น",
-        "lb": "[S(2) [NP(2)[FIXN การ][VP(1)[VACT เลือกตั้ง][NP(1",
-        "type": "3)[NCMN กำนัน][JCRG Ɛ][NCMN ผู้ใหญ่บ้าน]]]][VP(2)[XVBM ควร][VP(1)[VSTA เป็น][NP(1)[NCMN บุคคล][PP(1)[RPRE ใน][NP[NCMN ท้องถิ่น]]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "การเลือกตั้งกำนัน ผู้ใหญ่บ้าน ควรเป็นบุคคลในท้องถิ่น",
+       "lb": "[S(2) [NP(2)[FIXN การ][VP(1)[VACT เลือกตั้ง][NP(1,3)[NCMN กำนัน][JCRG ?][NCMN ผู้ใหญ่บ้าน]]]][VP(2)[XVBM ควร][VP(1)[VSTA เป็น][NP(1)[NCMN บุคคล][PP(1)[RPRE ใน][NP[NCMN ท้องถิ่น]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "หาแพทย์ให้เพียงพอกับประชาชน",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT หา] [NP[NCMN แพทย์]] [VP(1)[VACT ให้] [NP(1)[NCMN เพียงพอ] [PP(1)[RPRE กับ] [NP[NCMN ประชาชน]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "หาแพทย์ให้เพียงพอกับประชาชน",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT หา] [NP[NCMN แพทย์]] [VP(1)[VACT ให้] [NP(1)[NCMN เพียงพอ] [PP(1)[RPRE กับ] [NP[NCMN ประชาชน]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ควรให้กรรมการจากส่วนกลางมาเป็นกรรมการในการจัดสอบ",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VP(2)[XVBM ควร][VACT ให้]] [NP(1)[NCMN กรรมการ] [PP(1)[RPRE จาก] [NP[NCMN ส่วนกลาง]]]] [VP(1)[VACT มาเป็น] [NP(1)[NCMN กรรมการ][PP(1)[RPRE ใน] [NP(2)[FIXN การ][VACT จัดสอบ]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ควรให้กรรมการจากส่วนกลางมาเป็นกรรมการในการจัดสอบ",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VP(2)[XVBM ควร][VACT ให้]] [NP(1)[NCMN กรรมการ] [PP(1)[RPRE จาก] [NP[NCMN ส่วนกลาง]]]] [VP(1)[VACT มาเป็น] [NP(1)[NCMN กรรมการ][PP(1)[RPRE ใน] [NP(2)[FIXN การ][VACT จัดสอบ]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ควรปลูกฝังด้านวัฒนธรรม จริยธรรม ศิลปะ ประเพณีให้มากแก่เยาวชน",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[XVMM ควร] [VP(1)[VACT ปลูกฝัง] [NP(1)[NCMN Ɛ] [PP(1)[RPRE ด้าน] [NP(1",
-        "type": "3",
-        "source": "5",
-        "dependency": "7)[NCMN วัฒนธรรม] [PUNC ] [NCMN จริยธรรม] [PUNC ] [NCMN ศิลปะ] [PUNC ] [NCMN ประเพณี]]]] [AVBP[ADVN ให้มาก]] [PP(1)[PPRE แก่] [NP[NCMN เยาวชน]]]]]]"
+       "raw": "ควรปลูกฝังด้านวัฒนธรรม จริยธรรม ศิลปะ ประเพณีให้มากแก่เยาวชน",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[XVMM ควร] [VP(1)[VACT ปลูกฝัง] [NP(1)[NCMN ?] [PP(1)[RPRE ด้าน] [NP(1,3,5,7)[NCMN วัฒนธรรม] [PUNC <space>] [NCMN จริยธรรม] [PUNC <space>] [NCMN ศิลปะ] [PUNC <space>] [NCMN ประเพณี]]]] [AVBP[ADVN ให้มาก]] [PP(1)[PPRE แก่] [NP[NCMN เยาวชน]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ดูแลเรื่องเศรษฐกิจด้านการเกษตร",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT ดูแล] [NP(1)[NP(2)[NCMN เรื่อง] [NCMN เศรษฐกิจ]] [PP(1)[RPRE ด้าน] [NP[NCMN การเกษตร]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ดูแลเรื่องเศรษฐกิจด้านการเกษตร",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT ดูแล] [NP(1)[NP(2)[NCMN เรื่อง] [NCMN เศรษฐกิจ]] [PP(1)[RPRE ด้าน] [NP[NCMN การเกษตร]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "การให้สิทธิเข้าเรียนควรยึดคนในพื้นที่เป็นหลัก",
-        "lb": "[S(2) [NP(2)[FIXN การ] [VP(1)[VACT ให้] [NP(2)[NCMN สิทธิ] [VACT เข้าเรียน]]]] [VP(1)[XVMM ควร] [VP(1)[VACT ยึด] [NP(1)[NCMN คน] [PP(1)[RPRE ใน] [NP(2)[NCMN พื้นที่]]]] [AVBP[ADVN เป็นหลัก]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "การให้สิทธิเข้าเรียนควรยึดคนในพื้นที่เป็นหลัก",
+       "lb": "[S(2) [NP(2)[FIXN การ] [VP(1)[VACT ให้] [NP(2)[NCMN สิทธิ] [VACT เข้าเรียน]]]] [VP(1)[XVMM ควร] [VP(1)[VACT ยึด] [NP(1)[NCMN คน] [PP(1)[RPRE ใน] [NP(2)[NCMN พื้นที่]]]] [AVBP[ADVN เป็นหลัก]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ให้มีการตรวจสอบการทำงานของกำนัน ผุ้ใหญ่บ้าน",
-        "lb": "[S(2) [NP[NCMN Ɛ]] [VP(1)[VACT ให้มี] [NP(1)[NP(2)[FIXN การ] [VP(1)[VACT ตรวจสอบ][NP(1)[FIXN การ][VACT ทำงาน]]]][PP(1)[RPRE ของ][NP(1",
-        "type": "3)[NCMN กำนัน] [JCRG Ɛ] [NCMN ผุ้ใหญ่บ้าน]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "ให้มีการตรวจสอบการทำงานของกำนัน ผุ้ใหญ่บ้าน",
+       "lb": "[S(2) [NP[NCMN ?]] [VP(1)[VACT ให้มี] [NP(1)[NP(2)[FIXN การ] [VP(1)[VACT ตรวจสอบ][NP(1)[FIXN การ][VACT ทำงาน]]]][PP(1)[RPRE ของ][NP(1,3)[NCMN กำนัน] [JCRG ?] [NCMN ผุ้ใหญ่บ้าน]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ทุกคนควรเคารพกติกา กฎหมายการเลือกตั้ง",
-        "lb": "[S(2)[NP(1)[PPRS ทุกคน]][VP(2)[XVMM ควร][VP(1)[VACT เคารพ][NP(1)[NP(1",
-        "type": "3)[NCMN กติกา][JCRG Ɛ][NCMN กฎหมาย]][NP(2)[FIXN การ][VACT เลือกตั้ง]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "ทุกคนควรเคารพกติกา กฎหมายการเลือกตั้ง",
+       "lb": "[S(2)[NP(1)[PPRS ทุกคน]][VP(2)[XVMM ควร][VP(1)[VACT เคารพ][NP(1)[NP(1,3)[NCMN กติกา][JCRG ?][NCMN กฎหมาย]][NP(2)[FIXN การ][VACT เลือกตั้ง]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ผู้มีอำนาจใช้ประโยชน์เพื่อตัวเองและพวกพ้อง",
-        "lb": "[S(2)[NP(1)[NCMN ผู้][VP(1)[VSTA มี][NP[NCMN อำนาจ]]]][VP(1)[VACT ใช้][NP[NCMN ประโยชน์]][PP(1)[RPRE เพื่อ][NP(1",
-        "type": "3)[NCMN ตัวเอง][JCRG และ][NCMN พวกพ้อง]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "ผู้มีอำนาจใช้ประโยชน์เพื่อตัวเองและพวกพ้อง",
+       "lb": "[S(2)[NP(1)[NCMN ผู้][VP(1)[VSTA มี][NP[NCMN อำนาจ]]]][VP(1)[VACT ใช้][NP[NCMN ประโยชน์]][PP(1)[RPRE เพื่อ][NP(1,3)[NCMN ตัวเอง][JCRG และ][NCMN พวกพ้อง]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ควรมีการจัดสรรพื้นที่ทำกินให้ชัดเจน เกี่ยวกับสปก.",
-        "lb": "[S(2)[NP [NCMN Ɛ]][VP(2)[XVMM ควร][VP(1)[VSTA มี][NP(1)[NP(2)[FIXN การ][VP(1)[VACT จัดสรร][NP(1)[NCMN พื้นที่][VP[VSTA ทำกิน]]][VP[VACT ให้ชัดเจน]]]][PP(1)[RPRE เกี่ยวกับ][NPRP สปก.]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ควรมีการจัดสรรพื้นที่ทำกินให้ชัดเจน เกี่ยวกับสปก.",
+       "lb": "[S(2)[NP [NCMN ?]][VP(2)[XVMM ควร][VP(1)[VSTA มี][NP(1)[NP(2)[FIXN การ][VP(1)[VACT จัดสรร][NP(1)[NCMN พื้นที่][VP[VSTA ทำกิน]]][VP[VACT ให้ชัดเจน]]]][PP(1)[RPRE เกี่ยวกับ][NPRP สปก.]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "บทลงโทษของผู้ซื้อเสียงและขายเสียง ต้องหนักขึ้นเพื่อป้องกันผู้กระทำผิด",
-        "lb": "[S(2)[NP(1)[NCMN บทลงโทษ][PP(1)[RPRE ของ][NP(1)[NCMN ผู้][VP(1",
-        "type": "3)[VACT ซื้อเสียง][JCRG และ][VSTA ขายเสียง]]]]][VP(1)[VSTA ต้องหนักขึ้น][PP(1)[RPRE เพื่อ][VP(1)[VACT ป้องกัน][NP(1)[NCMN ผู้][VP[VSTA กระทำผิด]]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "บทลงโทษของผู้ซื้อเสียงและขายเสียง ต้องหนักขึ้นเพื่อป้องกันผู้กระทำผิด",
+       "lb": "[S(2)[NP(1)[NCMN บทลงโทษ][PP(1)[RPRE ของ][NP(1)[NCMN ผู้][VP(1,3)[VACT ซื้อเสียง][JCRG และ][VSTA ขายเสียง]]]]][VP(1)[VSTA ต้องหนักขึ้น][PP(1)[RPRE เพื่อ][VP(1)[VACT ป้องกัน][NP(1)[NCMN ผู้][VP[VSTA กระทำผิด]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ควรมีกฎหมายที่เด็ดขาดกับนักการเมืองที่มีพฤติกรรมทุจริตคอรัปชั่นในทุกระดับ",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(2)[XVMM ควร][VP(1)[VSTA มี][NP(1)[NCMN กฎหมาย][ADJC(1)[PREL ที่][ADJP(1)[VATT เด็ดขาด][PP(1)[RPRE กับ][NP(1)[NCMN นักการเมือง][ADJC(1) [PREL ที่][VP(1)[VSTA มี][NP(1)[NCMN พฤติกรรม][VP(1)[VACT ทุจริต][NP[NCMN คอรัปชั่น]]]]]][PP(1)[RPRE ใน][NP[NCMN ทุกระดับ]]]]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ควรมีกฎหมายที่เด็ดขาดกับนักการเมืองที่มีพฤติกรรมทุจริตคอรัปชั่นในทุกระดับ",
+       "lb": "[S(2)[NP[NCMN ?]][VP(2)[XVMM ควร][VP(1)[VSTA มี][NP(1)[NCMN กฎหมาย][ADJC(1)[PREL ที่][ADJP(1)[VATT เด็ดขาด][PP(1)[RPRE กับ][NP(1)[NCMN นักการเมือง][ADJC(1) [PREL ที่][VP(1)[VSTA มี][NP(1)[NCMN พฤติกรรม][VP(1)[VACT ทุจริต][NP[NCMN คอรัปชั่น]]]]]][PP(1)[RPRE ใน][NP[NCMN ทุกระดับ]]]]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ควรตรวจสอบว่าเป็นผู้มีอำนาจมีอิทธิพลหรือป่าว",
-        "lb": "[S(1)[S(2)[NP[NCMN Ɛ]][VP(2)[XVMM ควร][VP(1)[VACT ตรวจสอบ][NP[NCMN Ɛ]]]]][JSBR ว่า][S(2)[NP[NCMN Ɛ]][VP(1)[VSTA เป็น][NP(1)[NCMN ผู้][VP(1",
-        "type": "3)[VP(1)[VSTA มี][NP[NCMN อำนาจ]]][JCRG Ɛ][VP(1)[VSTA มี][NP[NCMN อิทธิพล]]]]][EITT หรือป่าว]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "ควรตรวจสอบว่าเป็นผู้มีอำนาจมีอิทธิพลหรือป่าว",
+       "lb": "[S(1)[S(2)[NP[NCMN ?]][VP(2)[XVMM ควร][VP(1)[VACT ตรวจสอบ][NP[NCMN ?]]]]][JSBR ว่า][S(2)[NP[NCMN ?]][VP(1)[VSTA เป็น][NP(1)[NCMN ผู้][VP(1,3)[VP(1)[VSTA มี][NP[NCMN อำนาจ]]][JCRG ?][VP(1)[VSTA มี][NP[NCMN อิทธิพล]]]]][EITT หรือป่าว]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ผู้สมัครจะต้องเป็นผู้บำเพ็ญประโยชน์ เป็นที่ยอมรับในชุมชน",
-        "lb": "[S(2)[NP[NCMN ผู้สมัคร]][VP(1)[VACT จะต้องเป็น][NP(1)[NCMN ผู้][VP(1)[VACT บำเพ็ญ][NP[NCMN ประโยชน์]]]][JCRG Ɛ][VP(1)[VSTA เป็น][NP(1)[NCMN ที่ยอมรับ][PP(1)[RPRE ใน][NP[NCMN ชุมชน]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ผู้สมัครจะต้องเป็นผู้บำเพ็ญประโยชน์ เป็นที่ยอมรับในชุมชน",
+       "lb": "[S(2)[NP[NCMN ผู้สมัคร]][VP(1)[VACT จะต้องเป็น][NP(1)[NCMN ผู้][VP(1)[VACT บำเพ็ญ][NP[NCMN ประโยชน์]]]][JCRG ?][VP(1)[VSTA เป็น][NP(1)[NCMN ที่ยอมรับ][PP(1)[RPRE ใน][NP[NCMN ชุมชน]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ให้มีผู้รับผิดชอบโดยตรงเกี่ยวกับเรื่องยางพารา",
-        "lb": "[S(2) [NP[NCMN Ɛ]] [VP(1)[VACT ให้มี] [NP(1)[NCMN ผู้รับผิดชอบ] [PP(1)[RPRE เกี่ยวกับ] [NP(2)[NCMN เรื่อง] [NP[NCMN ยางพารา]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ให้มีผู้รับผิดชอบโดยตรงเกี่ยวกับเรื่องยางพารา",
+       "lb": "[S(2) [NP[NCMN ?]] [VP(1)[VACT ให้มี] [NP(1)[NCMN ผู้รับผิดชอบ] [PP(1)[RPRE เกี่ยวกับ] [NP(2)[NCMN เรื่อง] [NP[NCMN ยางพารา]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "สร้างจิตสำนึกที่ดีต่อกัน ระหว่างรัฐ นักการเมือง และประชาชน ตามแนวทางเศรษฐกิจพอเพียง",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT สร้าง] [NP(1) [NP(1)[NCMN จิตสำนึก] [ADJC(1)[PREL ที่] [ADJP[VATT ดีต่อกัน]]]][PP(1)[RPRE ตาม] [NP(1",
-        "type": "2)[NCMN แนวทาง] [NP[NCMN เศรษฐกิจพอเพียง]]]]][PP(1)[RPRE ระหว่าง] [NP(1",
-        "source": "3",
-        "dependency": "5)[NCMN รัฐ] [PUNC ] [NCMN นักการเมือง] [JCRG และ] [NCMN ประชาชน]]]]]"
+       "raw": "สร้างจิตสำนึกที่ดีต่อกัน ระหว่างรัฐ นักการเมือง และประชาชน ตามแนวทางเศรษฐกิจพอเพียง",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT สร้าง] [NP(1) [NP(1)[NCMN จิตสำนึก] [ADJC(1)[PREL ที่] [ADJP[VATT ดีต่อกัน]]]][PP(1)[RPRE ตาม] [NP(1,2)[NCMN แนวทาง] [NP[NCMN เศรษฐกิจพอเพียง]]]]][PP(1)[RPRE ระหว่าง] [NP(1,3,5)[NCMN รัฐ] [PUNC <space>] [NCMN นักการเมือง] [JCRG และ] [NCMN ประชาชน]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ปฏิรูปทางด้านเศรษฐกิจ การเกษตร ให้มีการปฏิบัติและการพัฒนาที่ดีขึ้น",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT ปฏิรูป] [NP(1)[NCMN Ɛ][PP(1)[RPRE ทางด้าน] [ADJP(1)[NCMN เศรษฐกิจ] [NP(2)[FIXN การ] [NCMN เกษตร]]]]] [VP(1)[VACT ให้มี] [NP(1",
-        "type": "3)[NP(2)[FIXN การ] [NCMN ปฏิบัติ]] [JCRG และ] [NP(2)[FIXN การ] [VACT พัฒนา]]] [AVBP[ADVN ที่ดีขึ้น]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "ปฏิรูปทางด้านเศรษฐกิจ การเกษตร ให้มีการปฏิบัติและการพัฒนาที่ดีขึ้น",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT ปฏิรูป] [NP(1)[NCMN ?][PP(1)[RPRE ทางด้าน] [ADJP(1)[NCMN เศรษฐกิจ] [NP(2)[FIXN การ] [NCMN เกษตร]]]]] [VP(1)[VACT ให้มี] [NP(1,3)[NP(2)[FIXN การ] [NCMN ปฏิบัติ]] [JCRG และ] [NP(2)[FIXN การ] [VACT พัฒนา]]] [AVBP[ADVN ที่ดีขึ้น]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "สนับสนุนงบประมาณลงสู่การปกครองส่วนท้องถิ่นให้มากกว่านี้",
-        "lb": "[S(2) [NP[NCMN Ɛ]] [VP(1)[VACT สนับสนุน] [NP[NCMN งบประมาณ]] [PP(1)[RPRE ลงสู่] [NP(2)[FIXN การ] [NP(1",
-        "type": "2)[NCMN ปกครอง] [NCMN ส่วนท้องถิ่น]]]] [AVBP[ADVN ให้มากกว่านี้]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "สนับสนุนงบประมาณลงสู่การปกครองส่วนท้องถิ่นให้มากกว่านี้",
+       "lb": "[S(2) [NP[NCMN ?]] [VP(1)[VACT สนับสนุน] [NP[NCMN งบประมาณ]] [PP(1)[RPRE ลงสู่] [NP(2)[FIXN การ] [NP(1,2)[NCMN ปกครอง] [NCMN ส่วนท้องถิ่น]]]] [AVBP[ADVN ให้มากกว่านี้]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ด้านการศึกษาควรมีการจัดสร้างหลักสูตรผู้นำท้องถิ่น",
-        "lb": "[S(2)[NP(1)[NCMN Ɛ][PP(1)[RPRE ด้าน] [NP(2)[FIXN การ] [NCMN ศึกษา]]]] [VP(1)[XVMM ควร] [VP(1)[VSTA มี] [NP(2)[FIXN การ] [VP(1)[VACT จัดสร้าง] [NP[NCMN หลักสูตรผู้นำท้องถิ่น]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ด้านการศึกษาควรมีการจัดสร้างหลักสูตรผู้นำท้องถิ่น",
+       "lb": "[S(2)[NP(1)[NCMN ?][PP(1)[RPRE ด้าน] [NP(2)[FIXN การ] [NCMN ศึกษา]]]] [VP(1)[XVMM ควร] [VP(1)[VSTA มี] [NP(2)[FIXN การ] [VP(1)[VACT จัดสร้าง] [NP[NCMN หลักสูตรผู้นำท้องถิ่น]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ที่มาของสมาชิกผู้แทนราษฎรต้องไม่มีคดีอาญา และลหุโทษติดตัว",
-        "lb": "[S(2)[NP(1)[NCMN ที่มา][PP(1)[RPRE ของ][NP(1)[NCMN สมาชิก][NP[NCMN ผู้แทนราษฎร]]]]][VP(1)[XVBM ต้อง][VP(1",
-        "type": "2)[NEG ไม่][VSTA มี][NP(1)[NP(1",
-        "source": "3)[NCMN คดีอาญา][JCRG และ][NCMN ลหุโทษ]][ADJP[VATT ติดตัว]]]]]]",
-        "dependency": "opinion"
+       "raw": "ที่มาของสมาชิกผู้แทนราษฎรต้องไม่มีคดีอาญา และลหุโทษติดตัว",
+       "lb": "[S(2)[NP(1)[NCMN ที่มา][PP(1)[RPRE ของ][NP(1)[NCMN สมาชิก][NP[NCMN ผู้แทนราษฎร]]]]][VP(1)[XVBM ต้อง][VP(1,2)[NEG ไม่][VSTA มี][NP(1)[NP(1,3)[NCMN คดีอาญา][JCRG และ][NCMN ลหุโทษ]][ADJP[VATT ติดตัว]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ชาวนาส่งออกไม่ได้เพราะใช้สารพิษมาก",
-        "lb": "[S(1)[S(2)[NP[NCMN ชาวนา]][VP(1)[VACT ส่งออก][NCMN Ɛ] [VP(1",
-        "type": "2) [NEG ไม่] [VSTA ได้]]]][JSBR เพราะ][S(2)[NP[NCMN Ɛ]][VP(1)[VACT ใช้][NP[NCMN สารพิษ]][AVBP[ADVN มาก]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "ชาวนาส่งออกไม่ได้เพราะใช้สารพิษมาก",
+       "lb": "[S(1)[S(2)[NP[NCMN ชาวนา]][VP(1)[VACT ส่งออก][NCMN ?] [VP(1,2) [NEG ไม่] [VSTA ได้]]]][JSBR เพราะ][S(2)[NP[NCMN ?]][VP(1)[VACT ใช้][NP[NCMN สารพิษ]][AVBP[ADVN มาก]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "สร้างจิตสำนึกที่ดีต่อกัน ระหว่างรัฐ นักการเมือง และประชาชน ตามแนวทางเศรษฐกิจพอเพียง",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT สร้าง] [NP(1)[NCMN จิตสำนึก] [ADJC(1)[PREL ที่] [ADJP[VATT ดีต่อกัน]]]] [AVBP(1)[ADVN ระหว่าง] [NP(1",
-        "type": "3",
-        "source": "5)[NCMN รัฐ] [PUNC ] [NCMN นักการเมือง] [JCRG และ] [NCMN ประชาชน]] [PP(1)[RPRE ตาม] [NP(1",
-        "dependency": "2)[NCMN แนวทาง] [NP[NCMN เศรษฐกิจพอเพียง]]]]]]]"
+       "raw": "สร้างจิตสำนึกที่ดีต่อกัน ระหว่างรัฐ นักการเมือง และประชาชน ตามแนวทางเศรษฐกิจพอเพียง",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT สร้าง] [NP(1)[NCMN จิตสำนึก] [ADJC(1)[PREL ที่] [ADJP[VATT ดีต่อกัน]]]] [AVBP(1)[ADVN ระหว่าง] [NP(1,3,5)[NCMN รัฐ] [PUNC <space>] [NCMN นักการเมือง] [JCRG และ] [NCMN ประชาชน]] [PP(1)[RPRE ตาม] [NP(1,2)[NCMN แนวทาง] [NP[NCMN เศรษฐกิจพอเพียง]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ปฏิรูปทางด้านเศรษฐกิจ การเกษตร ให้มีการปฏิบัติและการพัฒนาที่ดีขึ้น",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT ปฏิรูป] [NP(1)[NCMN Ɛ][PP(1)[RPRE ทางด้าน] [ADJP(1)[NCMN เศรษฐกิจ] [NP(2)[FIXN การ] [NCMN เกษตร]]]]] [VP(1)[VACT ให้มี] [NP(1",
-        "type": "3)[NP(2)[FIXN การ] [NCMN ปฏิบัติ]] [JCRG และ] [NP(2)[FIXN การ] [VACT พัฒนา]]] [AVBP[ADVN ที่ดีขึ้น]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "ปฏิรูปทางด้านเศรษฐกิจ การเกษตร ให้มีการปฏิบัติและการพัฒนาที่ดีขึ้น",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VACT ปฏิรูป] [NP(1)[NCMN ?][PP(1)[RPRE ทางด้าน] [ADJP(1)[NCMN เศรษฐกิจ] [NP(2)[FIXN การ] [NCMN เกษตร]]]]] [VP(1)[VACT ให้มี] [NP(1,3)[NP(2)[FIXN การ] [NCMN ปฏิบัติ]] [JCRG และ] [NP(2)[FIXN การ] [VACT พัฒนา]]] [AVBP[ADVN ที่ดีขึ้น]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "สนับสนุนงบประมาณลงสู่การปกครองส่วนท้องถิ่นให้มากกว่านี้",
-        "lb": "[S(2) [NP[NCMN Ɛ]] [VP(1)[VACT สนับสนุน] [NP[NCMN งบประมาณ]] [PP(1)[RPRE ลงสู่] [NP(2)[FIXN การ] [NP(1",
-        "type": "2)[NCMN ปกครอง] [NCMN ส่วนท้องถิ่น]]]] [AVBP[ADVN ให้มากกว่านี้]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "สนับสนุนงบประมาณลงสู่การปกครองส่วนท้องถิ่นให้มากกว่านี้",
+       "lb": "[S(2) [NP[NCMN ?]] [VP(1)[VACT สนับสนุน] [NP[NCMN งบประมาณ]] [PP(1)[RPRE ลงสู่] [NP(2)[FIXN การ] [NP(1,2)[NCMN ปกครอง] [NCMN ส่วนท้องถิ่น]]]] [AVBP[ADVN ให้มากกว่านี้]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ด้านการศึกษาควรมีการจัดสร้างหลักสูตรผู้นำท้องถิ่น",
-        "lb": "[S(2)[NP(1)[NCMN Ɛ][PP(1)[RPRE ด้าน] [NP(2)[FIXN การ] [NCMN ศึกษา]]]] [VP(1)[XVMM ควร] [VP(1)[VSTA มี] [NP(2)[FIXN การ] [VP(1)[VACT จัดสร้าง] [NP[NCMN หลักสูตรผู้นำท้องถิ่น]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ด้านการศึกษาควรมีการจัดสร้างหลักสูตรผู้นำท้องถิ่น",
+       "lb": "[S(2)[NP(1)[NCMN ?][PP(1)[RPRE ด้าน] [NP(2)[FIXN การ] [NCMN ศึกษา]]]] [VP(1)[XVMM ควร] [VP(1)[VSTA มี] [NP(2)[FIXN การ] [VP(1)[VACT จัดสร้าง] [NP[NCMN หลักสูตรผู้นำท้องถิ่น]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ควรมีการกำหนดกรอบการใช้อำนาจของผู้บริหาร",
-        "lb": "[S(2) [NP [NCMN Ɛ]] [VP(2) [XVMM ควร] [VP(1)[VSTA มี][NP(2)[FIXN การ][VP(1)[VACT กำหนด][NP(1)[NCMN กรอบ][NP(2)[FIXN การ][VP(1)[VACT ใช้][NP[NCMN อำนาจ]]]][PP(1)[RPRE ของ][NP[NCMN ผู้บริหาร]]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "ควรมีการกำหนดกรอบการใช้อำนาจของผู้บริหาร",
+       "lb": "[S(2) [NP [NCMN ?]] [VP(2) [XVMM ควร] [VP(1)[VSTA มี][NP(2)[FIXN การ][VP(1)[VACT กำหนด][NP(1)[NCMN กรอบ][NP(2)[FIXN การ][VP(1)[VACT ใช้][NP[NCMN อำนาจ]]]][PP(1)[RPRE ของ][NP[NCMN ผู้บริหาร]]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "ให้มีการจำกัดอาชีพของชาวต่างชาติ คนต่างด้าว เพื่อลดอัตราการว่างงานของคนไทย",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VACT ให้มี][NP(2)[FIXN การ][VP(1)[VACT จำกัด][NP(1)[NCMN อาชีพ][PP(1)[RPRE ของ][NP(1",
-        "type": "3)[NCMN ชาวต่างชาติ][JCRG Ɛ][NCMN คนต่างด้าว]]]]]][PP(1)[RPRE เพื่อ][VP(1)[VACT ลด][NP(1)[NCMN อัตรา][NP(1)[NP(2)[FIXN การ][VP[VSTA ว่างงาน]]][PP(1)[RPRE ของ][NP[NCMN คนไทย]]]]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "ให้มีการจำกัดอาชีพของชาวต่างชาติ คนต่างด้าว เพื่อลดอัตราการว่างงานของคนไทย",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VACT ให้มี][NP(2)[FIXN การ][VP(1)[VACT จำกัด][NP(1)[NCMN อาชีพ][PP(1)[RPRE ของ][NP(1,3)[NCMN ชาวต่างชาติ][JCRG ?][NCMN คนต่างด้าว]]]]]][PP(1)[RPRE เพื่อ][VP(1)[VACT ลด][NP(1)[NCMN อัตรา][NP(1)[NP(2)[FIXN การ][VP[VSTA ว่างงาน]]][PP(1)[RPRE ของ][NP[NCMN คนไทย]]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "เยาวชนสมัยใหม่ไม่รู้จักรากเหง้าของตัวเอง",
-        "lb": "[S(2)[NP(1)[NCMN เยาวชน][ADJP[VATT สมัยใหม่]]][VP(1",
-        "type": "2)[NEG ไม่][VSTA รู้จัก][NP(1)[NCMN รากเหง้า][PP(1)[PRPE ของ][NP[NCMN ตัวเอง]]]]]]",
-        "source": "opinion",
-        "dependency": "thaireform"
+       "raw": "เยาวชนสมัยใหม่ไม่รู้จักรากเหง้าของตัวเอง",
+       "lb": "[S(2)[NP(1)[NCMN เยาวชน][ADJP[VATT สมัยใหม่]]][VP(1,2)[NEG ไม่][VSTA รู้จัก][NP(1)[NCMN รากเหง้า][PP(1)[PRPE ของ][NP[NCMN ตัวเอง]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "อยากให้มีการควบคุมราคาสินค้าอุปโภคบริโภคให้เป็นไปตามอัตราค่าครองชีพ",
-        "lb": "[S(2)[NP [NCMN Ɛ]][VP(2) [XVMM อยากให้] [VP(1) [VSTA มี] [NP(2) [FIXN การ] [VP(1) [VACT ควบคุม] [NP(2) [NCMN ราคา] [NP [NCMN สินค้าอุปโภคบริโภค]]]]] [VP(1) [VACT ให้เป็น] [XVAE ไป][PP(1) [RPRE ตาม] [NP(1) [NCMN อัตรา] [NP [NCMN ค่าครองชีพ]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "อยากให้มีการควบคุมราคาสินค้าอุปโภคบริโภคให้เป็นไปตามอัตราค่าครองชีพ",
+       "lb": "[S(2)[NP [NCMN ?]][VP(2) [XVMM อยากให้] [VP(1) [VSTA มี] [NP(2) [FIXN การ] [VP(1) [VACT ควบคุม] [NP(2) [NCMN ราคา] [NP [NCMN สินค้าอุปโภคบริโภค]]]]] [VP(1) [VACT ให้เป็น] [XVAE ไป][PP(1) [RPRE ตาม] [NP(1) [NCMN อัตรา] [NP [NCMN ค่าครองชีพ]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "อยากให้มีการประเมินผลงานของนักการเมืองในระยะเวลาที่กำหนด",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(2)[XVMM อยาก][VP(1)[VACT ให้มี][NP(2)[FIXN การ][VP(1)[VACT ประเมิน][NP(1)[NCMN ผลงาน][PP(1)[RPRE ของ][NP[NCMN นักการเมือง]]]]]][PP(1)[RPRE ใน][NP(1)[NCMN ระยะเวลา][ADJC(1)[PREL ที่][VP[VACT กำหนด]]]]]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "อยากให้มีการประเมินผลงานของนักการเมืองในระยะเวลาที่กำหนด",
+       "lb": "[S(2)[NP[NCMN ?]][VP(2)[XVMM อยาก][VP(1)[VACT ให้มี][NP(2)[FIXN การ][VP(1)[VACT ประเมิน][NP(1)[NCMN ผลงาน][PP(1)[RPRE ของ][NP[NCMN นักการเมือง]]]]]][PP(1)[RPRE ใน][NP(1)[NCMN ระยะเวลา][ADJC(1)[PREL ที่][VP[VACT กำหนด]]]]]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "อยากให้ผู้บริหารมีความจริงใจ ซื่อสัตย์ มีวินัย จิตใจโอบอ้อมอารี",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(2)[XVMM อยาก][VP(1)[VACT ให้][NCMN ผู้บริหาร][VSTA มี][FIXN ความ][VATT จริงใจ][VATT ซื่อสัตย์][VSTA มี][NCMN วินัย][NCMN จิตใจ][VATT โอบอ้อมอารี]]]]",
-        "type": "opinion",
-        "source": "thaireform"
+       "raw": "อยากให้ผู้บริหารมีความจริงใจ ซื่อสัตย์ มีวินัย จิตใจโอบอ้อมอารี",
+       "lb": "[S(2)[NP[NCMN ?]][VP(2)[XVMM อยาก][VP(1)[VACT ให้][NCMN ผู้บริหาร][VSTA มี][FIXN ความ][VATT จริงใจ][VATT ซื่อสัตย์][VSTA มี][NCMN วินัย][NCMN จิตใจ][VATT โอบอ้อมอารี]]]]",
+       "type": "opinion",
+       "source": "thaireform"
     },
     {
-        "raw": "มีจุดมุ่งหมายในการใช้งานโดยเฉพาะ",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VSTA มี][NP(1)[NCMN จุดมุ่งหมาย][PP(1)[RPRE ใน][NP(2)[FIXN การ][VP(1)[VACT ใช้งาน][AVBP(2)[FIXV โดย][ADVN เฉพาะ]]]]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "มีจุดมุ่งหมายในการใช้งานโดยเฉพาะ",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VSTA มี][NP(1)[NCMN จุดมุ่งหมาย][PP(1)[RPRE ใน][NP(2)[FIXN การ][VP(1)[VACT ใช้งาน][AVBP(2)[FIXV โดย][ADVN เฉพาะ]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ประเทศไทยได้มีการปรับเปลี่ยนโครงสร้างในการพัฒนาเศรษฐกิจของประเทศ จากประเทศเกษตรกรรมไปสู่ความเป็นประเทศอุตสาหกรรมมากยิ่งขึ้น",
-        "lb": "[S(2)[NP[NPRP ประเทศไทย]][VP(2)[XVAM ได้] [VP(1) [VSTA มี] [NP(2)[FIXN การ][VP(1)[VACT ปรับเปลี่ยน][NP(1)[NP[NCMN โครงสร้าง][PP(1)[RPRE ใน][NP(2)[FIXN การ][VP(1)[VACT พัฒนา][NP[NCMN เศรษฐกิจ]]]]]][PP(1)[RPRE ของ][NP[NCMN ประเทศ]]]][PP(1)[RPRE จาก][NP(1)[NCMN ประเทศ][NP[NCMN เกษตรกรรม]]][PP(1)[RPRE ไปสู่][NP(1)[FIXN ความ][VP(1)[VSTA เป็น][NP(1)[NCMN ประเทศ][NP[NCMN อุตสาหกรรม]]][AVBP[ADVN มากยิ่งขึ้น]]]]]]]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "ประเทศไทยได้มีการปรับเปลี่ยนโครงสร้างในการพัฒนาเศรษฐกิจของประเทศ จากประเทศเกษตรกรรมไปสู่ความเป็นประเทศอุตสาหกรรมมากยิ่งขึ้น",
+       "lb": "[S(2)[NP[NPRP ประเทศไทย]][VP(2)[XVAM ได้] [VP(1) [VSTA มี] [NP(2)[FIXN การ][VP(1)[VACT ปรับเปลี่ยน][NP(1)[NP[NCMN โครงสร้าง][PP(1)[RPRE ใน][NP(2)[FIXN การ][VP(1)[VACT พัฒนา][NP[NCMN เศรษฐกิจ]]]]]][PP(1)[RPRE ของ][NP[NCMN ประเทศ]]]][PP(1)[RPRE จาก][NP(1)[NCMN ประเทศ][NP[NCMN เกษตรกรรม]]][PP(1)[RPRE ไปสู่][NP(1)[FIXN ความ][VP(1)[VSTA เป็น][NP(1)[NCMN ประเทศ][NP[NCMN อุตสาหกรรม]]][AVBP[ADVN มากยิ่งขึ้น]]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ในการดำเนินการเพื่อให้บรรลุวัตถุประสงค์ดังกล่าว จะต้องอาศัยปัจจัยพื้นฐานหลายประการในการเป็นตัวเร่งและเป็นฐาน เช่น การพัฒนาเทคโนโลยีที่ใช้ในการผลิตของภาคอุตสาหกรรม",
-        "lb": "[S(2)[PP(1)[RPRE ใน][NP(2)[FIXN การ][VP(1)[VACT ดำเนินการ][VP(1)[JSBR เพื่อให้][VP(1)[VACT บรรลุ][NP(1)[NCMN วัตถุประสงค์][NP[DDAC ดังกล่าว]]]]]]]][S(2)[NP[NCMN Ɛ]][VP(1)[XVBM จะต้อง][VP(1)[VACT อาศัย][NP(1)[NCMN ปัจจัย][ADJP[VATT พื้นฐาน]][CLSP[DIBQ หลาย][CNIT ประการ]]]][PP(1)[RPRE ใน][NP(2)[NP[FIXN การ][VP(1",
-        "type": "2)[VP(1)[VSTA เป็น][NP[NCMN ตัวเร่ง]]][JCRG และ][VP(1)[VSTA เป็น][NP[NCMN ฐาน]]]]][JSBR เช่น][NP(2)[FIXN การ][VP(1)[VACT พัฒนา][NP(1)[NCMN เทคโนโลยี][ADJC(1)[PREL ที่][VP(1)[VACT ใช้][PP(1)[RPRE ใน][NP(2)[FIXN การ][VP(1)[VACT ผลิต][PP(1)[RPRE ของ][NP[NCMN ภาคอุตสาหกรรม]]]]]]]]]]]]]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "ในการดำเนินการเพื่อให้บรรลุวัตถุประสงค์ดังกล่าว จะต้องอาศัยปัจจัยพื้นฐานหลายประการในการเป็นตัวเร่งและเป็นฐาน เช่น การพัฒนาเทคโนโลยีที่ใช้ในการผลิตของภาคอุตสาหกรรม",
+       "lb": "[S(2)[PP(1)[RPRE ใน][NP(2)[FIXN การ][VP(1)[VACT ดำเนินการ][VP(1)[JSBR เพื่อให้][VP(1)[VACT บรรลุ][NP(1)[NCMN วัตถุประสงค์][NP[DDAC ดังกล่าว]]]]]]]][S(2)[NP[NCMN ?]][VP(1)[XVBM จะต้อง][VP(1)[VACT อาศัย][NP(1)[NCMN ปัจจัย][ADJP[VATT พื้นฐาน]][CLSP[DIBQ หลาย][CNIT ประการ]]]][PP(1)[RPRE ใน][NP(2)[NP[FIXN การ][VP(1,2)[VP(1)[VSTA เป็น][NP[NCMN ตัวเร่ง]]][JCRG และ][VP(1)[VSTA เป็น][NP[NCMN ฐาน]]]]][JSBR เช่น][NP(2)[FIXN การ][VP(1)[VACT พัฒนา][NP(1)[NCMN เทคโนโลยี][ADJC(1)[PREL ที่][VP(1)[VACT ใช้][PP(1)[RPRE ใน][NP(2)[FIXN การ][VP(1)[VACT ผลิต][PP(1)[RPRE ของ][NP[NCMN ภาคอุตสาหกรรม]]]]]]]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "กระทรวงวิทยาศาสตร์ เทคโนโลยีและการพลังงาน จึงได้ให้ความสำคัญเป็นลำดับสูงในการพัฒนาอุตสาหกรรมอิเล็กทรอนิกส์และคอมพิวเตอร์",
-        "lb": "[S(2)[NP[NPRP กระทรวงวิทยาศาสตร์ เทคโนโลยีและการพลังงาน]][VP(1)[XVBM จึงได้][VP(2)[VACT ให้][NP(2)[FIXN ความ][ADJP[VATT สำคัญ]]][VP(1)[VSTA เป็น][NP(1)[NCMN ลำดับ][ADJP[VATT สูง]]]][PP(1)[RPRE ใน][NP(2)[FIXN การ][VP(1)[VACT พัฒนา][NP(1) [NCMN อุตสาหกรรม][NP(1",
-        "type": "3)[NCMN อิเล็กทรอนิกส์][JCRG และ][NCMN คอมพิวเตอร์]]]]]]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "กระทรวงวิทยาศาสตร์ เทคโนโลยีและการพลังงาน จึงได้ให้ความสำคัญเป็นลำดับสูงในการพัฒนาอุตสาหกรรมอิเล็กทรอนิกส์และคอมพิวเตอร์",
+       "lb": "[S(2)[NP[NPRP กระทรวงวิทยาศาสตร์ เทคโนโลยีและการพลังงาน]][VP(1)[XVBM จึงได้][VP(2)[VACT ให้][NP(2)[FIXN ความ][ADJP[VATT สำคัญ]]][VP(1)[VSTA เป็น][NP(1)[NCMN ลำดับ][ADJP[VATT สูง]]]][PP(1)[RPRE ใน][NP(2)[FIXN การ][VP(1)[VACT พัฒนา][NP(1) [NCMN อุตสาหกรรม][NP(1,3)[NCMN อิเล็กทรอนิกส์][JCRG และ][NCMN คอมพิวเตอร์]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ในปลายปี 2529 กระทรวงวิทยาศาสตร์ เทคโนโลยีและการพลังงาน โดยมติคณะรัฐมนตรีได้จัดตั้งศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติขึ้น",
-        "lb": "[S(2)[PP(1)[RPRE ใน][NP(1)[NCMN ปลายปี] [NP[NCNM 2529]]]][S(2)[NP(1)[NPRP กระทรวงวิทยาศาสตร์ เทคโนโลยีและการพลังงาน][PP(1)[RPRE โดย][NP(1)[NCMN มติ][NCMN คณะรัฐมนตรี]]]][VP(2)[XVAM ได้] [VP(1)[VACT จัดตั้ง][NP[NPRP ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ]][XVAE ขึ้น]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "ในปลายปี 2529 กระทรวงวิทยาศาสตร์ เทคโนโลยีและการพลังงาน โดยมติคณะรัฐมนตรีได้จัดตั้งศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติขึ้น",
+       "lb": "[S(2)[PP(1)[RPRE ใน][NP(1)[NCMN ปลายปี] [NP[NCNM 2529]]]][S(2)[NP(1)[NPRP กระทรวงวิทยาศาสตร์ เทคโนโลยีและการพลังงาน][PP(1)[RPRE โดย][NP(1)[NCMN มติ][NCMN คณะรัฐมนตรี]]]][VP(2)[XVAM ได้] [VP(1)[VACT จัดตั้ง][NP[NPRP ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ]][XVAE ขึ้น]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "พัฒนาเทคโนโลยีอิเล็กทรอนิกส์ในประเทศ และเทคโนโลยีด้านคอมพิวเตอร์ทั้งซอฟต์แวร์และฮาร์ดแวร์",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VACT พัฒนา][NP(1)[NP(1",
-        "type": "3)[NP(1)[NCMN เทคโนโลยี][NP[NCMN อิเล็กทรอนิกส์]][PP(1)[RPRE ใน][NP[NCMN ประเทศ]]]] [JCRG และ][NP(1)[NCMN เทคโนโลยี][PP(1)[RPRE ด้าน][NP[NCMN คอมพิวเตอร์][DDBQ ทั้ง][NP(1",
-        "source": "3)[NCMN ซอฟต์แวร์][JCRG และ][NCMN ฮาร์ดแวร์]]]]]]]]]",
-        "dependency": "report"
+       "raw": "พัฒนาเทคโนโลยีอิเล็กทรอนิกส์ในประเทศ และเทคโนโลยีด้านคอมพิวเตอร์ทั้งซอฟต์แวร์และฮาร์ดแวร์",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VACT พัฒนา][NP(1)[NP(1,3)[NP(1)[NCMN เทคโนโลยี][NP[NCMN อิเล็กทรอนิกส์]][PP(1)[RPRE ใน][NP[NCMN ประเทศ]]]] [JCRG และ][NP(1)[NCMN เทคโนโลยี][PP(1)[RPRE ด้าน][NP[NCMN คอมพิวเตอร์][DDBQ ทั้ง][NP(1,3)[NCMN ซอฟต์แวร์][JCRG และ][NCMN ฮาร์ดแวร์]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "สนับสนุนให้มีการวิจัยและพัฒนาในด้านนี้ จนถึงขั้นพัฒนาผลของการวิจัยและพัฒนาไปสู่การผลิตในเชิงอุตสาหกรรมและพาณิชย์",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VACT แยก][NP(2)[FIXN การ][VP(1)[VACT บริหารจัดการ] [NP [NCMN Ɛ]][PP(1)[RPRE ระหว่าง][NP(1",
-        "type": "3)[NP(2)[FIXN การ][VP(1)[VACT ปกครอง][NCMN ส่วนท้องถิ่น]]][JCRG และ][NP(2)[FIXN การ][VP(1)[VACT ปกครอง][NCMN ท้องที่]]]]]]] [AVBP[ADVN อย่างเป็นสัดส่วน]]]]",
-        "source": "report",
-        "dependency": "thaireform"
+       "raw": "สนับสนุนให้มีการวิจัยและพัฒนาในด้านนี้ จนถึงขั้นพัฒนาผลของการวิจัยและพัฒนาไปสู่การผลิตในเชิงอุตสาหกรรมและพาณิชย์",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VACT แยก][NP(2)[FIXN การ][VP(1)[VACT บริหารจัดการ] [NP [NCMN ?]][PP(1)[RPRE ระหว่าง][NP(1,3)[NP(2)[FIXN การ][VP(1)[VACT ปกครอง][NCMN ส่วนท้องถิ่น]]][JCRG และ][NP(2)[FIXN การ][VP(1)[VACT ปกครอง][NCMN ท้องที่]]]]]]] [AVBP[ADVN อย่างเป็นสัดส่วน]]]]",
+       "type": "report",
+       "source": "thaireform"
     },
     {
-        "raw": "ศูนย์ฯ ได้ดำเนินงานมา 1 ปีแล้ว ",
-        "lb": "[S(2)[NP[NCMN ศูนย์ฯ]] [VP(1)[XVAM ได้] [VP(1)[VACT ดำเนินงาน][XVAE มา] [NP(1)[NCNM 1] [CMTR ปี] [AVBP[ADVN แล้ว]]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "ศูนย์ฯ ได้ดำเนินงานมา 1 ปีแล้ว ",
+       "lb": "[S(2)[NP[NCMN ศูนย์ฯ]] [VP(1)[XVAM ได้] [VP(1)[VACT ดำเนินงาน][XVAE มา] [NP(1)[NCNM 1] [CMTR ปี] [AVBP[ADVN แล้ว]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ผลการดำเนินงานได้ก่อให้เกิดผลงานวิจัยและพัฒนาที่มีคุณค่ามหาศาล",
-        "lb": "[S(2)[NP(1)[NCMN ผล][NP(2)[FIXN การ][VP[VACT ดำเนินงาน]]]] [VP(1)[XVAE ได้][VP(1)[VACT ก่อให้เกิด][NP(1)[NCMN ผลงาน][NP(1",
-        "type": "3)[VACT วิจัย][JCRG และ][VACT พัฒนา]][PP(1)[PREL ที่][VP(1)[VSTA มี][NCMN คุณค่า][AVBP[ADVN มหาศาล]]]]]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "ผลการดำเนินงานได้ก่อให้เกิดผลงานวิจัยและพัฒนาที่มีคุณค่ามหาศาล",
+       "lb": "[S(2)[NP(1)[NCMN ผล][NP(2)[FIXN การ][VP[VACT ดำเนินงาน]]]] [VP(1)[XVAE ได้][VP(1)[VACT ก่อให้เกิด][NP(1)[NCMN ผลงาน][NP(1,3)[VACT วิจัย][JCRG และ][VACT พัฒนา]][PP(1)[PREL ที่][VP(1)[VSTA มี][NCMN คุณค่า][AVBP[ADVN มหาศาล]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ภาครัฐควรให้ประชาชนมีส่วนร่วมเรื่องการปลูกมันในพื้นที่ที่ไม่เหมาะสม",
-        "lb": "[S(2)[NP[NCMN ภาครัฐ]][VP(2)[XVMM ควร][PP(1)[RPRE ให้][NP(1)[NCMN ประชาชน][VP(1)[VSTA มีส่วนร่วม][NP(1)[NCMN เรื่อง][NP(2)[FIXN การ][VP(2)[VACT ปลูกมัน][PP(1)[RPRE ใน][NP(1)[NCMN พื้นที่][ADJC(1)[PREL ที่][ADJP(1",
-        "type": "2) [NEG ไม่][VATT เหมาะสม]]]]]]]]]]]]]",
-        "source": "report",
-        "dependency": "thaireform"
+       "raw": "ภาครัฐควรให้ประชาชนมีส่วนร่วมเรื่องการปลูกมันในพื้นที่ที่ไม่เหมาะสม",
+       "lb": "[S(2)[NP[NCMN ภาครัฐ]][VP(2)[XVMM ควร][PP(1)[RPRE ให้][NP(1)[NCMN ประชาชน][VP(1)[VSTA มีส่วนร่วม][NP(1)[NCMN เรื่อง][NP(2)[FIXN การ][VP(2)[VACT ปลูกมัน][PP(1)[RPRE ใน][NP(1)[NCMN พื้นที่][ADJC(1)[PREL ที่][ADJP(1,2) [NEG ไม่][VATT เหมาะสม]]]]]]]]]]]]]",
+       "type": "report",
+       "source": "thaireform"
     },
     {
-        "raw": "เป็นภาษามาตรฐานหรือไม่",
-        "lb": "[S(2)[NP[PPRS Ɛ]][VP(1)[VSTA เป็น][NP(1)[NCMN ภาษา][ADJP[VATT มาตรฐาน]]]][EITT หรือไม่]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "เป็นภาษามาตรฐานหรือไม่",
+       "lb": "[S(2)[NP[PPRS ?]][VP(1)[VSTA เป็น][NP(1)[NCMN ภาษา][ADJP[VATT มาตรฐาน]]]][EITT หรือไม่]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ในโอกาสการเสนอผลงานวิจัยและพัฒนาในครั้งนี้ ผมมีความเข้าใจและขอขอบคุณอย่างยิ่งที่นักวิจัยได้ทุ่มเท กำลังกาย กำลังใจ และกำลังสติปัญญาต่องานวิจัยและพัฒนานี้",
-        "lb": "[S(2) [PP(1)[RPRE ใน] [NP(1)[NCMN โอกาส] [NP(2)[FIXN การ] [VP(1)[VACT เสนอ] [NP[NCMN ผลงานวิจัยและพัฒนา]]]] [PP(1)[RPRE ใน] [CLSP(1",
-        "type": "2)[CFQC ครั้ง] [DDAC นี้]]]]] [S(2) [NP [PPRS ผม]] [VP(1)[VP(1)[VSTA มี] [NP(2)[FIXN ความ] [VP(1",
-        "source": "3)[VSTA เข้าใจ] [JCRG และ][VACT ขอขอบคุณ]]] [AVBP[ADVN อย่างยิ่ง]]] [ADJC(1)[PREL ที่] [NP(1)[NCMN นักวิจัย] [VP(2)[XVAM ได้] [VP(1)[VACT ทุ่มเท] [NP(1",
-        "dependency": "3"
+       "raw": "ในโอกาสการเสนอผลงานวิจัยและพัฒนาในครั้งนี้ ผมมีความเข้าใจและขอขอบคุณอย่างยิ่งที่นักวิจัยได้ทุ่มเท กำลังกาย กำลังใจ และกำลังสติปัญญาต่องานวิจัยและพัฒนานี้",
+       "lb": "[S(2) [PP(1)[RPRE ใน] [NP(1)[NCMN โอกาส] [NP(2)[FIXN การ] [VP(1)[VACT เสนอ] [NP[NCMN ผลงานวิจัยและพัฒนา]]]] [PP(1)[RPRE ใน] [CLSP(1,2)[CFQC ครั้ง] [DDAC นี้]]]]] [S(2) [NP [PPRS ผม]] [VP(1)[VP(1)[VSTA มี] [NP(2)[FIXN ความ] [VP(1,3)[VSTA เข้าใจ] [JCRG และ][VACT ขอขอบคุณ]]] [AVBP[ADVN อย่างยิ่ง]]] [ADJC(1)[PREL ที่] [NP(1)[NCMN นักวิจัย] [VP(2)[XVAM ได้] [VP(1)[VACT ทุ่มเท] [NP(1,3,5)[NCMN กำลังกาย] [PUNC <space>] [NCMN กำลังใจ] [JCRG และ] [NCMN กำลังสติปัญญา]] [PP(1)[RPRE ต่อ] [NP(1,2)[NCMN งานวิจัยและพัฒนา] [DDAC นี้]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "พยายามวางแผนและประสานงานอย่างใกล้ชิด เพื่อให้งานวิจัยและพัฒนาของท่านมีคุณค่าและคุณประโยชน์ต่อประเทศชาติยิ่งขึ้นไป",
-        "lb": "[S(1)[S(2)[NP[NCMN Ɛ]][VP(1) [VACT พยายาม] [VP(1)[VP(1",
-        "type": "3)[VACT วางแผน] [JCRG และ] [VACT ประสานงาน]] [AVBP[FIXV อย่าง] [ADVN ใกล้ชิด]]]]][JSBR เพื่อให้] [S(2)[NP(1)[NCMN งานวิจัยและพัฒนา] [PP(1)[RPRE ของ] [NP[PPRS ท่าน]]]] [VP(1)[VSTA มี] [NP(1)[NP(1",
-        "source": "3)[NCMN คุณค่า] [JCRG และ] [NCMN คุณประโยชน์]] [PP(1)[RPRE ต่อ] [NP[NCMN ประเทศชาติ]]]] [AVBP[ADVN ยิ่งขึ้นไป]]]]]",
-        "dependency": "report"
+       "raw": "พยายามวางแผนและประสานงานอย่างใกล้ชิด เพื่อให้งานวิจัยและพัฒนาของท่านมีคุณค่าและคุณประโยชน์ต่อประเทศชาติยิ่งขึ้นไป",
+       "lb": "[S(1)[S(2)[NP[NCMN ?]][VP(1) [VACT พยายาม] [VP(1)[VP(1,3)[VACT วางแผน] [JCRG และ] [VACT ประสานงาน]] [AVBP[FIXV อย่าง] [ADVN ใกล้ชิด]]]]][JSBR เพื่อให้] [S(2)[NP(1)[NCMN งานวิจัยและพัฒนา] [PP(1)[RPRE ของ] [NP[PPRS ท่าน]]]] [VP(1)[VSTA มี] [NP(1)[NP(1,3)[NCMN คุณค่า] [JCRG และ] [NCMN คุณประโยชน์]] [PP(1)[RPRE ต่อ] [NP[NCMN ประเทศชาติ]]]] [AVBP[ADVN ยิ่งขึ้นไป]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ผมขอยืนยันในเจตนารมณ์ของผม ในอันที่จะสนับสนุนงานวิจัยและพัฒนาเพื่อการพัฒนาประเทศไว้ ณ ที่นี้",
-        "lb": "[S(2)[NP[PPRS ผม]] [VP(1)[VACT ขอ] [VP(1)[VACT ยืนยัน] [NP(1)[NP[NCMN Ɛ]][PP(1)[RPRE ใน] [NP(1)[NCMN เจตนารมณ์] [PP(1)[RPRE ของ] [NP[PPRS ผม]]]]]] [JSBR ในอันที่จะ] [VP(1)[VACT สนับสนุน] [NP[NCMN งานวิจัยและพัฒนา]] [PP(1)[RPRE เพื่อ] [NP(1)[FIXN การ] [VP(1)[VACT พัฒนา] [NP[NCMN ประเทศ]]]]]] [XVAE ไว้] [PP(1)[RPRE ณ] [NP[PDMN ที่นี้]]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "ผมขอยืนยันในเจตนารมณ์ของผม ในอันที่จะสนับสนุนงานวิจัยและพัฒนาเพื่อการพัฒนาประเทศไว้ ณ ที่นี้",
+       "lb": "[S(2)[NP[PPRS ผม]] [VP(1)[VACT ขอ] [VP(1)[VACT ยืนยัน] [NP(1)[NP[NCMN ?]][PP(1)[RPRE ใน] [NP(1)[NCMN เจตนารมณ์] [PP(1)[RPRE ของ] [NP[PPRS ผม]]]]]] [JSBR ในอันที่จะ] [VP(1)[VACT สนับสนุน] [NP[NCMN งานวิจัยและพัฒนา]] [PP(1)[RPRE เพื่อ] [NP(1)[FIXN การ] [VP(1)[VACT พัฒนา] [NP[NCMN ประเทศ]]]]]] [XVAE ไว้] [PP(1)[RPRE ณ] [NP[PDMN ที่นี้]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "สนับสนุนและติดตามการดำเนินงานของศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติมาโดยตลอด",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(1)[VP(1",
-        "type": "3)[VACT สนับสนุน] [JCRG และ] [VACT ติดตาม]] [NP(2)[NP(2)[FIXN การ] [VP[VACT ดำเนินงาน]]] [PP(1)[RPRE ของ] [NP[NPRP ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ]]]] [XVAE มา] [AVBP[FIXV โดย] [ADVN ตลอด]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "สนับสนุนและติดตามการดำเนินงานของศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติมาโดยตลอด",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(1)[VP(1,3)[VACT สนับสนุน] [JCRG และ] [VACT ติดตาม]] [NP(2)[NP(2)[FIXN การ] [VP[VACT ดำเนินงาน]]] [PP(1)[RPRE ของ] [NP[NPRP ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ]]]] [XVAE มา] [AVBP[FIXV โดย] [ADVN ตลอด]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ผลงานวิจัยและพัฒนาที่เกิดขึ้นนี้แสดงให้เห็นถึงความก้าวหน้าแล้วความสำเร็จระดับหนึ่งของศูนย์ฯ ซึ่งหมายถึงการพัฒนาด้านอิเล็กทรอนิกส์และคอมพิวเตอร์ เป็นไปในทิศทางที่ถูกต้องเหมาะสม",
-        "lb": "[S(1)[S(2)[NP(1)[NCMN ผลงานวิจัยและพัฒนา][ADJC(1)[PREL ที่][VP[VACT เกิดขึ้น]]] [DDAC นี้]][VP(1)[VACT แสดงให้เห็น][PP(1)[RPRE ถึง][NP(1",
-        "type": "3)[NP(2)[FIXN ความ] [VACT ก้าวหน้า]] [JCRG และ][NP(2)[FIXN ความ] [VSTA สำเร็จ]]][NP(1)[NCMN ระดับ] [DCNM หนึ่ง][PP(1)[RPRE ของ][NP[NCMN ศูนย์ฯ]]]]]]][JSBR ซึ่ง][S(2)[NCMN Ɛ][VP(1)[VACT หมายถึง][NP(2)[FIXN การ][VP(1)[VACT พัฒนา][NP(2)[NCMN Ɛ] [PP(1)[RPRE ด้าน][NP(1",
-        "source": "3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]]]][VP(1)[VSTA เป็น][XVAE ไป][PP(1)[RPRE ใน][NP(1)[NCMN ทิศทาง][ADJC(1)[PREL ที่][ADJP[VATT ถูกต้องเหมาะสม]]]]]]]]]]]",
-        "dependency": "report"
+       "raw": "ผลงานวิจัยและพัฒนาที่เกิดขึ้นนี้แสดงให้เห็นถึงความก้าวหน้าแล้วความสำเร็จระดับหนึ่งของศูนย์ฯ ซึ่งหมายถึงการพัฒนาด้านอิเล็กทรอนิกส์และคอมพิวเตอร์ เป็นไปในทิศทางที่ถูกต้องเหมาะสม",
+       "lb": "[S(1)[S(2)[NP(1)[NCMN ผลงานวิจัยและพัฒนา][ADJC(1)[PREL ที่][VP[VACT เกิดขึ้น]]] [DDAC นี้]][VP(1)[VACT แสดงให้เห็น][PP(1)[RPRE ถึง][NP(1,3)[NP(2)[FIXN ความ] [VACT ก้าวหน้า]] [JCRG และ][NP(2)[FIXN ความ] [VSTA สำเร็จ]]][NP(1)[NCMN ระดับ] [DCNM หนึ่ง][PP(1)[RPRE ของ][NP[NCMN ศูนย์ฯ]]]]]]][JSBR ซึ่ง][S(2)[NCMN ?][VP(1)[VACT หมายถึง][NP(2)[FIXN การ][VP(1)[VACT พัฒนา][NP(2)[NCMN ?] [PP(1)[RPRE ด้าน][NP(1,3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]]]][VP(1)[VSTA เป็น][XVAE ไป][PP(1)[RPRE ใน][NP(1)[NCMN ทิศทาง][ADJC(1)[PREL ที่][ADJP[VATT ถูกต้องเหมาะสม]]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ทำให้เกิดการสร้างงาน และกระจายรายได้ ซึ่งเป็นเป้าหมายและนโยบายของกระทรวงวิทยาศาสตร์ฯ",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1",
-        "type": "3)[VP(1",
-        "source": "3)[VP(1)[VACT ทำให้เกิด][NP(2)[FIXN การ][VP(1)[VACT สร้าง][NP[NCMN งาน]]]]][JCRG และ][VP(1)[VACT กระจาย][NP[NCMN รายได้]]]][JSBR ซึ่ง][VP(1)[VSTA เป็น][NP(1)[NP(1",
-        "dependency": "3)[NCMN เป้าหมาย][JCRG และ][NCMN นโยบาย]][PP(1)[RPRE ของ][NP[NPRP กระทรวงวิทยาศาสตร์ฯ]]]]]]]"
+       "raw": "ทำให้เกิดการสร้างงาน และกระจายรายได้ ซึ่งเป็นเป้าหมายและนโยบายของกระทรวงวิทยาศาสตร์ฯ",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1,3)[VP(1,3)[VP(1)[VACT ทำให้เกิด][NP(2)[FIXN การ][VP(1)[VACT สร้าง][NP[NCMN งาน]]]]][JCRG และ][VP(1)[VACT กระจาย][NP[NCMN รายได้]]]][JSBR ซึ่ง][VP(1)[VSTA เป็น][NP(1)[NP(1,3)[NCMN เป้าหมาย][JCRG และ][NCMN นโยบาย]][PP(1)[RPRE ของ][NP[NPRP กระทรวงวิทยาศาสตร์ฯ]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "เพื่อให้งานวิจัยและพัฒนาของท่านมีคุณค่า และคุณประโยชน์ต่อประเทศชาติยิ่งขึ้นไป",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[JSBR เพื่อให้][NP(1)[NCMN งานวิจัยและพัฒนา][PP(1)[RPRE ของ][NP(1)[PPRS ท่าน][VP(1)[VSTA มี][NP(1",
-        "type": "3)[NCMN คุณค่า][JCRG และ][NP[NCMN คุณประโยชน์][PP(1)[RPRE ต่อ][NP(1)[NCMN ประเทศชาติ][AVBP(1)[ADVN ยิ่งขึ้น][XVAE ไป]]]]]]]]]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "เพื่อให้งานวิจัยและพัฒนาของท่านมีคุณค่า และคุณประโยชน์ต่อประเทศชาติยิ่งขึ้นไป",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[JSBR เพื่อให้][NP(1)[NCMN งานวิจัยและพัฒนา][PP(1)[RPRE ของ][NP(1)[PPRS ท่าน][VP(1)[VSTA มี][NP(1,3)[NCMN คุณค่า][JCRG และ][NP[NCMN คุณประโยชน์][PP(1)[RPRE ต่อ][NP(1)[NCMN ประเทศชาติ][AVBP(1)[ADVN ยิ่งขึ้น][XVAE ไป]]]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "กระทรวงวิทยาศาสตร์ เทคโนโลยีและการพลังงานได้เล็งเห็นความสำคัญของเทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์ซึ่งมีบทบาทสำคัญต่อการพัฒนาประเทศ",
-        "lb": "[S(1)[S(2)[NP[NPRP กระทรวงวิทยาศาสตร์ เทคโนโลยีและการพลังงาน]] [VP(1)[XVAM ได้] [VP(1)[VACT เล็งเห็น] [NP(1)[NP(2)[FIXN ความ] [ADJP[VATT สำคัญ]]] [PP(1)[RPRE ของ] [NP(1)[NCMN เทคโนโลยี] [NP(1",
-        "type": "3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]]]]]]]] [PREL ซึ่ง] [S(2)[NP[NCMN Ɛ]][VP(1)[VSTA มี] [NP(1)[NCMN บทบาท] [ADJP[VATT สำคัญ]][PP(1)[RPRE ต่อ] [NP(2)[FIXN การ] [VP(1)[VACT พัฒนา] [NP[NCMN ประเทศ]]]]]]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "กระทรวงวิทยาศาสตร์ เทคโนโลยีและการพลังงานได้เล็งเห็นความสำคัญของเทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์ซึ่งมีบทบาทสำคัญต่อการพัฒนาประเทศ",
+       "lb": "[S(1)[S(2)[NP[NPRP กระทรวงวิทยาศาสตร์ เทคโนโลยีและการพลังงาน]] [VP(1)[XVAM ได้] [VP(1)[VACT เล็งเห็น] [NP(1)[NP(2)[FIXN ความ] [ADJP[VATT สำคัญ]]] [PP(1)[RPRE ของ] [NP(1)[NCMN เทคโนโลยี] [NP(1,3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]]]]]]]] [PREL ซึ่ง] [S(2)[NP[NCMN ?]][VP(1)[VSTA มี] [NP(1)[NCMN บทบาท] [ADJP[VATT สำคัญ]][PP(1)[RPRE ต่อ] [NP(2)[FIXN การ] [VP(1)[VACT พัฒนา] [NP[NCMN ประเทศ]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "กระทรวงวิทยาศาสตร์ยินดีและพร้อมที่จะสนับสนุนการดำเนินงานของศูนย์ให้เป็นไปอย่างต่อเนื่องสืบไป",
-        "lb": "[S(3)[NP[NPRP กระทรวงวิทยาศาสตร์ฯ]][PUNC ][VP(1)[VP(1",
-        "type": "3)[VSTA ยินดี][JCRG และ][VSTA พร้อม]][PREL ที่][VP(2)[XVBM จะ][VP(1)[VACT สนับสนุน][NP(1)[NP(2)[FIXN การ][VSTA ดำเนินงาน]][PP(1)[RPRE ของ][NP[NCMN ศูนย์ฯ]]]][PUNC space][JSBR ให้][VP(1)[VSTA เป็น][XVAE ไป][AVBP(1",
-        "source": "2",
-        "dependency": "3)[FIXV อย่าง][VSTA ต่อเนื่อง][ADVN สืบไป]]]]]]]"
+       "raw": "กระทรวงวิทยาศาสตร์ยินดีและพร้อมที่จะสนับสนุนการดำเนินงานของศูนย์ให้เป็นไปอย่างต่อเนื่องสืบไป",
+       "lb": "[S(3)[NP[NPRP กระทรวงวิทยาศาสตร์ฯ]][PUNC <space>][VP(1)[VP(1,3)[VSTA ยินดี][JCRG และ][VSTA พร้อม]][PREL ที่][VP(2)[XVBM จะ][VP(1)[VACT สนับสนุน][NP(1)[NP(2)[FIXN การ][VSTA ดำเนินงาน]][PP(1)[RPRE ของ][NP[NCMN ศูนย์ฯ]]]][PUNC space][JSBR ให้][VP(1)[VSTA เป็น][XVAE ไป][AVBP(1,2,3)[FIXV อย่าง][VSTA ต่อเนื่อง][ADVN สืบไป]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "นับเป็นนิมิตหมายอันดีที่ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติได้รับการจัดตั้งขึ้นโดยมติคณะรัฐมนตรี",
-        "lb": "[S(3)[S(2)[NP[NCMN Ɛ]][VP(1)[VSTA นับเป็น][NP(1)[NCMN นิมิตรหมาย] [ADJC(1)[PREL อัน][ADJP [VATT ดี]]]]]][JSBR ที่][S(2)[NP[NPRP ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ]][VP(1)[VSTA ได้รับ] [NP(2)[FIXN การ][VP(1)[VACT จัดตั้ง] [XVAE ขึ้น][PP(1)[RPRE โดย][NP(1)[NCMN มติ][NP(1)[NCMN คณะ][NP[NCMN รัฐมนตรี]]]]]]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "นับเป็นนิมิตหมายอันดีที่ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติได้รับการจัดตั้งขึ้นโดยมติคณะรัฐมนตรี",
+       "lb": "[S(3)[S(2)[NP[NCMN ?]][VP(1)[VSTA นับเป็น][NP(1)[NCMN นิมิตรหมาย] [ADJC(1)[PREL อัน][ADJP [VATT ดี]]]]]][JSBR ที่][S(2)[NP[NPRP ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ]][VP(1)[VSTA ได้รับ] [NP(2)[FIXN การ][VP(1)[VACT จัดตั้ง] [XVAE ขึ้น][PP(1)[RPRE โดย][NP(1)[NCMN มติ][NP(1)[NCMN คณะ][NP[NCMN รัฐมนตรี]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "จึงขอฝากให้นักวิจัยอย่าได้ท้อถอยต่อปัญหาและอุปสรรคต่างๆที่เกิดขึ้น",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(2)[XVBM จึง] [VP(1)[VACT ขอ][VACT ฝาก] [PP(1)[RPRE ให้] [NP[NCMN นักวิจัย]]] [VP(1",
-        "type": "2)[XVBB อย่าได้] [VACT ท้อถอย] [PP(1)[RPRE ต่อ] [NP(1)[NP(1",
-        "source": "3)[NCMN ปัญหา] [JCRG และ] [NCMN อุปสรรค]] [DIAC ต่างๆ] [ADJC(1)[PREL ที่] [ADJP[VSTA เกิดขึ้น]]]]]]]]]",
-        "dependency": "report"
+       "raw": "จึงขอฝากให้นักวิจัยอย่าได้ท้อถอยต่อปัญหาและอุปสรรคต่างๆที่เกิดขึ้น",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(2)[XVBM จึง] [VP(1)[VACT ขอ][VACT ฝาก] [PP(1)[RPRE ให้] [NP[NCMN นักวิจัย]]] [VP(1,2)[XVBB อย่าได้] [VACT ท้อถอย] [PP(1)[RPRE ต่อ] [NP(1)[NP(1,3)[NCMN ปัญหา] [JCRG และ] [NCMN อุปสรรค]] [DIAC ต่างๆ] [ADJC(1)[PREL ที่] [ADJP[VSTA เกิดขึ้น]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ทำหน้าที่กำหนดนโยบายและวางแผนงานในอันที่จะสนับสนุนงานวิจัยและพัฒนาด้านอิเล็กทรอนิกส์และคอมพิวเตอร์ให้เป็นไปอย่างมีระบบบนพื้นฐานที่ตอบสนองต่อการพัฒนาประเทศและการแก้ไขปัญหาพื้นฐานของประเทศ",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VACT ทำหน้าที่] [VP(1)[VP(1",
-        "type": "3)[VP(1)[VACT กำหนด] [NP[NCMN นโยบาย]]] [JCRG และ] [VP(1)[VACT วางแผน][NP[NCMN งาน]]]][JSBR ในอันที่จะ] [VP(1)[VACT สนับสนุน] [NP(1)[NCMN งานวิจัยและพัฒนา] [PP(1)[RPRE ด้าน] [NP(1",
-        "source": "3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]]]] [JSBR ให้] [VP(1)[VSTA เป็น] [XVAE ไป] [AVBP(1)[FIXV อย่าง] [VP(1)[VSTA มี] [NP[NCMN ระบบ]]]]]][PP(1)[RPRE บน][NP(1)[NCMN พื้นฐาน][ADJC(1)[PREL ที่][VP(1)[VACT ตอบสนอง][PP(1)[RPRE ต่อ][NP(1",
-        "dependency": "3)[NP(2)[FIXN การ][VP(1)[VACT พัฒนา][NP[NCMN ประเทศ]]]][JCRG และ][NP(2)[FIXN การ][VP(1)[VACT แก้ไข][NP[NP(1)[NCMN ปัญหา][ADJP[VATT พื้นฐาน]]][PP(1)[RPRE ของ][NP[NCMN ประเทศ]]]]]]]]]]]]]]]"
+       "raw": "ทำหน้าที่กำหนดนโยบายและวางแผนงานในอันที่จะสนับสนุนงานวิจัยและพัฒนาด้านอิเล็กทรอนิกส์และคอมพิวเตอร์ให้เป็นไปอย่างมีระบบบนพื้นฐานที่ตอบสนองต่อการพัฒนาประเทศและการแก้ไขปัญหาพื้นฐานของประเทศ",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VACT ทำหน้าที่] [VP(1)[VP(1,3)[VP(1)[VACT กำหนด] [NP[NCMN นโยบาย]]] [JCRG และ] [VP(1)[VACT วางแผน][NP[NCMN งาน]]]][JSBR ในอันที่จะ] [VP(1)[VACT สนับสนุน] [NP(1)[NCMN งานวิจัยและพัฒนา] [PP(1)[RPRE ด้าน] [NP(1,3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]]]] [JSBR ให้] [VP(1)[VSTA เป็น] [XVAE ไป] [AVBP(1)[FIXV อย่าง] [VP(1)[VSTA มี] [NP[NCMN ระบบ]]]]]][PP(1)[RPRE บน][NP(1)[NCMN พื้นฐาน][ADJC(1)[PREL ที่][VP(1)[VACT ตอบสนอง][PP(1)[RPRE ต่อ][NP(1,3)[NP(2)[FIXN การ][VP(1)[VACT พัฒนา][NP[NCMN ประเทศ]]]][JCRG และ][NP(2)[FIXN การ][VP(1)[VACT แก้ไข][NP[NP(1)[NCMN ปัญหา][ADJP[VATT พื้นฐาน]]][PP(1)[RPRE ของ][NP[NCMN ประเทศ]]]]]]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ผมเชื่อแน่ว่าผลงานวิจัยและพัฒนานี้มีประโยชน์อย่างสูงต่อการพัฒนาด้านอุตสาหกรรม อิเล็กทรอนิกส์และคอมพิวเตอร์",
-        "lb": "[S(3)[NP(1)[PPRS ผม][VP(1)[VSTA เชื่อ][AVBP[ADVN แน่]]]] [JSBR ว่า][S(2)[NP(1)[NCMN ผลงานวิจัยและพัฒนา] [DDAC นี้]][VP(1)[VP(1)[VSTA มี][NP[NCMN ประโยชน์]]][AVBP(1)[FIXV อย่าง][ADJP[VATT สูง]]][PP(1)[RPRE ต่อ][NP(2)[FIXN การ][VP(1)[VACT พัฒนา][NP(2)[NCMN ด้าน][NP(1)[NCMN อุตสาหกรรม] [NP(1",
-        "type": "3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]]]]]]]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "ผมเชื่อแน่ว่าผลงานวิจัยและพัฒนานี้มีประโยชน์อย่างสูงต่อการพัฒนาด้านอุตสาหกรรม อิเล็กทรอนิกส์และคอมพิวเตอร์",
+       "lb": "[S(3)[NP(1)[PPRS ผม][VP(1)[VSTA เชื่อ][AVBP[ADVN แน่]]]] [JSBR ว่า][S(2)[NP(1)[NCMN ผลงานวิจัยและพัฒนา] [DDAC นี้]][VP(1)[VP(1)[VSTA มี][NP[NCMN ประโยชน์]]][AVBP(1)[FIXV อย่าง][ADJP[VATT สูง]]][PP(1)[RPRE ต่อ][NP(2)[FIXN การ][VP(1)[VACT พัฒนา][NP(2)[NCMN ด้าน][NP(1)[NCMN อุตสาหกรรม] [NP(1,3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ผลงานของศูนย์ฯในระยะเวลา 1 ปีได้รับผลสำเร็จเป็นที่น่าพอใจซึ่งทั้งนี้ เนื่องจากการประสานงานและความร่วมมือเป็นไปอย่างดีของนักวิจัยและผู้เกี่ยวข้อง",
-        "lb": "[S(1)[S(2)[NP(1)[NP(1)[NCMN ผลงาน] [PP(1)[RPRE ของ] [NP(1)[NCMN ศูนย์ฯ]]]] [PP(1)[RPRE ใน] [NP(1",
-        "type": "2)[NP(1)[NCMN ระยะ][NP[NCMN เวลา]]] [CLSP(1",
-        "source": "3)[DCNM 1] [PUNC ] [CMTR ปี]]]]] [VP(1)[VSTA ได้รับ] [NP[NCMN ผลสำเร็จ]] [VP(1)[VSTA เป็น] [ADJC(1)[PREL ที่] [VP[VSTA น่าพอใจ]]]]]][JSBR ซึ่ง] [JCRG ทั้งนี้] [JSBR เนื่องจาก] [S[NP(1",
-        "dependency": "3)[NP(2)[FIXN การ] [VACT ประสานงาน]] [JCRG และ] [NP(2)[FIXN ความ] [VACT ร่วมมือ]]] [VP(1)[VSTA เป็น] [XVAE ไป] [AVBP(2)[FIXV อย่าง] [VATT ดี]]] [PP(1)[RPRE ของ] [NP(1"
+       "raw": "ผลงานของศูนย์ฯในระยะเวลา 1 ปีได้รับผลสำเร็จเป็นที่น่าพอใจซึ่งทั้งนี้ เนื่องจากการประสานงานและความร่วมมือเป็นไปอย่างดีของนักวิจัยและผู้เกี่ยวข้อง",
+       "lb": "[S(1)[S(2)[NP(1)[NP(1)[NCMN ผลงาน] [PP(1)[RPRE ของ] [NP(1)[NCMN ศูนย์ฯ]]]] [PP(1)[RPRE ใน] [NP(1,2)[NP(1)[NCMN ระยะ][NP[NCMN เวลา]]] [CLSP(1,3)[DCNM 1] [PUNC <space>] [CMTR ปี]]]]] [VP(1)[VSTA ได้รับ] [NP[NCMN ผลสำเร็จ]] [VP(1)[VSTA เป็น] [ADJC(1)[PREL ที่] [VP[VSTA น่าพอใจ]]]]]][JSBR ซึ่ง] [JCRG ทั้งนี้] [JSBR เนื่องจาก] [S[NP(1,3)[NP(2)[FIXN การ] [VACT ประสานงาน]] [JCRG และ] [NP(2)[FIXN ความ] [VACT ร่วมมือ]]] [VP(1)[VSTA เป็น] [XVAE ไป] [AVBP(2)[FIXV อย่าง] [VATT ดี]]] [PP(1)[RPRE ของ] [NP(1,3)[NCMN นักวิจัย] [JCRG และ] [NCMN ผู้เกี่ยวข้อง]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ดำเนินการสนับสนุนงานวิจัยและพัฒนาให้เป็นรูปธรรมเพื่อนำไปสู่การผลิตเชิงอุตสาหกรรมให้มากที่สุด",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VACT ดำเนินการ] [VP(1)[VACT สนับสนุน] [NP[NCMN งานวิจัยและพัฒนา]] [JSBR ให้] [VP(1)[VSTA เป็น] [NP[NCMN รูปธรรม]]][JSBR เพื่อ] [VP(1)[VACT นำไปสู่] [NP(1)[NP(2)[FIXN การ] [VP[VACT ผลิต]]] [PP(1)[RPRE เชิง] [NP[NCMN อุตสาหกรรม]]]] [JSBR ให้] [ADJP(1)[VATT มาก] [AVBP[ADVN ที่สุด]]]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "ดำเนินการสนับสนุนงานวิจัยและพัฒนาให้เป็นรูปธรรมเพื่อนำไปสู่การผลิตเชิงอุตสาหกรรมให้มากที่สุด",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VACT ดำเนินการ] [VP(1)[VACT สนับสนุน] [NP[NCMN งานวิจัยและพัฒนา]] [JSBR ให้] [VP(1)[VSTA เป็น] [NP[NCMN รูปธรรม]]][JSBR เพื่อ] [VP(1)[VACT นำไปสู่] [NP(1)[NP(2)[FIXN การ] [VP[VACT ผลิต]]] [PP(1)[RPRE เชิง] [NP[NCMN อุตสาหกรรม]]]] [JSBR ให้] [ADJP(1)[VATT มาก] [AVBP[ADVN ที่สุด]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ในปีงบประมาณ 2531 ที่ผ่านมาศูนย์ได้สนับสนุนงานวิจัยและพัฒนาทั้งสิ้นจำนวน 10 โครงการหลัก ซึ่งประกอบด้วย 55 โครงการย่อย",
-        "lb": "[S(2)[PP(1)[RPRE ใน][NP(1)[NP(1)[NCMN ปีงบประมาณ][NP(1)[NCNM 2531]]][ADJC(1)[PREL ที่][VP(1)[VSTA ผ่าน] [XVAE มา]]]]][S(2)[NP[NPRP ศูนย์ฯ]][VP(2)[XVAM ได้][VP(1)[VACT สนับสนุน][NP(1)[NCMN งานวิจัยและพัฒนา][DDAN ทั้งสิ้น][NP(1)[NP(1)[NCMN จำนวน][CLSP(1)[DCNM 10][CNIT โครงการ][ADJP[VATT หลัก]]]][ADJC(1)[PREL ซึ่ง][VP(1)[VACT ประกอบ][PP(2)[RPRE ด้วย] [CLSP(1)[DCNM 55][CNIT โครงการ][ADJP[VATT ย่อย]]]]]]]]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "ในปีงบประมาณ 2531 ที่ผ่านมาศูนย์ได้สนับสนุนงานวิจัยและพัฒนาทั้งสิ้นจำนวน 10 โครงการหลัก ซึ่งประกอบด้วย 55 โครงการย่อย",
+       "lb": "[S(2)[PP(1)[RPRE ใน][NP(1)[NP(1)[NCMN ปีงบประมาณ][NP(1)[NCNM 2531]]][ADJC(1)[PREL ที่][VP(1)[VSTA ผ่าน] [XVAE มา]]]]][S(2)[NP[NPRP ศูนย์ฯ]][VP(2)[XVAM ได้][VP(1)[VACT สนับสนุน][NP(1)[NCMN งานวิจัยและพัฒนา][DDAN ทั้งสิ้น][NP(1)[NP(1)[NCMN จำนวน][CLSP(1)[DCNM 10][CNIT โครงการ][ADJP[VATT หลัก]]]][ADJC(1)[PREL ซึ่ง][VP(1)[VACT ประกอบ][PP(2)[RPRE ด้วย] [CLSP(1)[DCNM 55][CNIT โครงการ][ADJP[VATT ย่อย]]]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "นับเป็นวาระครบรอบหนึ่งปีโดยประมาณที่ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติได้เข้ามามีบทบาทในการสนับสนุนงานวิจัยและพัฒนาด้านอิเล็กทรอนิกส์และคอมพิวเตอร์ของประเทศไทยให้สอดคล้องกับแผนพัฒนาเศรษฐกิจและสังคมแช่งชาติฉบับที่ 6 และตามนโยบายที่ได้รับมอบหมายจากรัฐบาล",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VSTA นับเป็น][NP(1)[NP(1)[NCMN วาระ][ADJC(2)[PREL Ɛ][VP(1)[VACT ครบรอบ][CLSP(1)[DCNM หนึ่ง][CMTR ปี]][AVBP(2)[FIXV โดย][VSTA ประมาณ]]]]][ADJC(1)[PREL ที่][S(2)[NP[NPRP ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ]][VP(2)[XVAM ได้][VP(2)[VACT เข้ามา][VP(1)[VSTA มี][NP(1)[NCMN บทบาท][PP(1)[RPRE ใน][NP(2)[FIXN การ] [VP(1)[VACT สนับสนุน][NP(1)[NCMN งานวิจัยและพัฒนา][NP(2)[NCMN ด้าน][NP(1",
-        "type": "3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]]] [PP(1)[RPRE ของ][NP[NPRP ประเทศไทย]]]][JSBR ให้][VP(1)[VSTA สอดคล้อง][PP(1",
-        "source": "3)[PP(1)[RPRE กับ][NP(1)[NCMN แผนพัฒนาเศรษฐกิจและสังคมแห่งชาติ][CLSP(1)[CNIT ฉบับ] [DONM ที่ 6]]]][JCRG และ][PP(1)[RPRE ตาม][NP(1)[NCMN นโยบาย] [ADJC(1)[PREL ที่][VP(1)[VSTA ได้รับ][VP(1)[VACT มอบหมาย][PP(1)[RPRE จาก] [NP[NCMN รัฐบาล]]]]]]]]]]]]]]]]]]]]]]",
-        "dependency": "report"
+       "raw": "นับเป็นวาระครบรอบหนึ่งปีโดยประมาณที่ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติได้เข้ามามีบทบาทในการสนับสนุนงานวิจัยและพัฒนาด้านอิเล็กทรอนิกส์และคอมพิวเตอร์ของประเทศไทยให้สอดคล้องกับแผนพัฒนาเศรษฐกิจและสังคมแช่งชาติฉบับที่ 6 และตามนโยบายที่ได้รับมอบหมายจากรัฐบาล",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VSTA นับเป็น][NP(1)[NP(1)[NCMN วาระ][ADJC(2)[PREL ?][VP(1)[VACT ครบรอบ][CLSP(1)[DCNM หนึ่ง][CMTR ปี]][AVBP(2)[FIXV โดย][VSTA ประมาณ]]]]][ADJC(1)[PREL ที่][S(2)[NP[NPRP ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ]][VP(2)[XVAM ได้][VP(2)[VACT เข้ามา][VP(1)[VSTA มี][NP(1)[NCMN บทบาท][PP(1)[RPRE ใน][NP(2)[FIXN การ] [VP(1)[VACT สนับสนุน][NP(1)[NCMN งานวิจัยและพัฒนา][NP(2)[NCMN ด้าน][NP(1,3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]]] [PP(1)[RPRE ของ][NP[NPRP ประเทศไทย]]]][JSBR ให้][VP(1)[VSTA สอดคล้อง][PP(1,3)[PP(1)[RPRE กับ][NP(1)[NCMN แผนพัฒนาเศรษฐกิจและสังคมแห่งชาติ][CLSP(1)[CNIT ฉบับ] [DONM ที่ 6]]]][JCRG และ][PP(1)[RPRE ตาม][NP(1)[NCMN นโยบาย] [ADJC(1)[PREL ที่][VP(1)[VSTA ได้รับ][VP(1)[VACT มอบหมาย][PP(1)[RPRE จาก] [NP[NCMN รัฐบาล]]]]]]]]]]]]]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "นับว่าสำคัญเป็นอย่างยิ่งคือความร่วมมือจากหลายฝ่ายที่เกี่ยวข้องทั้งภาครัฐบาลและเอกชน",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(1)[VSTA นับว่า] [VP(1)[VSTA สำคัญ][VP(1)[VSTA เป็น] [AVBP(2)[FIXV อย่าง] [ADVN ยิ่ง]] [VP(1)[VSTA คือ][NP(1)[NP(2)[FIXN ความ][VACT ร่วมมือ]] [PP(1)[RPRE จาก][NP(1)[NCMN Ɛ] [CLSP(1)[DIBQ หลาย] [CLTV ฝ่าย]] [ADJC(1)[PREL ที่] [VP(1)[VACT เกี่ยวข้อง] [JCRG ทั้ง] [NP(1",
-        "type": "3)[NCMN ภาครัฐบาล] [JCRG และ] [NCMN เอกชน]]]]]]]]]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "นับว่าสำคัญเป็นอย่างยิ่งคือความร่วมมือจากหลายฝ่ายที่เกี่ยวข้องทั้งภาครัฐบาลและเอกชน",
+       "lb": "[S(2)[NP[NCMN ?]][VP(1)[VSTA นับว่า] [VP(1)[VSTA สำคัญ][VP(1)[VSTA เป็น] [AVBP(2)[FIXV อย่าง] [ADVN ยิ่ง]] [VP(1)[VSTA คือ][NP(1)[NP(2)[FIXN ความ][VACT ร่วมมือ]] [PP(1)[RPRE จาก][NP(1)[NCMN ?] [CLSP(1)[DIBQ หลาย] [CLTV ฝ่าย]] [ADJC(1)[PREL ที่] [VP(1)[VACT เกี่ยวข้อง] [JCRG ทั้ง] [NP(1,3)[NCMN ภาครัฐบาล] [JCRG และ] [NCMN เอกชน]]]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ประการแรก คือ เป็นกลไกการประสานงานระหว่างภาครัฐบาลและเอกชน ส่วนประการที่สอง คือ สามารถที่จะรับและเสนอแนะนโยบายด้านอิเล็กทรอนิกส์และคอมพิวเตอร์ต่อคณะรัฐมนตรีได้โดยตรง",
-        "lb": "[S(1",
-        "type": "3)[S(2)[NP(1",
-        "source": "2)[NCMN ประการ] [DONM แรก]][VP(1)[VSTA คือ][VP(1)[VSTA เป็น] [NP(1)[NCMN กลไก][NP(1)[NP(2)[FIXN การ][VACT ประสานงาน]][PP(1)[RPRE ระหว่าง][NP(1",
-        "dependency": "3)[NCMN ภาครัฐบาล] [JCRG และ] [NCMN เอกชน]]]]]]]][JCRG ส่วน] [S(2)[NP(1"
+       "raw": "ประการแรก คือ เป็นกลไกการประสานงานระหว่างภาครัฐบาลและเอกชน ส่วนประการที่สอง คือ สามารถที่จะรับและเสนอแนะนโยบายด้านอิเล็กทรอนิกส์และคอมพิวเตอร์ต่อคณะรัฐมนตรีได้โดยตรง",
+       "lb": "[S(1,3)[S(2)[NP(1,2)[NCMN ประการ] [DONM แรก]][VP(1)[VSTA คือ][VP(1)[VSTA เป็น] [NP(1)[NCMN กลไก][NP(1)[NP(2)[FIXN การ][VACT ประสานงาน]][PP(1)[RPRE ระหว่าง][NP(1,3)[NCMN ภาครัฐบาล] [JCRG และ] [NCMN เอกชน]]]]]]]][JCRG ส่วน] [S(2)[NP(1,2)[NCMN ประการ] [DONM ที่สอง]][VP(1)[VSTA คือ][VP(1)[XVAM สามารถ] [JSBR ที่จะ][VP(1)[VP(1,3)[VACT รับ] [JCRG และ][VACT เสนอแนะ]][NP(1)[NCMN นโยบาย][PP(1)[RPRE ด้าน][NP(1,3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]]]] [PP(1)[RPRE ต่อ] [NP(1)[NCMN คณะ][NP(1)[NCMN รัฐมนตรี] [XVAE ได้][AVBP(1)[FIXV โดย][VATT ตรง]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "การบริหารนั้นมีคณะกรรมการบริหารซึ่งประกอบด้วยทั้ง ภาครัฐบาลและเอกชน",
-        "lb": "[S(2)[NP(1)[NP(2)[FIXN การ][VACT บริหาร]] [DDAC นั้น]][VP(1)[VSTA มี] [NP(1)[NP(1)[NCMN คณะ][NP[NCMN กรรมการบริหาร]]][ADJC(1)[PREL ซึ่ง][VP(1)[VACT ประกอบ][PP(1)[RPRE ด้วย][JCRG ทั้ง][NP(1",
-        "type": "3)[NCMN ภาครัฐบาล] [JCRG และ] [NCMN เอกชน]]]]]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "การบริหารนั้นมีคณะกรรมการบริหารซึ่งประกอบด้วยทั้ง ภาครัฐบาลและเอกชน",
+       "lb": "[S(2)[NP(1)[NP(2)[FIXN การ][VACT บริหาร]] [DDAC นั้น]][VP(1)[VSTA มี] [NP(1)[NP(1)[NCMN คณะ][NP[NCMN กรรมการบริหาร]]][ADJC(1)[PREL ซึ่ง][VP(1)[VACT ประกอบ][PP(1)[RPRE ด้วย][JCRG ทั้ง][NP(1,3)[NCMN ภาครัฐบาล] [JCRG และ] [NCMN เอกชน]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "องค์ประกอบของคณะกรรมการทั้ง 2 นี้ มีบทบาทที่สำคัญ 2 ประการ",
-        "lb": "[S(2)[NP(1)[NCMN องค์ประกอบ][PP(1)[RPRE ของ][NP(1)[NP(1)[NCMN คณะ][NP[NCMN กรรมการ]]][CLSP(1)[DDAN ทั้ง 2][DDAC นี้]]]]][VP(1)[VSTA มี] [NP(1)[NCMN บทบาท][ADJC(1)[PREL ที่][ADJP[VATT สำคัญ]]] [CLSP(1)[DCNM 2][CNIT ประการ]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "องค์ประกอบของคณะกรรมการทั้ง 2 นี้ มีบทบาทที่สำคัญ 2 ประการ",
+       "lb": "[S(2)[NP(1)[NCMN องค์ประกอบ][PP(1)[RPRE ของ][NP(1)[NP(1)[NCMN คณะ][NP[NCMN กรรมการ]]][CLSP(1)[DDAN ทั้ง 2][DDAC นี้]]]]][VP(1)[VSTA มี] [NP(1)[NCMN บทบาท][ADJC(1)[PREL ที่][ADJP[VATT สำคัญ]]] [CLSP(1)[DCNM 2][CNIT ประการ]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "โอกาสนี้ผมจึงใคร่ขอแสดงความขอบคุณต่อทุกท่านและทุกหน่วยงานที่ให้การสนับสนุนศูนย์ฯด้วยดีตลอดมา",
-        "lb": "[S(2)[PP[RPRE Ɛ][NP(1)[NCMN โอกาส] [DDAC นี้]]] [S[NP [PPRS ผม]] [VP(3)[XVBM จึง] [XVMM ใคร่] [VP(2)[VACT ขอ] [VP(1)[VACT แสดง] [NP(2)[FIXN ความ] [VACT ขอบคุณ]] [PP(1)[RPRE ต่อ] [NP(1",
-        "type": "3)[NP(1",
-        "source": "2)[DIBQ ทุก] [PPRS ท่าน]] [JCRG และ] [NP(1",
-        "dependency": "2)[DIBQ ทุก] [NCMN หน่วยงาน]]]]]]]][JSBR ที่] [S[NP[NCMN Ɛ]][VP(1)[VACT ให้] [NP(2)[FIXN การ] [VP(1)[VACT สนับสนุน] [NP[NPRP ศูนย์ฯ]] [AVBP[ADVP ด้วยดี] [ADVN ตลอดมา]]]]]]]"
+       "raw": "โอกาสนี้ผมจึงใคร่ขอแสดงความขอบคุณต่อทุกท่านและทุกหน่วยงานที่ให้การสนับสนุนศูนย์ฯด้วยดีตลอดมา",
+       "lb": "[S(2)[PP[RPRE ?][NP(1)[NCMN โอกาส] [DDAC นี้]]] [S[NP [PPRS ผม]] [VP(3)[XVBM จึง] [XVMM ใคร่] [VP(2)[VACT ขอ] [VP(1)[VACT แสดง] [NP(2)[FIXN ความ] [VACT ขอบคุณ]] [PP(1)[RPRE ต่อ] [NP(1,3)[NP(1,2)[DIBQ ทุก] [PPRS ท่าน]] [JCRG และ] [NP(1,2)[DIBQ ทุก] [NCMN หน่วยงาน]]]]]]]][JSBR ที่] [S[NP[NCMN ?]][VP(1)[VACT ให้] [NP(2)[FIXN การ] [VP(1)[VACT สนับสนุน] [NP[NPRP ศูนย์ฯ]] [AVBP[ADVP ด้วยดี] [ADVN ตลอดมา]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ปรากฏเป็นผลงานที่บรรดานักวิจัยและผู้ประกอบการภาคเอกชนได้นำมาเสนอในการประชุมทางวิชาการครั้งนี้",
-        "lb": "[S(2)[NP[NCMN Ɛ]][VP(2)[VSTA ปรากฏ][VP(1)[VSTA เป็น][NP(1)[NCMN ผลงาน][ADJC(1)[PREL ที่][NP(2)[DIBQ บรรดา][NP(1)[NP(1",
-        "type": "3)[NCMN นักวิจัย] [JCRG และ] [NCMN ผู้ประกอบการ]][NP(1) [NCMN ภาค][NP(1)[NCMN เอกชน][VP(2)[XVAM ได้][VP(1)[VACT นำ][NP[NCMN Ɛ]][VP(1)[XVAE มา][VP(1)[VACT เสนอ][PP(1)[RPRE ใน] [NP(2)[FIXN การ][VP(1)[VACT ประชุม][PP(1)[RPRE ทาง][NP(1)[NCMN วิชาการ][CLSP(1)[CFQC ครั้ง] [DDAC นี้]]]]]]]]]]]]]]]]]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "ปรากฏเป็นผลงานที่บรรดานักวิจัยและผู้ประกอบการภาคเอกชนได้นำมาเสนอในการประชุมทางวิชาการครั้งนี้",
+       "lb": "[S(2)[NP[NCMN ?]][VP(2)[VSTA ปรากฏ][VP(1)[VSTA เป็น][NP(1)[NCMN ผลงาน][ADJC(1)[PREL ที่][NP(2)[DIBQ บรรดา][NP(1)[NP(1,3)[NCMN นักวิจัย] [JCRG และ] [NCMN ผู้ประกอบการ]][NP(1) [NCMN ภาค][NP(1)[NCMN เอกชน][VP(2)[XVAM ได้][VP(1)[VACT นำ][NP[NCMN ?]][VP(1)[XVAE มา][VP(1)[VACT เสนอ][PP(1)[RPRE ใน] [NP(2)[FIXN การ][VP(1)[VACT ประชุม][PP(1)[RPRE ทาง][NP(1)[NCMN วิชาการ][CLSP(1)[CFQC ครั้ง] [DDAC นี้]]]]]]]]]]]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ในปีต่อๆไปศูนยฯได้พยายามที่จะดำเนินการสนับสนุนงานวิจัยและพิฒนาในโครงการต่างๆให้เกิดความต่อเนื่องและมีประสิทธิภาพมากที่สุด",
-        "lb": "[S(2)[PP(1)[RPRE ใน][NP(1)[NCMN ปี] [DIAC ต่อๆ ไป]]][S(2)[NP[NPRP ศูนย์ฯ]][VP(2)[XVAM ได้][VP(2)[VACT พยายาม] [JSBR ที่จะ][VP(1)[VACT ดำเนินการ][VP(1)[VACT สนับสนุน][NP(1)[NCMN งานวิจัยและพัฒนา][PP(1)[RPRE ใน] [NP(1)[NCMN โครงการ] [DIAC ต่างๆ]]]][JSBR ให้][VP(1)[VP(1",
-        "type": "3)[VP(1)[VACT เกิด][NP(2)[FIXN ความ][VSTA ต่อเนื่อง]]] [JCRG และ][VP[VSTA มีประสิทธิภาพ]]][AVBP(1) [ADVN มาก] [ADVN ที่สุด]]]]]]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "ในปีต่อๆไปศูนยฯได้พยายามที่จะดำเนินการสนับสนุนงานวิจัยและพิฒนาในโครงการต่างๆให้เกิดความต่อเนื่องและมีประสิทธิภาพมากที่สุด",
+       "lb": "[S(2)[PP(1)[RPRE ใน][NP(1)[NCMN ปี] [DIAC ต่อๆ ไป]]][S(2)[NP[NPRP ศูนย์ฯ]][VP(2)[XVAM ได้][VP(2)[VACT พยายาม] [JSBR ที่จะ][VP(1)[VACT ดำเนินการ][VP(1)[VACT สนับสนุน][NP(1)[NCMN งานวิจัยและพัฒนา][PP(1)[RPRE ใน] [NP(1)[NCMN โครงการ] [DIAC ต่างๆ]]]][JSBR ให้][VP(1)[VP(1,3)[VP(1)[VACT เกิด][NP(2)[FIXN ความ][VSTA ต่อเนื่อง]]] [JCRG และ][VP[VSTA มีประสิทธิภาพ]]][AVBP(1) [ADVN มาก] [ADVN ที่สุด]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ตัวอย่างที่สำคัญคือจะได้จัดตั้งหน่วยฝึกอบรมการใช้อุปกรณ์ CAD แก่ภาคเอกชนหน่วยงานเครือข่ายคอมพิวเตอร์เชื่อมโยงศูนย์คอมพิวเตอร์ของมหาวิทยาลัยฯต่างๆ",
-        "lb": "[S(2)[NP(1)[NCMN ตัวอย่าง][ADJC(1)[PREL ที่][ADJP[VATT สำคัญ]]]][VP(1)[VSTA คือ][VP(3)[XVBM จะ] [XVAM ได้][VP(1)[VACT จัดตั้ง][NP(1)[NCMN หน่วยฝึกอบรม][NP(2)[FIXN การ][VP(1)[VACT ใช้][NP(1)[NCMN อุปกรณ์][NP[NCMN CAD]]]]]][PP(1)[RPRE แก่][NP(1)[NP(1",
-        "type": "3",
-        "source": "5)[NP(1)[NCMN ภาค][NP[NCMN เอกชน]]][PUNC ][NPRP หน่วยเครือข่ายคอมพิวเตอร์เชื่อมโยง][JCRG Ɛ][NCMN ศูนย์คอมพิวเตอร์]][PP(1)[RPRE ของ][NP(1)[NCMN มหาวิทยาลัย] [DIAC ต่างๆ]]]]]]]]]",
-        "dependency": "report"
+       "raw": "ตัวอย่างที่สำคัญคือจะได้จัดตั้งหน่วยฝึกอบรมการใช้อุปกรณ์ CAD แก่ภาคเอกชนหน่วยงานเครือข่ายคอมพิวเตอร์เชื่อมโยงศูนย์คอมพิวเตอร์ของมหาวิทยาลัยฯต่างๆ",
+       "lb": "[S(2)[NP(1)[NCMN ตัวอย่าง][ADJC(1)[PREL ที่][ADJP[VATT สำคัญ]]]][VP(1)[VSTA คือ][VP(3)[XVBM จะ] [XVAM ได้][VP(1)[VACT จัดตั้ง][NP(1)[NCMN หน่วยฝึกอบรม][NP(2)[FIXN การ][VP(1)[VACT ใช้][NP(1)[NCMN อุปกรณ์][NP[NCMN CAD]]]]]][PP(1)[RPRE แก่][NP(1)[NP(1,3,5)[NP(1)[NCMN ภาค][NP[NCMN เอกชน]]][PUNC <space>][NPRP หน่วยเครือข่ายคอมพิวเตอร์เชื่อมโยง][JCRG ?][NCMN ศูนย์คอมพิวเตอร์]][PP(1)[RPRE ของ][NP(1)[NCMN มหาวิทยาลัย] [DIAC ต่างๆ]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ผมตระหนักอยู่เสมอว่ามีหลายปัจจัยที่ทำให้ศูนย์ฯสามารถดำเนินงานมาโดยตลอด",
-        "lb": "[S(2)[NP[PPRS ผม]][VP(1)[VSTA ตระหนัก][XVAE อยู่][AVBP[ADVN เสมอ]][JSBR ว่า][VP(1)[VSTA มี][NP(1)[NP(2)[DIBQ หลาย][NCMN ปัจจัย]][ADJC(1)[PREL ที่][VP(1)[VACT ทำให้][NP(1)[NPRP ศูนย์ฯ][VP(2)[XVAM สามารถ][VP(1)[VACT ดำเนินงาน][XVAE มา][AVBP(1)[FIXV โดย][VP[VACT ตลอด]]]]]]]]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "ผมตระหนักอยู่เสมอว่ามีหลายปัจจัยที่ทำให้ศูนย์ฯสามารถดำเนินงานมาโดยตลอด",
+       "lb": "[S(2)[NP[PPRS ผม]][VP(1)[VSTA ตระหนัก][XVAE อยู่][AVBP[ADVN เสมอ]][JSBR ว่า][VP(1)[VSTA มี][NP(1)[NP(2)[DIBQ หลาย][NCMN ปัจจัย]][ADJC(1)[PREL ที่][VP(1)[VACT ทำให้][NP(1)[NPRP ศูนย์ฯ][VP(2)[XVAM สามารถ][VP(1)[VACT ดำเนินงาน][XVAE มา][AVBP(1)[FIXV โดย][VP[VACT ตลอด]]]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "NECTEC ทำหน้าที่สนับสนุนการวิจัยและพัฒนาเทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์เพื่อนำไปสู่การผลิตทางอุตสาหกรรมที่สามารถแข่งขันในตลาดได้",
-        "lb": "[S(2)[NP[NPRP NECTEC]][VP(2)[VACT ทำหน้าที่][VP(1)[VACT สนับสนุน] [NP(2)[FIXN การ][VP(1",
-        "type": "3)[VACT วิจัย] [JCRG และ] [VACT พัฒนา]][NP(1)[NCMN เทคโนโลยี][NP(1",
-        "source": "3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]]]][JSBR เพื่อ][VP(1)[VACT นำไปสู่][NP(1)[NP(2)[FIXN การ][VP(1)[VACT ผลิต][NP(1)[NCMN ทาง][NP[NCMN อุตสาหกรรม]]]]][ADJC(1)[PREL ที่][VP(2)[XVAM สามารถ][VP(1)[VACT แข่งขัน][PP(1)[RPRE ใน][NP[NCMN ตลาด]]][XVAE ได้]]]]]]]]]",
-        "dependency": "report"
+       "raw": "NECTEC ทำหน้าที่สนับสนุนการวิจัยและพัฒนาเทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์เพื่อนำไปสู่การผลิตทางอุตสาหกรรมที่สามารถแข่งขันในตลาดได้",
+       "lb": "[S(2)[NP[NPRP NECTEC]][VP(2)[VACT ทำหน้าที่][VP(1)[VACT สนับสนุน] [NP(2)[FIXN การ][VP(1,3)[VACT วิจัย] [JCRG และ] [VACT พัฒนา]][NP(1)[NCMN เทคโนโลยี][NP(1,3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]]]][JSBR เพื่อ][VP(1)[VACT นำไปสู่][NP(1)[NP(2)[FIXN การ][VP(1)[VACT ผลิต][NP(1)[NCMN ทาง][NP[NCMN อุตสาหกรรม]]]]][ADJC(1)[PREL ที่][VP(2)[XVAM สามารถ][VP(1)[VACT แข่งขัน][PP(1)[RPRE ใน][NP[NCMN ตลาด]]][XVAE ได้]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ศูนย์ฯได้ดำเนินการให้มีการสำรวจและศึกษาสถานภาพด้านอุตสาหกรรมอิเล็กทรอนิกส์และคอมพิวเตอร์",
-        "lb": "[S(2)[NCMN ศูนย์ฯ] [VP(2)[XVAM ได้] [VP(1)[VSTA ดำเนินการ] [JSBR ให้] [VP(1)[VSTA มี] [NP(2)[FIXN การ] [VP(1)[VP(1",
-        "type": "3)[VACT สำรวจ] [JCRG และ] [VACT ศึกษา]] [NP(1)[NCMN สถานภาพ] [PP(1)[RPRE ด้าน] [NP(1",
-        "source": "3",
-        "dependency": "5)[NCMN อุตสาหกรรม] [PUNC Ɛ] [NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]]]]]]]]]]"
+       "raw": "ศูนย์ฯได้ดำเนินการให้มีการสำรวจและศึกษาสถานภาพด้านอุตสาหกรรมอิเล็กทรอนิกส์และคอมพิวเตอร์",
+       "lb": "[S(2)[NCMN ศูนย์ฯ] [VP(2)[XVAM ได้] [VP(1)[VSTA ดำเนินการ] [JSBR ให้] [VP(1)[VSTA มี] [NP(2)[FIXN การ] [VP(1)[VP(1,3)[VACT สำรวจ] [JCRG และ] [VACT ศึกษา]] [NP(1)[NCMN สถานภาพ] [PP(1)[RPRE ด้าน] [NP(1,3,5)[NCMN อุตสาหกรรม] [PUNC ?] [NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "โครงการนี้มีจุดมุ่งหมายคือวิจัยและพัฒนาการแปลเอกสารระหว่างภาษาไทยและภาษาต่างประเทศ",
-        "lb": "[S(2)[NP(1)[NCMN โครงการ] [DDAC นี้]] [VP(1)[VSTA มี] [NP[NCMN จุดมุ่งหมาย]] [VP(1)[VSTA คือ] [VP(1)[VP(1",
-        "type": "3)[VACT วิจัย] [JCRG และ] [VACT พัฒนา]] [NP(1)[NP(2)[FIXN การ] [VP(1)[VACT แปล] [NP[NCMN เอกสาร]]]] [PP(1)[RPRE ระหว่าง] [NP(1",
-        "source": "3)[NCMN ภาษาไทย] [JCRG และ] [NCMN ภาษาต่างประเทศ]]]]]]]]",
-        "dependency": "report"
+       "raw": "โครงการนี้มีจุดมุ่งหมายคือวิจัยและพัฒนาการแปลเอกสารระหว่างภาษาไทยและภาษาต่างประเทศ",
+       "lb": "[S(2)[NP(1)[NCMN โครงการ] [DDAC นี้]] [VP(1)[VSTA มี] [NP[NCMN จุดมุ่งหมาย]] [VP(1)[VSTA คือ] [VP(1)[VP(1,3)[VACT วิจัย] [JCRG และ] [VACT พัฒนา]] [NP(1)[NP(2)[FIXN การ] [VP(1)[VACT แปล] [NP[NCMN เอกสาร]]]] [PP(1)[RPRE ระหว่าง] [NP(1,3)[NCMN ภาษาไทย] [JCRG และ] [NCMN ภาษาต่างประเทศ]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "หวังเป็นอย่างยิ่งว่าจะได้รับความร่วมมือมากยิ่งขึ้นไปในอันที่จะช่วยกันพัฒนาเทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติให้ก้าวหน้าสามารถแข่งขันกับนานาประเทศได้ต่อไป",
-        "lb": "[S(1)[S(2)[NP[NCMN Ɛ]] [VP(1)[VACT หวัง] [NP(1)[FIXN เป็น] [AVBP(1",
-        "type": "2)[FIXV อย่าง] [VATT ยิ่ง]]]]] [JSBR ว่า] [S(2)[NP[NCMN Ɛ]][VP(2)[XVBM จะ] [VP(1)[VSTA ได้รับ] [NP(1)[NP(2)[FIXN ความ] [VACT ร่วมมือ]] [AVBP(1)[ADVN มาก] [ADVN ยิ่งขึ้นไป]]][JSBR ในอันที่จะ] [VP(2)[AVBP[ADVN ช่วยกัน]] [VP(1)[VACT พัฒนา] [NP(1",
-        "source": "3)[NCMN เทคโนโลยี] [NP(1",
-        "dependency": "3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]] [NP[NCMN แห่งชาติ]]] [JSBR ให้] [VP(1)[VACT ก้าวหน้า] [JCRG และ] [VP(2)[XVAM สามารถ] [VP(1)[VACT แข่งขัน] [PP(1)[RPRE กับ] [CLSP(1"
+       "raw": "หวังเป็นอย่างยิ่งว่าจะได้รับความร่วมมือมากยิ่งขึ้นไปในอันที่จะช่วยกันพัฒนาเทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติให้ก้าวหน้าสามารถแข่งขันกับนานาประเทศได้ต่อไป",
+       "lb": "[S(1)[S(2)[NP[NCMN ?]] [VP(1)[VACT หวัง] [NP(1)[FIXN เป็น] [AVBP(1,2)[FIXV อย่าง] [VATT ยิ่ง]]]]] [JSBR ว่า] [S(2)[NP[NCMN ?]][VP(2)[XVBM จะ] [VP(1)[VSTA ได้รับ] [NP(1)[NP(2)[FIXN ความ] [VACT ร่วมมือ]] [AVBP(1)[ADVN มาก] [ADVN ยิ่งขึ้นไป]]][JSBR ในอันที่จะ] [VP(2)[AVBP[ADVN ช่วยกัน]] [VP(1)[VACT พัฒนา] [NP(1,3)[NCMN เทคโนโลยี] [NP(1,3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]] [NP[NCMN แห่งชาติ]]] [JSBR ให้] [VP(1)[VACT ก้าวหน้า] [JCRG และ] [VP(2)[XVAM สามารถ] [VP(1)[VACT แข่งขัน] [PP(1)[RPRE กับ] [CLSP(1,2)[DIBQ นานา] [CNIT ประเทศ]]] [XVAE ได้] [AVBP[ADVN ต่อไป]]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "อิเล็กทรอนิกส์และคอมพิวเตอร์เป็นเทคโนโลยีที่ได้รับการกำหนดไว้ในแผนพัฒนาเศรษฐกิจและสังคมแห่งชาติฉบับที่ 6 พ.ศ. 2530-2534 1 ว่าจะต้องนำมาเป็นกลยุทธ์ในการพัฒนาประเทศ",
-        "lb": "[S(2)[NP(1",
-        "type": "3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]] [VP(1)[VSTA เป็น][NP(1)[NCMN เทคโนโลยี][ADJC(1)[PREL ที่][VP(1)[VSTA ได้รับ][NP(2)[FIXN การ][VP(1)[VACT กำหนด] [XVAE ไว้][PP(1)[RPRE ใน][NP(1)[NCMN แผนพัฒนาเศรษฐกิจและสังคมแห่งชาติ][NP(1",
-        "source": "2",
-        "dependency": "3)[CNIT ฉบับ] [DONM ที่ 6][NP[NCMN พ.ศ.][NCNM 2530-2534][NLBL 1]]]]][JSBR ว่า][VP(3)[XVBM จะ] [XVMM ต้อง][VP(1)[VACT นำ] [XVAE มา] [VP(1)[VSTA เป็น][NP(1)[NCMN กลยุทธ์][PP(1)[RPRE ใน][NP(2)[FIXN การ] [VP(1)[VACT พัฒนา][NP [NCMN ประเทศ]]]]]]]]]]]]]]]]"
+       "raw": "อิเล็กทรอนิกส์และคอมพิวเตอร์เป็นเทคโนโลยีที่ได้รับการกำหนดไว้ในแผนพัฒนาเศรษฐกิจและสังคมแห่งชาติฉบับที่ 6 พ.ศ. 2530-2534 1 ว่าจะต้องนำมาเป็นกลยุทธ์ในการพัฒนาประเทศ",
+       "lb": "[S(2)[NP(1,3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]] [VP(1)[VSTA เป็น][NP(1)[NCMN เทคโนโลยี][ADJC(1)[PREL ที่][VP(1)[VSTA ได้รับ][NP(2)[FIXN การ][VP(1)[VACT กำหนด] [XVAE ไว้][PP(1)[RPRE ใน][NP(1)[NCMN แผนพัฒนาเศรษฐกิจและสังคมแห่งชาติ][NP(1,2,3)[CNIT ฉบับ] [DONM ที่ 6][NP[NCMN พ.ศ.][NCNM 2530-2534][NLBL 1]]]]][JSBR ว่า][VP(3)[XVBM จะ] [XVMM ต้อง][VP(1)[VACT นำ] [XVAE มา] [VP(1)[VSTA เป็น][NP(1)[NCMN กลยุทธ์][PP(1)[RPRE ใน][NP(2)[FIXN การ] [VP(1)[VACT พัฒนา][NP [NCMN ประเทศ]]]]]]]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ทำหน้าที่สนับสนุนการวิจัยและพัฒนาเทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์ เพื่อนำไปสู่การผลิตทางอุตสาหกรรมที่สามารถแข่งขันในตลาดได้",
-        "lb": "[S(2)[NP[NCMN Ɛ]] [VP(2)[VACT ทำหน้าที่] [VP(1)[VACT สนับสนุน][NP[FIXN การ] [VP(1)[VP(1",
-        "type": "3)[VACT วิจัย] [JCRG และ] [VACT พัฒนา]] [NP(1)[NCMN เทคโนโลยี] [NP(1",
-        "source": "3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]]]]]] [JSBR เพื่อ] [VP(1)[VACT นำไปสู่] [NP(1) [NP(2)[FIXN การ] [VP(1)[VACT ผลิต] [PP(1) [RPRE ทาง] [NP[NCMN อุตสาหกรรม]]]]][ADJC(1)[PREL ที่] [VP(2)[XVAM สามารถ] [VP(1)[VACT แข่งขัน] [PP(1)[RPRE ใน] [NP [NCMN ตลาด]]][EITT ได้]]]]]]]]",
-        "dependency": "report"
+       "raw": "ทำหน้าที่สนับสนุนการวิจัยและพัฒนาเทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์ เพื่อนำไปสู่การผลิตทางอุตสาหกรรมที่สามารถแข่งขันในตลาดได้",
+       "lb": "[S(2)[NP[NCMN ?]] [VP(2)[VACT ทำหน้าที่] [VP(1)[VACT สนับสนุน][NP[FIXN การ] [VP(1)[VP(1,3)[VACT วิจัย] [JCRG และ] [VACT พัฒนา]] [NP(1)[NCMN เทคโนโลยี] [NP(1,3)[NCMN อิเล็กทรอนิกส์] [JCRG และ] [NCMN คอมพิวเตอร์]]]]]] [JSBR เพื่อ] [VP(1)[VACT นำไปสู่] [NP(1) [NP(2)[FIXN การ] [VP(1)[VACT ผลิต] [PP(1) [RPRE ทาง] [NP[NCMN อุตสาหกรรม]]]]][ADJC(1)[PREL ที่] [VP(2)[XVAM สามารถ] [VP(1)[VACT แข่งขัน] [PP(1)[RPRE ใน] [NP [NCMN ตลาด]]][EITT ได้]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ศูนย์ฯมีคณะกรรมการนโยบายซึ่งกรรมการมาจากทั้งภาครัฐบาลและเอกชนทำหน้าที่กำหนดนโยบายตลอดจนกำกับการดำเนินงาน",
-        "lb": "[S(2)[NP [NCMN ศูนย์ฯ]][VP(1)[VSTA มี][NP(2)[CLTV คณะ][NP(1",
-        "type": "2)[NCMN กรรมการ][NCMN นโยบาย]][ADJC(1)[PREL ซึ่ง][NP[NCMN กรรมการ]][VP(1)[VACT มา][PP(1)[RPRE จาก][JCRG ทั้ง][NP(1",
-        "source": "3)[NCMN ภาครัฐบาล][JCRG และ][NCMN เอกชน]]]]]][VP(2)[VACT ทำหน้าที่][VP(1)[VACT กำหนด][NP[NCMN นโยบาย]][JCRG ตลอดจน][VP(1)[VACT กำกับ][NP(2)[FIXN การ][VP[VACT ดำเนินงาน]]]]]]]]",
-        "dependency": "report"
+       "raw": "ศูนย์ฯมีคณะกรรมการนโยบายซึ่งกรรมการมาจากทั้งภาครัฐบาลและเอกชนทำหน้าที่กำหนดนโยบายตลอดจนกำกับการดำเนินงาน",
+       "lb": "[S(2)[NP [NCMN ศูนย์ฯ]][VP(1)[VSTA มี][NP(2)[CLTV คณะ][NP(1,2)[NCMN กรรมการ][NCMN นโยบาย]][ADJC(1)[PREL ซึ่ง][NP[NCMN กรรมการ]][VP(1)[VACT มา][PP(1)[RPRE จาก][JCRG ทั้ง][NP(1,3)[NCMN ภาครัฐบาล][JCRG และ][NCMN เอกชน]]]]]][VP(2)[VACT ทำหน้าที่][VP(1)[VACT กำหนด][NP[NCMN นโยบาย]][JCRG ตลอดจน][VP(1)[VACT กำกับ][NP(2)[FIXN การ][VP[VACT ดำเนินงาน]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "โครงการนี้เป็นโครงการประสานงานความร่วมมือระหว่างกลุ่มประเทศอาเซียนโดยได้รับการสนับสนุนจากประเทศออสเตรเลียเพื่อใช้คอมพิวเตอร์ในการออกแบบไอซีขนาดใหญ่มากรวมทั้งการออกแบบแผ่นพิมพ์วงจรและไอซีผสมHybrid IC",
-        "lb": "[S(1)[S(2)[NP(1)[NCMN โครงการ] [DDAC นี้]] [VP(1)[VSTA เป็น] [NP(1)[NCMN โครงการ] [VP(1)[VSTA ประสานงาน] [NP(1) [NP(2)[FIXN ความ] [VSTA ร่วมมือ]][PP(1)[RPRE ระหว่าง] [NP(1",
-        "type": "2)[NCMN กลุ่ม] [NP [NPRP ประเทศอาเซียน]]]]]]]]][JSBR โดย] [S(2)[NP[NCMN Ɛ]] [VP(1)[VSTA ได้รับ][NP(1)[NP(2)[FIXN การ] [VACT สนับสนุน]] [PP(1)[RPRE จาก] [NP [NPRP ประเทศออสเตรเลีย]]]][JSBR เพื่อ] [VP(1)[VACT ใช้] [NP[NCMN คอมพิวเตอร์]] [PP(1)[RPRE ใน] [NP(1",
-        "source": "3) [NP(2)[FIXN การ] [VP(1)[VACT ออกแบบ] [NP(1)[NCMN ไอซี] [NP(1",
-        "dependency": "2)[NCMN ขนาด] [ADJP(1)[VATT ใหญ่] [AVBP[ADVN มาก]]]]]]][JCRG รวมทั้ง] [NP(2)[FIXN การ] [VP(1)[VACT ออกแบบ] [NP(1"
+       "raw": "โครงการนี้เป็นโครงการประสานงานความร่วมมือระหว่างกลุ่มประเทศอาเซียนโดยได้รับการสนับสนุนจากประเทศออสเตรเลียเพื่อใช้คอมพิวเตอร์ในการออกแบบไอซีขนาดใหญ่มากรวมทั้งการออกแบบแผ่นพิมพ์วงจรและไอซีผสมHybrid IC",
+       "lb": "[S(1)[S(2)[NP(1)[NCMN โครงการ] [DDAC นี้]] [VP(1)[VSTA เป็น] [NP(1)[NCMN โครงการ] [VP(1)[VSTA ประสานงาน] [NP(1) [NP(2)[FIXN ความ] [VSTA ร่วมมือ]][PP(1)[RPRE ระหว่าง] [NP(1,2)[NCMN กลุ่ม] [NP [NPRP ประเทศอาเซียน]]]]]]]]][JSBR โดย] [S(2)[NP[NCMN ?]] [VP(1)[VSTA ได้รับ][NP(1)[NP(2)[FIXN การ] [VACT สนับสนุน]] [PP(1)[RPRE จาก] [NP [NPRP ประเทศออสเตรเลีย]]]][JSBR เพื่อ] [VP(1)[VACT ใช้] [NP[NCMN คอมพิวเตอร์]] [PP(1)[RPRE ใน] [NP(1,3) [NP(2)[FIXN การ] [VP(1)[VACT ออกแบบ] [NP(1)[NCMN ไอซี] [NP(1,2)[NCMN ขนาด] [ADJP(1)[VATT ใหญ่] [AVBP[ADVN มาก]]]]]]][JCRG รวมทั้ง] [NP(2)[FIXN การ] [VP(1)[VACT ออกแบบ] [NP(1,3)[NP [NCMN แผ่นพิมพ์วงจร]][JCRG และ] [NP(1,2,3) [NCMN ไอซี] [VATT ผสม] [NCMN Hybrid IC]]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ภารกิจที่ได้รับมอบหมายจะดำเนินงานภายใต้สำนักงานปลัดกระทรวงฯมีเจ้าหน้าที่ของศูนย์ฯทำงานประจำ",
-        "lb": "[S(2)[NP(1)[NCMN ภารกิจ][ADJC(1)[PREL ที่][VP(1)[VSTA ได้รับ][VP[VACT มอบหมาย]]]]][VP(2)[XVBM จะ][VP(1)[VACT ดำเนินงาน][PP(1)[RPRE ภายใต้] [NP[NCMN สำนักงานปลัดกระทรวงฯ]]]][JCRG Ɛ][VP(1)[VSTA มี][NP(1) [NCMN เจ้าหน้าที่][PP(1)[RPRE ของ][NP[NCMN ศูนย์ฯ]]]][VP(1)[VACT ทำงาน][AVBP[ADVN ประจำ]]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "ภารกิจที่ได้รับมอบหมายจะดำเนินงานภายใต้สำนักงานปลัดกระทรวงฯมีเจ้าหน้าที่ของศูนย์ฯทำงานประจำ",
+       "lb": "[S(2)[NP(1)[NCMN ภารกิจ][ADJC(1)[PREL ที่][VP(1)[VSTA ได้รับ][VP[VACT มอบหมาย]]]]][VP(2)[XVBM จะ][VP(1)[VACT ดำเนินงาน][PP(1)[RPRE ภายใต้] [NP[NCMN สำนักงานปลัดกระทรวงฯ]]]][JCRG ?][VP(1)[VSTA มี][NP(1) [NCMN เจ้าหน้าที่][PP(1)[RPRE ของ][NP[NCMN ศูนย์ฯ]]]][VP(1)[VACT ทำงาน][AVBP[ADVN ประจำ]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "บทบาทที่สำคัญของศูนย์ฯคือทำหน้าที่ประสานงานในลักษณะไตรภาคี",
-        "lb": "[S(2)[NP(1) [NP(1)[NCMN บทบาท][ADJC(1)[PREL ที่][ADJP(1)[VATT สำคัญ]]]][PP(1)[RPRE ของ][NP[NCMN ศูนย์ฯ]]]][VP(1)[VSTA คือ][VP(2)[VACT ทำหน้าที่][VP(1)[VACT ประสานงาน][PP(1)[RPRE ใน][NP(1",
-        "type": "2)[NCMN ลักษณะ][NP[NCMN ไตรภาคี]]]]]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "บทบาทที่สำคัญของศูนย์ฯคือทำหน้าที่ประสานงานในลักษณะไตรภาคี",
+       "lb": "[S(2)[NP(1) [NP(1)[NCMN บทบาท][ADJC(1)[PREL ที่][ADJP(1)[VATT สำคัญ]]]][PP(1)[RPRE ของ][NP[NCMN ศูนย์ฯ]]]][VP(1)[VSTA คือ][VP(2)[VACT ทำหน้าที่][VP(1)[VACT ประสานงาน][PP(1)[RPRE ใน][NP(1,2)[NCMN ลักษณะ][NP[NCMN ไตรภาคี]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ศูนย์ฯได้รับงบประมาณโดยตรงจากสำนักงบประมาณและแบ่งงบประมาณออกเป็น 2 ส่วนที่สำคัญ คือ งบประมาณบริหารสำนักงานของศูนย์ฯและงบอุดหนุนการวิจัยและพัฒนา",
-        "lb": "[S(1",
-        "type": "3)[S(2) [NP[NCMN ศูนย์ฯ]][VP(1)[VSTA ได้รับ][NP[NCMN งบประมาณ]][AVBP(1",
-        "source": "2)[FIXV โดย][ADJP[VATT ตรง]]][PP(1)[RPRE จาก][NP[NPRP สำนักงบประมาณ]]]]][JCRG และ][S(2)[NP [NCMN Ɛ]][VP(1)[VACT แบ่ง][NP[NCMN งบประมาณ]][PP(1)[RPRE ออกเป็น][NP(1)[CLSP(1",
-        "dependency": "2)[DCNM 2][CNIT ส่วน]][ADJC(1)[PREL ที่][ADJP[VATT สำคัญ]]]]][VP(1)[VSTA คือ][NP(1"
+       "raw": "ศูนย์ฯได้รับงบประมาณโดยตรงจากสำนักงบประมาณและแบ่งงบประมาณออกเป็น 2 ส่วนที่สำคัญ คือ งบประมาณบริหารสำนักงานของศูนย์ฯและงบอุดหนุนการวิจัยและพัฒนา",
+       "lb": "[S(1,3)[S(2) [NP[NCMN ศูนย์ฯ]][VP(1)[VSTA ได้รับ][NP[NCMN งบประมาณ]][AVBP(1,2)[FIXV โดย][ADJP[VATT ตรง]]][PP(1)[RPRE จาก][NP[NPRP สำนักงบประมาณ]]]]][JCRG และ][S(2)[NP [NCMN ?]][VP(1)[VACT แบ่ง][NP[NCMN งบประมาณ]][PP(1)[RPRE ออกเป็น][NP(1)[CLSP(1,2)[DCNM 2][CNIT ส่วน]][ADJC(1)[PREL ที่][ADJP[VATT สำคัญ]]]]][VP(1)[VSTA คือ][NP(1,3)[NP(1)[NCMN งบประมาณบริหารสำนักงาน][PP(1)[RPRE ของ] [NP[NCMN ศูนย์ฯ]]]][JCRG และ] [NP(1) [NCMN งบอุดหนุน][NP(2)[FIXN การ] [VACT วิจัยและพัฒนา]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "โครงการนี้เป็นโครงการความร่วมมือประสานงานระหว่างกระทรวงวิทยาศาสตร์ เทคโนโลยีและการพลังงาน สถาบันเทคโนโลยีพระจอมเกล้า ลาดกระบังและเอกชนตามโครงการ เร่งรัดฟื้นฟูการขยายตัวทางเศรษฐกิจในการทำการวิจัยและพัฒนาเทคโนโลยีการออกแบบมอเตอร์ต่ำกว่า 1 แรงม้า",
-        "lb": "[S(2)[NP(1)[NCMN โครงการ] [DDAC นี้]][VP(1) [VSTA เป็น][NP(1) [NP(1)[NCMN โครงการ][NP(2)[FIXN ความ][VP(1",
-        "type": "3)[VACT ร่วมมือ][JCRG Ɛ][VACT ประสานงาน]]][PP(1)[RPRE ระหว่าง] [NP(1",
-        "source": "2",
-        "dependency": "4)[NPRP กระทรวงวิทยาศาสตร์ เทคโนโลยีและการพลังงาน][NPRP สถาบันเทคโนโลยีพระจอมเกล้า ลาดกระบัง] [JCRG และ] [NCMN เอกชน]]]][PP(1)[RPRE ตาม][NP(1)[NCMN โครงการ][VP(2)[VACT เร่งรัด][VP(1)[VACT ฟื้นฟู][NP(1) [NP(2)[FIXN การ][VACT ขยายตัว]][PP(1)[RPRE ทาง][NP[NCMN เศรษฐกิจ]]]]]]]][PP(1)[RPRE ใน][NP(2)[FIXN การ][VP(1)[VACT ทำ][NP(2)[FIXN การ][VP(1) [VP(1"
+       "raw": "โครงการนี้เป็นโครงการความร่วมมือประสานงานระหว่างกระทรวงวิทยาศาสตร์ เทคโนโลยีและการพลังงาน สถาบันเทคโนโลยีพระจอมเกล้า ลาดกระบังและเอกชนตามโครงการ เร่งรัดฟื้นฟูการขยายตัวทางเศรษฐกิจในการทำการวิจัยและพัฒนาเทคโนโลยีการออกแบบมอเตอร์ต่ำกว่า 1 แรงม้า",
+       "lb": "[S(2)[NP(1)[NCMN โครงการ] [DDAC นี้]][VP(1) [VSTA เป็น][NP(1) [NP(1)[NCMN โครงการ][NP(2)[FIXN ความ][VP(1,3)[VACT ร่วมมือ][JCRG ?][VACT ประสานงาน]]][PP(1)[RPRE ระหว่าง] [NP(1,2,4)[NPRP กระทรวงวิทยาศาสตร์ เทคโนโลยีและการพลังงาน][NPRP สถาบันเทคโนโลยีพระจอมเกล้า ลาดกระบัง] [JCRG และ] [NCMN เอกชน]]]][PP(1)[RPRE ตาม][NP(1)[NCMN โครงการ][VP(2)[VACT เร่งรัด][VP(1)[VACT ฟื้นฟู][NP(1) [NP(2)[FIXN การ][VACT ขยายตัว]][PP(1)[RPRE ทาง][NP[NCMN เศรษฐกิจ]]]]]]]][PP(1)[RPRE ใน][NP(2)[FIXN การ][VP(1)[VACT ทำ][NP(2)[FIXN การ][VP(1) [VP(1,3)[VACT วิจัย][JCRG และ][VACT พัฒนา]][NP(1)[NCMN เทคโนโลยี][NP(2)[FIXN การ][VP(1)[VACT ออกแบบ][NP(1)[NCMN มอเตอร์][ADJP(1,2,3)[VATT ต่ำ] [JCMP กว่า][CLSP(1,2)[DCNM 1] [CMTR แรงม้า]]]]]]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "คาดว่าประเทศไทยจะได้รับผลหลายประการ เช่น การจำแนกอักษรไทยเพื่อสร้างหน่วยอ่านอักษรไทยเข้าสู่คอมพิวเตอร์แทนการป้อนด้วยพิมพ์ดีดการพัฒนารหัสภาษาไทย สอง ไบท์ เป็นต้น",
-        "lb": "[S(1)[S(2)[NP[NCMN Ɛ]][VP[VACT คาด]]][JSBR ว่า][S(2)[NP[NPRP ประเทศไทย]][VP(2)[XVBM จะ][VP(1)[VSTA ได้รับ][NP(1)[NP(1)[NCMN ผล][CLSP(1",
-        "type": "2)[DIBQ หลาย][CNIT ประการ]]][PUNC ][JSBR เช่น][PUNC ][NP(1) [NP(1)[NP(2)[FIXN การ][VACT จำแนก]][NP(1)[NCMN อักษร][NP[NPRP ไทย]]][PUNC ][JSBR เพื่อ][VP(1)[VACT สร้าง][NP[NCMN หน่วยอ่านอักษรไทย]][VP(1)[VACT เข้าสู่][NP[NCMN คอมพิวเตอร์]][VP(1)[VACT แทน][NP(2)[FIXN การ][VACT ป้อน]][AVBP[ADVN ด้วย]][NP(2)[FIXN Ɛ][VSTA พิมพ์ดีด]]]]]][PUNC ][NP(1)[NP(2)[FIXN การ][VACT พัฒนา]][NP(1)[NCMN รหัส][NP[NCMN ภาษาไทย]][PUNC ][CLSP(1",
-        "source": "2)[DCNM สอง][CMTR ไบท์]]]]][PUNC ][PDMN เป็นต้น]]]]]]",
-        "dependency": "report"
+       "raw": "คาดว่าประเทศไทยจะได้รับผลหลายประการ เช่น การจำแนกอักษรไทยเพื่อสร้างหน่วยอ่านอักษรไทยเข้าสู่คอมพิวเตอร์แทนการป้อนด้วยพิมพ์ดีดการพัฒนารหัสภาษาไทย สอง ไบท์ เป็นต้น",
+       "lb": "[S(1)[S(2)[NP[NCMN ?]][VP[VACT คาด]]][JSBR ว่า][S(2)[NP[NPRP ประเทศไทย]][VP(2)[XVBM จะ][VP(1)[VSTA ได้รับ][NP(1)[NP(1)[NCMN ผล][CLSP(1,2)[DIBQ หลาย][CNIT ประการ]]][PUNC <space>][JSBR เช่น][PUNC <space>][NP(1) [NP(1)[NP(2)[FIXN การ][VACT จำแนก]][NP(1)[NCMN อักษร][NP[NPRP ไทย]]][PUNC <space>][JSBR เพื่อ][VP(1)[VACT สร้าง][NP[NCMN หน่วยอ่านอักษรไทย]][VP(1)[VACT เข้าสู่][NP[NCMN คอมพิวเตอร์]][VP(1)[VACT แทน][NP(2)[FIXN การ][VACT ป้อน]][AVBP[ADVN ด้วย]][NP(2)[FIXN ?][VSTA พิมพ์ดีด]]]]]][PUNC <space>][NP(1)[NP(2)[FIXN การ][VACT พัฒนา]][NP(1)[NCMN รหัส][NP[NCMN ภาษาไทย]][PUNC <minus>][CLSP(1,2)[DCNM สอง][CMTR ไบท์]]]]][PUNC <space>][PDMN เป็นต้น]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ศูนย์ฯได้รับอนุมัติให้เริ่มจัดตั้งหน่วยวิจัยและบริการ Center of Excellence ขึ้น 2 แห่ง คือ หน่วยวิจัยและบริการด้านเทคโนโลยีมอเตอร์ที่สถาบันเทคโนโลยีพระจอมเกล้า ลาดกระบัง และหน่วยวิจัยและบริการด้านฐานข้อมูลที่จุฬาลงกรณ์มหาวิทยาลัย",
-        "lb": "[S(2) [NP[NCMN ศูนย์ฯ]][VP(2)[VSTA ได้รับ][VP(1)[VACT อนุมัติ] [JSBR ให้] [VP(2) [XVAM เริ่ม] [VP(1) [VACT จัดตั้ง] [NP(1",
-        "type": "2)[NCMN หน่วยวิจัยและบริการ][NCMN Center of Excellence] ][XVAE ขึ้น][CLSP(1",
-        "source": "2)[DCNM 2][CNIT แห่ง]][VP(1) [VSTA คือ][NP(1",
-        "dependency": "3) [NP(1)[NPRP หน่วยวิจัยและบริการด้านเทคโนโลยีมอเตอร์][PP(1)[RPRE ที่][NP [NPRP สถาบันเทคโนโลยีพระจอมเกล้า ลาดกระบัง]]]][JCRG และ][NP(1)[NPRP หน่วยวิจัยและบริการด้านฐานข้อมูล][PP(1)[RPRE ที่][NP[NPRP จุฬาลงกรณ์มหาวิทยาลัย]]]]]]]]]]]"
+       "raw": "ศูนย์ฯได้รับอนุมัติให้เริ่มจัดตั้งหน่วยวิจัยและบริการ Center of Excellence ขึ้น 2 แห่ง คือ หน่วยวิจัยและบริการด้านเทคโนโลยีมอเตอร์ที่สถาบันเทคโนโลยีพระจอมเกล้า ลาดกระบัง และหน่วยวิจัยและบริการด้านฐานข้อมูลที่จุฬาลงกรณ์มหาวิทยาลัย",
+       "lb": "[S(2) [NP[NCMN ศูนย์ฯ]][VP(2)[VSTA ได้รับ][VP(1)[VACT อนุมัติ] [JSBR ให้] [VP(2) [XVAM เริ่ม] [VP(1) [VACT จัดตั้ง] [NP(1,2)[NCMN หน่วยวิจัยและบริการ][NCMN Center of Excellence] ][XVAE ขึ้น][CLSP(1,2)[DCNM 2][CNIT แห่ง]][VP(1) [VSTA คือ][NP(1,3) [NP(1)[NPRP หน่วยวิจัยและบริการด้านเทคโนโลยีมอเตอร์][PP(1)[RPRE ที่][NP [NPRP สถาบันเทคโนโลยีพระจอมเกล้า ลาดกระบัง]]]][JCRG และ][NP(1)[NPRP หน่วยวิจัยและบริการด้านฐานข้อมูล][PP(1)[RPRE ที่][NP[NPRP จุฬาลงกรณ์มหาวิทยาลัย]]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ศูนย์ฯได้ดำเนินการจัดตั้งหน่วยพัฒนาคอมพิวเตอร์ซอฟต์แวร์เพื่ออุตสาหกรรมซึ่งก็ คือ หน่วยงานที่จะทำหน้าที่ฝึกอบรม CAD Computer-Aided Design ให้แก่บุคคล ทั้ง ภาคเอกชนและ รัฐบาลเพื่อการใช้คอมพิวเตอร์ช่วยเพิ่มผลผลิตทางอุตสาหกรรม",
-        "lb": "[S(2)[NP[NCMN ศูนย์ฯ]][PUNC ][VP(2)[XVAM ได้][VP(1)[VACT ดำเนิน][NP(2)[FIXN การ][VP(1)[VACT จัดตั้ง][NP[NPRP หน่วยพัฒนาคอมพิวเตอร์ซอฟต์แวร์เพื่ออุตสาหกรรม]][JSBR ซึ่ง][JSBR ก็][VP(1)[VSTA คือ][PUNC ][NP(1)[NCMN หน่วยงาน][ADJC(1)[PREL ที่][VP(2)[XVBM จะ][VP(2)[VACT ทำหน้าที่][VP(1)[VACT ฝึกอบรม][PUNC ][NP(1",
-        "type": "4)[NCMN CAD][PUNC ][PUNC ][NCMN Computer-Aided][PUNC ][PUNC ]][PP(1)[RPRE ให้แก่][NP(1)[NCMN บุคคล][JCRG ทั้ง][NP(1",
-        "source": "3)[NCMN ภาคเอกชน][JCRG และ][NCMN รัฐบาล]]]][JSBR เพื่อ][NP(2)[FIXN การ][VP(1)[VACT ใช้][NP[NCMN คอมพิวเตอร์]][VP(1)[VACT ช่วย][NP[NCMN Ɛ]][VP(1)[VACT เพิ่ม][NP(1)[NCMN ผลผลิต][PP(1)[RPRE ทาง][NP[NCMN อุตสาหกรรม]]]]]]]]]]]]]]]]]]]",
-        "dependency": "report"
+       "raw": "ศูนย์ฯได้ดำเนินการจัดตั้งหน่วยพัฒนาคอมพิวเตอร์ซอฟต์แวร์เพื่ออุตสาหกรรมซึ่งก็ คือ หน่วยงานที่จะทำหน้าที่ฝึกอบรม CAD Computer-Aided Design ให้แก่บุคคล ทั้ง ภาคเอกชนและ รัฐบาลเพื่อการใช้คอมพิวเตอร์ช่วยเพิ่มผลผลิตทางอุตสาหกรรม",
+       "lb": "[S(2)[NP[NCMN ศูนย์ฯ]][PUNC <space>][VP(2)[XVAM ได้][VP(1)[VACT ดำเนิน][NP(2)[FIXN การ][VP(1)[VACT จัดตั้ง][NP[NPRP หน่วยพัฒนาคอมพิวเตอร์ซอฟต์แวร์เพื่ออุตสาหกรรม]][JSBR ซึ่ง][JSBR ก็][VP(1)[VSTA คือ][PUNC <space>][NP(1)[NCMN หน่วยงาน][ADJC(1)[PREL ที่][VP(2)[XVBM จะ][VP(2)[VACT ทำหน้าที่][VP(1)[VACT ฝึกอบรม][PUNC <space>][NP(1,4)[NCMN CAD][PUNC <space>][PUNC <left_parenthesis>][NCMN Computer-Aided][PUNC <right_parenthesis>][PUNC <space>]][PP(1)[RPRE ให้แก่][NP(1)[NCMN บุคคล][JCRG ทั้ง][NP(1,3)[NCMN ภาคเอกชน][JCRG และ][NCMN รัฐบาล]]]][JSBR เพื่อ][NP(2)[FIXN การ][VP(1)[VACT ใช้][NP[NCMN คอมพิวเตอร์]][VP(1)[VACT ช่วย][NP[NCMN ?]][VP(1)[VACT เพิ่ม][NP(1)[NCMN ผลผลิต][PP(1)[RPRE ทาง][NP[NCMN อุตสาหกรรม]]]]]]]]]]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "คณะกรรมการดังกล่าวมีรัฐมนตรีว่าการกระทรวงวิทยาศาสตร์เป็นประธาน",
-        "lb": "[S(2)[NP(1",
-        "type": "2)[NCMN คณะ][NP[NCMN กรรมการ]][DDAC ดังกล่าว]][VP(1)[VSTA มี][NP(1",
-        "source": "2)[NCMN รัฐมนตรีว่าการ][NP[NPRP กระทรวงวิทยาศาสตร์]]][VP(1)[VSTA เป็น][NP[NCMN ประธาน]]]]]",
-        "dependency": "report"
+       "raw": "คณะกรรมการดังกล่าวมีรัฐมนตรีว่าการกระทรวงวิทยาศาสตร์เป็นประธาน",
+       "lb": "[S(2)[NP(1,2)[NCMN คณะ][NP[NCMN กรรมการ]][DDAC ดังกล่าว]][VP(1)[VSTA มี][NP(1,2)[NCMN รัฐมนตรีว่าการ][NP[NPRP กระทรวงวิทยาศาสตร์]]][VP(1)[VSTA เป็น][NP[NCMN ประธาน]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "สำหรับการบริหารนั้น มีคณะกรรมการบริหาร ซึ่งประกอบด้วย ทั้งภาครัฐบาลและเอกชน",
-        "lb": "[S(4)[JSBR สำหรับ][NP(1)[NP(2)[FIXN การ][VACT บริหาร]][DDAC นั้น]][PUNC ][VP(1)[VSTA มี][NP(1)[NP(1",
-        "type": "2)[NCMN คณะ][NP[NCMN กรรมการบริหาร]]][PUNC ][ADJC(1)[PREL ซึ่ง][VP(1)[VSTA ประกอบ][PP(1)[RPRE ด้วย][PUNC ][JCRG ทั้ง][NP(1",
-        "source": "3)[NCMN ภาครัฐบาล][JCRG และ][NCMN เอกชน]]]]]]]]",
-        "dependency": "report"
+       "raw": "สำหรับการบริหารนั้น มีคณะกรรมการบริหาร ซึ่งประกอบด้วย ทั้งภาครัฐบาลและเอกชน",
+       "lb": "[S(4)[JSBR สำหรับ][NP(1)[NP(2)[FIXN การ][VACT บริหาร]][DDAC นั้น]][PUNC <space>][VP(1)[VSTA มี][NP(1)[NP(1,2)[NCMN คณะ][NP[NCMN กรรมการบริหาร]]][PUNC <space>][ADJC(1)[PREL ซึ่ง][VP(1)[VSTA ประกอบ][PP(1)[RPRE ด้วย][PUNC <space>][JCRG ทั้ง][NP(1,3)[NCMN ภาครัฐบาล][JCRG และ][NCMN เอกชน]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติตั้งอยู่ที่ชั้น 6 ของอาคารสำนักงานปลัดกระทรวงวิทยาศาสตร์ ถนนพระรามที่ 6 พญาไท กรุงเทพฯ 10400",
-        "lb": "[S(2)[NP[NPRP ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ]][PUNC ][VP(1)[VSTA ตั้งอยู่][PP(1)[RPRE ที่][NP(1)[NP(1",
-        "type": "3)[CNIT ชั้น][PUNC ][NCNM 6]][PUNC ][PP(1)[RPRE ของ][NP(1",
-        "source": "2",
-        "dependency": "4"
+       "raw": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติตั้งอยู่ที่ชั้น 6 ของอาคารสำนักงานปลัดกระทรวงวิทยาศาสตร์ ถนนพระรามที่ 6 พญาไท กรุงเทพฯ 10400",
+       "lb": "[S(2)[NP[NPRP ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ]][PUNC <space>][VP(1)[VSTA ตั้งอยู่][PP(1)[RPRE ที่][NP(1)[NP(1,3)[CNIT ชั้น][PUNC <space>][NCNM 6]][PUNC <space>][PP(1)[RPRE ของ][NP(1,2,4,6)[NCMN อาคาร][NP[NPRP สำนักงานปลัดกระทรวงวิทยาศาสตร์]][PUNC <space>][NP(1,2)[NCMN ถนน][NP[NPRP พระรามที่ 6]]][PUNC <space>][NP(1,3,5)[NPRP พญาไท][PUNC <space>][NPRP กรุงเทพฯ][PUNC <space>][NCNM 10400]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "สำหรับภารกิจที่ได้รับมอบหมายจะดำเนินงานภายใต้สำนักงานปลัดกระทรวงฯมีเจ้าหน้าที่ของศูนย์ฯทำงานประจำ",
-        "lb": "[S(4)[JSBR สำหรับ][NP(1)[NCMN ภารกิจ][ADJC(1)[PREL ที่][VP(1",
-        "type": "2)[VSTA ได้รับ][VACT มอบหมาย]]]][PUNC ][VP(2)[XVBM จะ][VP(1)[VACT ดำเนินงาน][PP(1)[RPRE ภายใต้][NP[NCMN สำนักงานปลัดกระทรวงฯ]]][PUNC ][VP(1)[VSTA มี][NP(1)[NCMN เจ้าหน้าที่][PP(1)[RPRE ของ][NP[NCMN ศูนย์ฯ]]]][VP(1)[VACT ทำงาน][PUNC ][AVBP[ADVN ประจำ]]]]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "สำหรับภารกิจที่ได้รับมอบหมายจะดำเนินงานภายใต้สำนักงานปลัดกระทรวงฯมีเจ้าหน้าที่ของศูนย์ฯทำงานประจำ",
+       "lb": "[S(4)[JSBR สำหรับ][NP(1)[NCMN ภารกิจ][ADJC(1)[PREL ที่][VP(1,2)[VSTA ได้รับ][VACT มอบหมาย]]]][PUNC <space>][VP(2)[XVBM จะ][VP(1)[VACT ดำเนินงาน][PP(1)[RPRE ภายใต้][NP[NCMN สำนักงานปลัดกระทรวงฯ]]][PUNC <space>][VP(1)[VSTA มี][NP(1)[NCMN เจ้าหน้าที่][PP(1)[RPRE ของ][NP[NCMN ศูนย์ฯ]]]][VP(1)[VACT ทำงาน][PUNC <space>][AVBP[ADVN ประจำ]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "โครงการสำคัญอีกโครงการหนึ่งคือ การเชื่อมโยงคอมพิวเตอร์ระหว่างศูนย์คอมพิวเตอร์มหาวิทยาลัยและหน่วยงานต่างๆ",
-        "lb": "[S(2)[NP(1)[NCMN โครงการ][ADJP[VATT สำคัญ]][CLSP(1",
-        "type": "2",
-        "source": "3)[DDBQ อีก][CNIT โครงการ][DCNM หนึ่ง]]][VP(1)[VSTA คือ][PUNC ][NP(2)[FIXN การ][VP(1)[VSTA เชื่อมโยง][NP[NCMN คอมพิวเตอร์]][PP(1)[RPRE ระหว่าง][NP(1)[NCMN ศูนย์คอมพิวเตอร์][NP(1)[NP(1",
-        "dependency": "3)[NCMN มหาวิทยาลัย][JCRG และ][NCMN หน่วยงาน]][DIAC ต่างๆ]]]]]]]]"
+       "raw": "โครงการสำคัญอีกโครงการหนึ่งคือ การเชื่อมโยงคอมพิวเตอร์ระหว่างศูนย์คอมพิวเตอร์มหาวิทยาลัยและหน่วยงานต่างๆ",
+       "lb": "[S(2)[NP(1)[NCMN โครงการ][ADJP[VATT สำคัญ]][CLSP(1,2,3)[DDBQ อีก][CNIT โครงการ][DCNM หนึ่ง]]][VP(1)[VSTA คือ][PUNC <space>][NP(2)[FIXN การ][VP(1)[VSTA เชื่อมโยง][NP[NCMN คอมพิวเตอร์]][PP(1)[RPRE ระหว่าง][NP(1)[NCMN ศูนย์คอมพิวเตอร์][NP(1)[NP(1,3)[NCMN มหาวิทยาลัย][JCRG และ][NCMN หน่วยงาน]][DIAC ต่างๆ]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "แต่ละ Block มีหน้าที่อะไร",
-        "lb": "[S(2)[NP(1",
-        "type": "3)[DIBQ แต่ละ][PUNC ][NCMN Block]][PUNC ][VP(1)[VSTA มี][NP(1",
-        "source": "2)[NCMN หน้าที่][PNTR อะไร]]]]",
-        "dependency": "report"
+       "raw": "แต่ละ Block มีหน้าที่อะไร",
+       "lb": "[S(2)[NP(1,3)[DIBQ แต่ละ][PUNC <space>][NCMN Block]][PUNC <space>][VP(1)[VSTA มี][NP(1,2)[NCMN หน้าที่][PNTR อะไร]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "งานวิจัยและพัฒนานี้เน้นในการออกแบบสร้างระบบมอนิเตอร์ที่สถานีกลาง",
-        "lb": "[S(2)[NP(1)[NCMN งานวิจัยและพัฒนา][DDAC นี้]][VP(1)[VSTA เน้น][PP(1)[RPRE ใน][NP(2)[FIXN การ][VP(1",
-        "type": "2)[VACT ออกแบบ][VACT สร้าง][NP(1)[NP(1",
-        "source": "2)[NCMN ระบบ][NP[NCMN มอนิเตอร์]]][ADJC(1)[PREL ที่][NP[NCMN สถานีกลาง]]]]]]]]]",
-        "dependency": "report"
+       "raw": "งานวิจัยและพัฒนานี้เน้นในการออกแบบสร้างระบบมอนิเตอร์ที่สถานีกลาง",
+       "lb": "[S(2)[NP(1)[NCMN งานวิจัยและพัฒนา][DDAC นี้]][VP(1)[VSTA เน้น][PP(1)[RPRE ใน][NP(2)[FIXN การ][VP(1,2)[VACT ออกแบบ][VACT สร้าง][NP(1)[NP(1,2)[NCMN ระบบ][NP[NCMN มอนิเตอร์]]][ADJC(1)[PREL ที่][NP[NCMN สถานีกลาง]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "วิธีการนี้ได้รับเส้นไม่ต่อเนื่องเพราะกระพริบ",
-        "lb": "[S(2)[NP(1)[NCMN วิธีการ][DDAC นี้]][VP(1)[VSTA ได้รับ][NP(1)[NCMN เส้น][ADJP(1",
-        "type": "2)[NEG ไม่][VATT ต่อเนื่อง]]][JSBR เพราะ][VP[VACT กระพริบ]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "วิธีการนี้ได้รับเส้นไม่ต่อเนื่องเพราะกระพริบ",
+       "lb": "[S(2)[NP(1)[NCMN วิธีการ][DDAC นี้]][VP(1)[VSTA ได้รับ][NP(1)[NCMN เส้น][ADJP(1,2)[NEG ไม่][VATT ต่อเนื่อง]]][JSBR เพราะ][VP[VACT กระพริบ]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "รูปที่7 แสดงรูปตัวเครื่อง",
-        "lb": "[S(2)[NP(1",
-        "type": "2)[NCMN รูป][DONM ที่ 7]][PUNC ][VP(1)[VACT แสดง][NP(1)[NCMN รูป][NP[NCMN ตัวเครื่อง]]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "รูปที่7 แสดงรูปตัวเครื่อง",
+       "lb": "[S(2)[NP(1,2)[NCMN รูป][DONM ที่ 7]][PUNC <space>][VP(1)[VACT แสดง][NP(1)[NCMN รูป][NP[NCMN ตัวเครื่อง]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ชิพรีจิสเตอร์จะให้สัญญาณมืดในช่วงสะบัดกลับเอง",
-        "lb": "[S(2)[NP[NCMN ชิพรีจิสเตอร์]][VP(2)[XVBM จะ][VP(1)[VACT ให้][NP(1)[NCMN สัญญาณ][ADJP[VATT มืด]]][PP(1)[RPRE ใน][VP(1)[VACT ช่วงสะบัดกลับ][AVBP[ADVN เอง]]]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "ชิพรีจิสเตอร์จะให้สัญญาณมืดในช่วงสะบัดกลับเอง",
+       "lb": "[S(2)[NP[NCMN ชิพรีจิสเตอร์]][VP(2)[XVBM จะ][VP(1)[VACT ให้][NP(1)[NCMN สัญญาณ][ADJP[VATT มืด]]][PP(1)[RPRE ใน][VP(1)[VACT ช่วงสะบัดกลับ][AVBP[ADVN เอง]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "หน่วยความจำมีสัญญาณออก 8 บิท",
-        "lb": "[S(2)[NP[NCMN หน่วยความจำ]][VP(1)[VSTA มี][NP[NCMN สัญญาณ]][VP(1",
-        "type": "3)[VSTA ออก][PUNC ][CLSP(1",
-        "source": "3)[DCNM 8][PUNC ][CMTR บิท]]]]]",
-        "dependency": "report"
+       "raw": "หน่วยความจำมีสัญญาณออก 8 บิท",
+       "lb": "[S(2)[NP[NCMN หน่วยความจำ]][VP(1)[VSTA มี][NP[NCMN สัญญาณ]][VP(1,3)[VSTA ออก][PUNC <space>][CLSP(1,3)[DCNM 8][PUNC <space>][CMTR บิท]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "คอมพิวเตอร์ถ่ายภาพตัดขวางร่างกาย",
-        "lb": "[S(2)[NP[NCMN คอมพิวเตอร์]][VP(2)[VACT ถ่าย][NP(1)[NCMN ภาพตัดขวาง][NP[NCMN ร่างกาย]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "คอมพิวเตอร์ถ่ายภาพตัดขวางร่างกาย",
+       "lb": "[S(2)[NP[NCMN คอมพิวเตอร์]][VP(2)[VACT ถ่าย][NP(1)[NCMN ภาพตัดขวาง][NP[NCMN ร่างกาย]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "หลอดรังสีเอ็กซ์จะเคลื่อนที่พร้อมกับตัวรับรังสีในแนวตรงแล้วหมุน",
-        "lb": "[S(2)[NP[NCMN หลอดรังสีเอ็กซ์]][VP(2)[XVBM จะ][VP(1)[VACT เคลื่อนที่][PP(1)[RPRE พร้อมกับ][NP[NCMN ตัวรับรังสี]]][PP(1)[RPRE ใน][NP(1)[NCMN แนว][ADJP[VATT ตรง]]]][JSBR แล้ว][VP[VACT หมุน]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "หลอดรังสีเอ็กซ์จะเคลื่อนที่พร้อมกับตัวรับรังสีในแนวตรงแล้วหมุน",
+       "lb": "[S(2)[NP[NCMN หลอดรังสีเอ็กซ์]][VP(2)[XVBM จะ][VP(1)[VACT เคลื่อนที่][PP(1)[RPRE พร้อมกับ][NP[NCMN ตัวรับรังสี]]][PP(1)[RPRE ใน][NP(1)[NCMN แนว][ADJP[VATT ตรง]]]][JSBR แล้ว][VP[VACT หมุน]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "เครื่องดังกล่าวติดตั้งที่โรงพยาบาลสยาม",
-        "lb": "[S(2)[NP(1)[NCMN เครื่อง][DDAC ดังกล่าว]][VP(1)[VACT ติดตั้ง][PP(1)[RPRE ที่][NP[NPRP โรงพยาบาลสยาม]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "เครื่องดังกล่าวติดตั้งที่โรงพยาบาลสยาม",
+       "lb": "[S(2)[NP(1)[NCMN เครื่อง][DDAC ดังกล่าว]][VP(1)[VACT ติดตั้ง][PP(1)[RPRE ที่][NP[NPRP โรงพยาบาลสยาม]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "คอมพิวเตอร์ถ่ายภาพตัดขวางร่างกายได้พัฒนาตลอดเวลา",
-        "lb": "[S(2)[NP[NCMN คอมพิวเตอร์]][VP(1)[VACT ถ่าย][NP(1)[NCMN ภาพตัดขวาง][NP[NCMN ร่างกาย]]][VP(2)[XVAM ได้][VP(1)[VACT พัฒนา][AVBP[ADVN ตลอดเวลา]]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "คอมพิวเตอร์ถ่ายภาพตัดขวางร่างกายได้พัฒนาตลอดเวลา",
+       "lb": "[S(2)[NP[NCMN คอมพิวเตอร์]][VP(1)[VACT ถ่าย][NP(1)[NCMN ภาพตัดขวาง][NP[NCMN ร่างกาย]]][VP(2)[XVAM ได้][VP(1)[VACT พัฒนา][AVBP[ADVN ตลอดเวลา]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ความคิดในการใช้คอมพิวเตอร์แปลภาษาจึงได้รับการฟื้นฟูขึ้นอีกครั้ง",
-        "lb": "[S(2)[NP(1)[NP(2)[FIXN ความ][VACT คิด]][PP(1)[RPRE ใน][NP(2)[FIXN การ][VP(1)[VACT ใช้][NP[NCMN คอมพิวเตอร์]][VP(1)[VACT แปล][NP[NCMN ภาษา]]]]]]][VP(2)[XVBM จึง][VP(1)[VSTA ได้รับ][NP(2)[FIXN การ][VP(1)[VACT ฟื้นฟู][XVAE ขึ้น][AVBP[ADVN อีกครั้ง]]]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "ความคิดในการใช้คอมพิวเตอร์แปลภาษาจึงได้รับการฟื้นฟูขึ้นอีกครั้ง",
+       "lb": "[S(2)[NP(1)[NP(2)[FIXN ความ][VACT คิด]][PP(1)[RPRE ใน][NP(2)[FIXN การ][VP(1)[VACT ใช้][NP[NCMN คอมพิวเตอร์]][VP(1)[VACT แปล][NP[NCMN ภาษา]]]]]]][VP(2)[XVBM จึง][VP(1)[VSTA ได้รับ][NP(2)[FIXN การ][VP(1)[VACT ฟื้นฟู][XVAE ขึ้น][AVBP[ADVN อีกครั้ง]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "คุณภาพของการแปลขึ้นอยู่กับพจนานุกรม",
-        "lb": "[S(2)[NP(1)[NCMN คุณภาพ][PP(1)[RPRE ของ][NP(2)[FIXN การ][VACT แปล]]]][VP(1)[VSTA ขึ้นอยู่][PP(1)[RPRE กับ][NP[NCMN พจนานุกรม]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "คุณภาพของการแปลขึ้นอยู่กับพจนานุกรม",
+       "lb": "[S(2)[NP(1)[NCMN คุณภาพ][PP(1)[RPRE ของ][NP(2)[FIXN การ][VACT แปล]]]][VP(1)[VSTA ขึ้นอยู่][PP(1)[RPRE กับ][NP[NCMN พจนานุกรม]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "โปรแกรมคอมพิวเตอร์ก็จะสลับซับซ้อนมากยิ่งขึ้น",
-        "lb": "[S(3)[NP[NCMN โปรแกรมคอมพิวเตอร์]][JSBR ก็][VP(2)[XVBM จะ][VP(1)[VATT สลับซับซ้อน][AVBP(1",
-        "type": "2)[ADVN มาก][ADVN ยิ่งขึ้น]]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "โปรแกรมคอมพิวเตอร์ก็จะสลับซับซ้อนมากยิ่งขึ้น",
+       "lb": "[S(3)[NP[NCMN โปรแกรมคอมพิวเตอร์]][JSBR ก็][VP(2)[XVBM จะ][VP(1)[VATT สลับซับซ้อน][AVBP(1,2)[ADVN มาก][ADVN ยิ่งขึ้น]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ระบบนี้เป็นการสร้างภาษากลางขึ้นเพื่อแทนภาษาต่างๆ",
-        "lb": "[S(2)[NP(1)[NCMN ระบบ][DDAC นี้]][VP(1)[VSTA เป็น][NP(2)[FIXN การ][VP(1)[VACT สร้าง][NP[NCMN ภาษากลาง]][XVAE ขึ้น][JSBR เพื่อ][VP(1)[VSTA แทน][NP(1)[NCMN ภาษา][DIAC ต่างๆ]]]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "ระบบนี้เป็นการสร้างภาษากลางขึ้นเพื่อแทนภาษาต่างๆ",
+       "lb": "[S(2)[NP(1)[NCMN ระบบ][DDAC นี้]][VP(1)[VSTA เป็น][NP(2)[FIXN การ][VP(1)[VACT สร้าง][NP[NCMN ภาษากลาง]][XVAE ขึ้น][JSBR เพื่อ][VP(1)[VSTA แทน][NP(1)[NCMN ภาษา][DIAC ต่างๆ]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ระบบนี้ช่วยให้การวิเคราะห์ภาษาลดลง",
-        "lb": "[S(2)[NP(1)[NCMN ระบบ][DDAC นี้]][VP(1)[VACT ช่วย][JSBR ให้][NP(2)[FIXN การ][VP(1)[VACT วิเคราะห์][NP[NCMN ภาษา]][VP[VSTA ลดลง]]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "ระบบนี้ช่วยให้การวิเคราะห์ภาษาลดลง",
+       "lb": "[S(2)[NP(1)[NCMN ระบบ][DDAC นี้]][VP(1)[VACT ช่วย][JSBR ให้][NP(2)[FIXN การ][VP(1)[VACT วิเคราะห์][NP[NCMN ภาษา]][VP[VSTA ลดลง]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "โครงการ ARIANE ยังคงดำเนินการอยู่จนปัจจุบัน",
-        "lb": "[S(3)[NP(1",
-        "type": "3)[NCMN โครงการ][PUNC ][NP[NCMN ARIANE]]][PUNC ][VP(2)[XVBM ยังคง][VP(1)[VACT ดำเนินการ][XVAE อยู่][JSBR จน][NP[NCMN ปัจจุบัน]]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "โครงการ ARIANE ยังคงดำเนินการอยู่จนปัจจุบัน",
+       "lb": "[S(3)[NP(1,3)[NCMN โครงการ][PUNC <space>][NP[NCMN ARIANE]]][PUNC <space>][VP(2)[XVBM ยังคง][VP(1)[VACT ดำเนินการ][XVAE อยู่][JSBR จน][NP[NCMN ปัจจุบัน]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ข้อมูลสำหรับให้เครื่องเข้าใจจะมีความกำกวมไม่ได้",
-        "lb": "[S(2)[NP(1)[NCMN ข้อมูล][JSBR สำหรับ][PP(1)[RPRE ให้][NP[NCMN เครื่อง]][VP[VSTA เข้าใจ]]]][VP(2)[XVBM จะ][VP(1",
-        "type": "3",
-        "source": "4)[VSTA มี][NP[FIXN ความ][VSTA กำกวม]][NEG ไม่][XVAE ได้]]]]",
-        "dependency": "report"
+       "raw": "ข้อมูลสำหรับให้เครื่องเข้าใจจะมีความกำกวมไม่ได้",
+       "lb": "[S(2)[NP(1)[NCMN ข้อมูล][JSBR สำหรับ][PP(1)[RPRE ให้][NP[NCMN เครื่อง]][VP[VSTA เข้าใจ]]]][VP(2)[XVBM จะ][VP(1,3,4)[VSTA มี][NP[FIXN ความ][VSTA กำกวม]][NEG ไม่][XVAE ได้]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "นักวิจัยต้องใช้เวลาศึกษาวิเคราะห์โดยละเอียด",
-        "lb": "[S(2)[NP[NCMN นักวิจัย]][VP(2)[XVMM ต้อง][VP(1)[VP(1",
-        "type": "2",
-        "source": "3)[VSTA ใช้เวลา][VACT ศึกษา][VACT วิเคราะห์]][AVBP(2)[FIXV โดย][VATT ละเอียด]]]]]",
-        "dependency": "report"
+       "raw": "นักวิจัยต้องใช้เวลาศึกษาวิเคราะห์โดยละเอียด",
+       "lb": "[S(2)[NP[NCMN นักวิจัย]][VP(2)[XVMM ต้อง][VP(1)[VP(1,2,3)[VSTA ใช้เวลา][VACT ศึกษา][VACT วิเคราะห์]][AVBP(2)[FIXV โดย][VATT ละเอียด]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "หัวข้อของการศึกษาระบบภาษาไทยมีดังนี้",
-        "lb": "[S(2)[NP(1)[NCMN หัวข้อ][PP(1)[RPRE ของ][NP(2)[FIXN การ][VP(1)[VACT ศึกษา][NP(1)[NCMN ระบบ][NP[NPRP ภาษาไทย]]]]]]][VP(1)[VSTA มี][JSBR ดังนี้]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "หัวข้อของการศึกษาระบบภาษาไทยมีดังนี้",
+       "lb": "[S(2)[NP(1)[NCMN หัวข้อ][PP(1)[RPRE ของ][NP(2)[FIXN การ][VP(1)[VACT ศึกษา][NP(1)[NCMN ระบบ][NP[NPRP ภาษาไทย]]]]]]][VP(1)[VSTA มี][JSBR ดังนี้]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "ตัวอย่างของประเภทย่อย เช่น ประเภทย่อยของนามมีดังนี้",
-        "lb": "[S(2)[NP(1)[NP(1)[NCMN ตัวอย่าง][PP(1)[RPRE ของ][NP(1)[NCMN ประเภท][ADJP[VATT ย่อย]]]]][PUNC ][PP(1)[RPRE เช่น][PUNC ][NP(1)[NP(1)[NCMN ประเภท][ADJP[VATT ย่อย]]][PP(1)[RPRE ของ][NP[NCMN นาม]]]]]][VP(1)[VSTA มี][JSBR ดังนี้]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "ตัวอย่างของประเภทย่อย เช่น ประเภทย่อยของนามมีดังนี้",
+       "lb": "[S(2)[NP(1)[NP(1)[NCMN ตัวอย่าง][PP(1)[RPRE ของ][NP(1)[NCMN ประเภท][ADJP[VATT ย่อย]]]]][PUNC <space>][PP(1)[RPRE เช่น][PUNC <space>][NP(1)[NP(1)[NCMN ประเภท][ADJP[VATT ย่อย]]][PP(1)[RPRE ของ][NP[NCMN นาม]]]]]][VP(1)[VSTA มี][JSBR ดังนี้]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "นักวิจัยได้ปรึกษาและตกลงกันระหว่างผู้ร่วมงาน",
-        "lb": "[S(2)[NP[NCMN นักวิจัย]][VP(2)[XVAM ได้][VP(1)[VP(1",
-        "type": "3)[VACT ปรึกษา][JCRG และ][VACT ตกลง][PDMN กัน]][PP(1)[RPRE ระหว่าง][NP[NCMN ผู้ร่วมงาน]]]]]]",
-        "source": "report",
-        "dependency": "ORCHID"
+       "raw": "นักวิจัยได้ปรึกษาและตกลงกันระหว่างผู้ร่วมงาน",
+       "lb": "[S(2)[NP[NCMN นักวิจัย]][VP(2)[XVAM ได้][VP(1)[VP(1,3)[VACT ปรึกษา][JCRG และ][VACT ตกลง][PDMN กัน]][PP(1)[RPRE ระหว่าง][NP[NCMN ผู้ร่วมงาน]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "เขาชอบมะม่วงมาก",
-        "lb": "[S(2)[NP[PPRS เขา]][VP(1)[VACT ชอบ][NP[NCMN มะม่วง]][AVBP[ADVN มาก]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "เขาชอบมะม่วงมาก",
+       "lb": "[S(2)[NP[PPRS เขา]][VP(1)[VACT ชอบ][NP[NCMN มะม่วง]][AVBP[ADVN มาก]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "การแบ่งกลุ่มรูปแบบตัวอักษรก็จะสามารถกระทำได้",
-        "lb": "[S(2)[NP(2)[FIXN การ][VP(1)[VACT แบ่ง][NP(1)[NCMN กลุ่ม][NP(1)[NCMN รูปแบบ][NP[NCMN ตัวอักษร]]]]]][VP(2)[JSBR ก็][VP(3)[XVBM จะ][XVAM สามารถ][VACT กระทำ][XVAE ได้]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "raw": "การแบ่งกลุ่มรูปแบบตัวอักษรก็จะสามารถกระทำได้",
+       "lb": "[S(2)[NP(2)[FIXN การ][VP(1)[VACT แบ่ง][NP(1)[NCMN กลุ่ม][NP(1)[NCMN รูปแบบ][NP[NCMN ตัวอักษร]]]]]][VP(2)[JSBR ก็][VP(3)[XVBM จะ][XVAM สามารถ][VACT กระทำ][XVAE ได้]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
+    {},
     {
-        "raw": "",
-        "lb": "",
-        "type": "",
-        "source": ""
+       "lb": "[S [NP [NCMN หลัก][NP [FIXN การ][VACT ทำงาน]]][VP [VACT แสดง][PP [RPRE ดัง][PP[RPRE ใน][NP [CNIT รูป][PUNC <space>][NCNM 2]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "",
-        "lb": "[S [NP [NCMN หลัก][NP [FIXN การ][VACT ทำงาน]]][VP [VACT แสดง][PP [RPRE ดัง][PP[RPRE ใน][NP [CNIT รูป][PUNC ][NCNM 2]]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "lb": "[S [NP [NCMN ข้อดี][PP [RPRE ของ][NP [NCMN วิธี][DDAC นี้]]]][VP[VSTA คือ][PUNC <space>][VP [VACT แสดง][NP [NCMN รายละเอียด][PP [RPRE ของ][NP [NCMN สัญญาณ][ADJC [PREL ที่][VP [VACT เก็บ][XVAE ไว้][XVAE ได้][AVBP [ADVN ครบถ้วน]]]]]]]]]]",
+       "type": "report",
+       "source": "ORCHID"
     },
     {
-        "raw": "",
-        "lb": "[S [NP [NCMN ข้อดี][PP [RPRE ของ][NP [NCMN วิธี][DDAC นี้]]]][VP[VSTA คือ][PUNC ][VP [VACT แสดง][NP [NCMN รายละเอียด][PP [RPRE ของ][NP [NCMN สัญญาณ][ADJC [PREL ที่][VP [VACT เก็บ][XVAE ไว้][XVAE ได้][AVBP [ADVN ครบถ้วน]]]]]]]]]]",
-        "type": "report",
-        "source": "ORCHID"
+       "lb": "[S [NP [NCMN ผู้ใช้]][VP [NEG ไม่][VSTA จำเป็นต้องมี][NP[NP [FIXN ความ][VP [VSTA รู้]]][PP [RPRE เกี่ยวกับ][NP [NCMN คอมพิวเตอร์]]]]]]"
     },
     {
-        "raw": "",
-        "lb": "[S [NP [NCMN ผู้ใช้]][VP [NEG ไม่][VSTA จำเป็นต้องมี][NP[NP [FIXN ความ][VP [VSTA รู้]]][PP [RPRE เกี่ยวกับ][NP [NCMN คอมพิวเตอร์]]]]]]",
-        "type": "",
-        "source": ""
+       "lb": "[S [NP [NCMN คอมพิวเตอร์][VP [VACT ถ่าย][NP [NCMN ภาพตัดขวาง][NP [NCMN ร่างกาย]]]]][VP [XVAM ได้][VP [VACT พัฒนา][AVBP [ADVN ตลอดเวลา]]]]]"
     },
     {
-        "raw": "",
-        "lb": "[S [NP [NCMN คอมพิวเตอร์][VP [VACT ถ่าย][NP [NCMN ภาพตัดขวาง][NP [NCMN ร่างกาย]]]]][VP [XVAM ได้][VP [VACT พัฒนา][AVBP [ADVN ตลอดเวลา]]]]]",
-        "type": "",
-        "source": ""
+       "lb": "[S [NP [NCNM 8042]] [PUNC <space>] [VP [XVBM จะ] [VP [VACT ควบคุม] [NP [NCMN สัญญาณ] [DDAC เหล่านี้]]]]]"
     },
     {
-        "raw": "",
-        "lb": "[S [NP [NCNM 8042]] [PUNC ] [VP [XVBM จะ] [VP [VACT ควบคุม] [NP [NCMN สัญญาณ] [DDAC เหล่านี้]]]]]",
-        "type": "",
-        "source": ""
+       "lb": "[S [NP [NCMN นักวิจัย]][VP [XVAM ได้][VP [VP [VP[VACT ปรึกษา][JCRG และ][VACT ตกลง]][PDMN กัน]][PP [RPRE ระหว่าง][NP [NCMN ผู้ร่วมงาน]]]]]]"
     },
     {
-        "raw": "",
-        "lb": "[S [NP [NCMN นักวิจัย]][VP [XVAM ได้][VP [VP [VP[VACT ปรึกษา][JCRG และ][VACT ตกลง]][PDMN กัน]][PP [RPRE ระหว่าง][NP [NCMN ผู้ร่วมงาน]]]]]]",
-        "type": "",
-        "source": ""
+       "lb": "[S [NP [NPRP แดง][JCRG และ][NPRP น้อย]][VP [VACT ชอบ][NP [NCMN องุ่น]]]]"
     },
     {
-        "raw": "",
-        "lb": "[S [NP [NPRP แดง][JCRG และ][NPRP น้อย]][VP [VACT ชอบ][NP [NCMN องุ่น]]]]"
+       "lb": "[S [NP [NCMN ม้า][NP [NCMN ตัว][DDAC นี้]]][VP [VACT วิ่ง][AVBP[ADVN เร็ว]]]]"
     },
     {
-        "raw": "",
-        "lb": "[S [NP [NCMN ม้า][NP [NCMN ตัว][DDAC นี้]]][VP [VACT วิ่ง][AVBP[ADVN เร็ว]]]]"
+       "lb": "[S [NP [PPRS เขา]][VP [VACT ชอบ][NP [NCMN มะม่วง]][AVBP [ADVN มาก]]]]"
     },
     {
-        "raw": "",
-        "lb": "[S [NP [PPRS เขา]][VP [VACT ชอบ][NP [NCMN มะม่วง]][AVBP [ADVN มาก]]]]"
-    },
-    {
-        "raw": "",
-        "lb": "[S [NP [NCMN ประโยค][DDAC นี้]][VP [XVBM จะ][VP [VSTA มี][NP [NCMN รูปแบบ][NP [NCMN ภาษากลาง]]]]]]"
+       "lb": "[S [NP [NCMN ประโยค][DDAC นี้]][VP [XVBM จะ][VP [VSTA มี][NP [NCMN รูปแบบ][NP [NCMN ภาษากลาง]]]]]]"
     }
-]
+ ]
