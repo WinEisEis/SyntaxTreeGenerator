@@ -13,7 +13,7 @@ import getDependency from '../../assets/algorithms/dependencyTree';
 class Label extends React.Component {
     state = {
         sentence: '',
-        label: '[S(2)[NP[NCMN เมล็ดกาแฟ]] [VP(1)[VACT กระตุ้น][NP[NCMN หัวใจ]]]]',
+        label: '',
         dependency: ''
     };
 

@@ -225,11 +225,11 @@ export default function getDependency(treeData) {
     return dependencyData;
 }
 
-let arr = [];// index of ep
-var sta = [];// start index of ep
-var sto = [];//stop index of ep
-var arrIndex = []; //index of array that need fixing
 function epsilon(dependencyData) {
+    let arr = [];// index of ep
+    var sta = [];// start index of ep
+    var sto = [];//stop index of ep
+    var arrIndex = []; //index of array that need fixing
     for (let i in dependencyData.words) {//find epsilon
         var str = dependencyData.words[i].text
         if (str[str.length - 1] === "Ɛ") {
@@ -253,18 +253,38 @@ function epsilon(dependencyData) {
             }
         }
     }
+    arr = arr.reverse(); // reverse array to delete biggest index first to prevent splicing wrong index
+    console.log(arr)
     for (let i in arr) {
-        delete dependencyData.words[arr[i]];// delete epsilon words using word index
+        // delete dependencyData.words[arr[i]];// delete epsilon words using word index
+        dependencyData.words.splice(arr[i], 1);
+
         for (let j in dependencyData.arcs) {
             if (dependencyData.arcs[j].start == arr[i]) {
-                delete dependencyData.arcs[j]; // delete epsilon arcs () we can not use i because of root
+                dependencyData.arcs.splice(j, 1);; // delete epsilon arcs () we can not use i because of root
+                console.log(j)
+            }
+        }
+        console.log(dependencyData.arcs)
+        console.log(dependencyData.arcs.length)
+        for (let k = 0; k < dependencyData.arcs.length; k++) { // fix the arcs that have been change
+            console.log(k)
+            if (dependencyData.arcs[k].start > arr[i]) {
+                dependencyData.arcs[k].start = dependencyData.arcs[k].start - 1
+
+            }
+            if (dependencyData.arcs[k].end > arr[i]) {
+                dependencyData.arcs[k].end = dependencyData.arcs[k].end - 1
+                console.log(JSON.stringify(dependencyData.arcs))
             }
         }
 
+
+
     }
-    console.log(JSON.stringify(dependencyData))
+    // console.log(JSON.stringify(dependencyData))
+    console.log(dependencyData);
 
     return dependencyData;
 
 }
-
